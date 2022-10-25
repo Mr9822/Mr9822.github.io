@@ -230,7 +230,7 @@ body{
     top: 4.1rem;
     height: 60vh;
     width: 100%;
-    position: absolute;
+    position: fixed;
 }
 .banner-area:after{
     content: '';
