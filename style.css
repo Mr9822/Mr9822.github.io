@@ -256,7 +256,7 @@ img{
     float: right;
     content: '';
     position: absolute;
-    top: 0;
+    top: 5rem;
     right: 0;
     display: block;
 }
