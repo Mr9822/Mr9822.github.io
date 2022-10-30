@@ -269,8 +269,11 @@ img{
     margin:0 auto;
 }
 .wrapper-body{
-    width: 90%;
+    width: 100%;
+    min-width: 50rem;
     margin:0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
     .button {
