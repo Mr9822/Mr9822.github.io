@@ -255,7 +255,6 @@ body{
 }
 
 img{
-    margin: 0 0 0 auto;
     content: '';
     position: relative;
     top:0;
