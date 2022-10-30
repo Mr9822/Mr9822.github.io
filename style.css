@@ -223,7 +223,8 @@ body{
 .content-area ul{
     padding: 1% 0%;
     line-height: 1.875rem;
-    text-align: left;
+    text-align: justify;
+    font-size: 1.15rem;
 }
 
 .banner-area{
