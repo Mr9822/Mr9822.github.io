@@ -192,6 +192,7 @@ body{
 .content-area{
     width: 100%;
     height: auto;
+    min-height: 50rem;
     position: relative;
     background: #FFFFFD;
     top: 32rem;
