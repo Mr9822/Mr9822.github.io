@@ -195,7 +195,7 @@ body{
     min-height: 50rem;
     position: relative;
     background: #F2EFEB;
-    top: 25rem;
+    top: 26rem;
     opacity:100%; 
 }
 .content-area h2{
@@ -229,7 +229,7 @@ body{
     background-image: url(Photos/colorlogo.png);
     background-size: cover;
     background-position: center center;
-    top: 1.8rem;
+    top: 2.5rem;
     height: 60vh;
     width: 100%;
     position: fixed;
