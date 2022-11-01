@@ -226,26 +226,16 @@ body{
 }
 
 .banner-area{
-    background-image: url('Photos/mapledojobanner.jpg');
-    background-size: cover;
+    background-image: url('Photos/bannerlogo2.jpg');
+    background-size: 100% 100%;
     background-position: center center;
     top: 4rem;
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     position: fixed;
 }
 
-@media only screen and (max-width: 31.25rem){
-  .banner-area{
-    background-image: url('Photos/bannerlogosmall.jpg');
-    background-size: cover;
-    background-position: center center;
-    top: 4rem;
-    height: 60vh;
-    width: 100%;
-    position: fixed;
-  }
-}
+
 
 .banner-area:after{
     content: '';
