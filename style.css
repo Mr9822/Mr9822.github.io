@@ -78,7 +78,7 @@
     .navbar-container{
         display: block;
         position: relative;
-        height: 64px;
+        height: 4.125rem;
     }
 
     .navbar-container input[type="checkbox"]{
