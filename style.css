@@ -35,7 +35,7 @@
 .navbar-container{
     display: flex;
     justify-content: space-between;
-    height: 66px;
+    height: 4.125rem;
     align-items: center;
 }
 
@@ -195,7 +195,7 @@ body{
     min-height: 50rem;
     position: relative;
     background: #F2EFEB;
-    top: 26rem;
+    top: 25rem;
     opacity:100%; 
 }
 .content-area h2{
@@ -229,7 +229,7 @@ body{
     background-image: url(Photos/colorlogo.png);
     background-size: cover;
     background-position: center center;
-    top: 2.5rem;
+    top: 2rem;
     height: 60vh;
     width: 100%;
     position: fixed;
