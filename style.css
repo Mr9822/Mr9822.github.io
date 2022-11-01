@@ -238,7 +238,7 @@ body{
 @media only screen and (max-width: 48rem){
   .banner-area{
     background-image: url('Photos/Colorlogosmall.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     top: 2rem;
     height: 60vh;
