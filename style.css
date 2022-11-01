@@ -240,7 +240,7 @@ body{
     background-image: url('Photos/small.jpg');
     background-size: cover;
     background-position: center center;
-    top: 2rem;
+    top: 4rem;
     height: 60vh;
     width: 100%;
     position: fixed;
