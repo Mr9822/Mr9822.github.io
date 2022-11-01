@@ -195,7 +195,7 @@ body{
     min-height: 50rem;
     position: relative;
     background: #F2EFEB;
-    top: 25rem;
+    top: 27rem;
     opacity:100%; 
 }
 .content-area h2{
@@ -230,7 +230,7 @@ body{
     background-size: cover;
     background-position: center center;
     top: 4rem;
-    height: 55vh;
+    height: 60vh;
     width: 100%;
     position: fixed;
 }
@@ -241,7 +241,7 @@ body{
     background-size: cover;
     background-position: center center;
     top: 4rem;
-    height: 55vh;
+    height: 60vh;
     width: 100%;
     position: fixed;
   }
