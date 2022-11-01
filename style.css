@@ -226,11 +226,11 @@ body{
 }
 
 .banner-area{
-    background-image: url(Photos/Colorbackground.jpg;
+    background-image: url(Photos/Colorbackground.jpg);
     background-size: cover;
     background-position: center center;
     top: 2rem;
-    height: 60%;
+    height: 60vh;
     width: 100%;
     position: fixed;
 }
