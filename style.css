@@ -300,11 +300,11 @@ img{
       box-shadow: 0 0.5625rem #DECFBD;
     }
     
-    .button:hover {background-color: #3e8e41}
+    .button:hover {background-color: #DECFBD}
     
     .button:active {
       background-color: #B4DCED;
-      box-shadow: 0 0.3125rem #666;
+      box-shadow: 0 0.3125rem #E3908C;
       transform: translateY(0.25rem);
     }
 
