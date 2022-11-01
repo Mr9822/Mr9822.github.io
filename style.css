@@ -235,7 +235,7 @@ body{
     position: fixed;
 }
 
-@media only screen and (max-width: 31.25rem){
+@media only screen and (max-width: 48rem){
   .banner-area{
     background-image: url('Photos/Colorlogosmall.jpg');
     background-size: cover;
