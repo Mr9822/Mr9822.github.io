@@ -241,7 +241,7 @@ body{
     background-size: cover;
     background-position: center center;
     top: 2rem;
-    height: auto;
+    height: 60vh;
     width: 100%;
     position: fixed;
   }
