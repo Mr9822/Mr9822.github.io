@@ -542,3 +542,12 @@ input[type=text], select, textarea{
         margin: 25px auto 0;
     }
 }
+
+/*===Facebook icon===*/
+
+.social-icon{
+  transition: color 0.3s;
+  text-decoration: none;
+  font-size: 1.8rem;
+  text-align: center;
+}
