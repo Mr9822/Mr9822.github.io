@@ -573,8 +573,9 @@ input[type=text], select, textarea{
 .gallery-image {
 	display: block;
 	width: 100%;
-	object-fit: fill;
+	object-fit: cover;
 	transition: transform 400ms ease-out;
+	position: relative;
 }
 
 .gallery-image:hover {
