@@ -642,7 +642,7 @@ input[type=text], select, textarea{
 
   .timeline .event:before {
     left: -0.5px;
-    top: 28px;
+    top: -3rem;
     background-color: #4298c3;
     color: white;
     margin-top: 8px;
