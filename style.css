@@ -320,15 +320,12 @@ body{
     font-size: 30px;  
     width: 50px;  
     border-radius: 15px;
-  }  
-  .fa-facebook {  
+  }      
+
+  /*.fa-facebook {  
     background: #3B5998;  
     color: white;  
-  }    
-.fa:hover {  
-    opacity: 0.9;  
-}  
-
+  }*/
 
 /*Contact us page*/
 /* Style inputs, select elements and textareas */
