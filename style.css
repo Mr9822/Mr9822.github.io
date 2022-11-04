@@ -677,10 +677,11 @@ h4 {
 color: #3D847F;
 }
 
-@media (max-width: 768px){
-    .logo
+@media only screen and (max-width: 768px){
+    .logo{
     	position: absolute;
    	 top: 10px;
    	 right: 0.2rem;
    	 font-size: 1.5rem;
+	}
     }
