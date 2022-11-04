@@ -431,7 +431,7 @@ input[type=text], select, textarea{
 
 /* ===== MAIN CODE ===== */
 .people {
-    flex: 0 0 23%;
+    flex: 0 0 20%;
     min-width: 350px;
     height: 400px;
     margin: 25px 5px 0;
