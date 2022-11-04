@@ -676,3 +676,8 @@ h4 {
 .fa-trophy{
 color: #3D847F;
 }
+
+@media (max-width: 768px){
+    .logo{
+        font-size: 2rem;
+    }
