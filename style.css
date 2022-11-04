@@ -685,3 +685,81 @@ color: #3D847F;
    	 font-size: 2rem;
 	}
     }
+
+/*DESCRIPTION*/
+        #description-container {
+            margin: 40px auto;
+            text-align: center;
+          }
+          
+          #description-options {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+          }
+          
+          .description-option {
+            margin: 15px;
+            padding: 10px;
+            width: 100%;
+            max-width: 300px;
+            border: 1px solid green;
+            border-radius: 40px;
+            display: flex;
+            flex-direction: column;
+            background-color: #3B5998;
+          }
+          
+          .description-option h4 {
+            padding: 10px;
+            font-family: var(--font-em);
+            font-size: 20px;
+            color: pink;
+            text-transform: uppercase;
+          }
+          
+          .description-option .price {
+            padding: 10px;
+            margin-bottom: 15px;
+            font-family: var(--font-em);
+            font-size: 26px;
+            font-weight: bold;
+            color: blue;
+          }
+          
+          .description-option p {
+            padding: 5px;
+          }
+          
+          .description-button-container {
+            margin-top: auto;
+            padding: 20px;
+          }
+          
+          .description-button {
+            margin-top: 10px;
+            height: 40px;
+            width: 100%;
+            background-color: red;
+            border-radius: 20px;
+            border-style: none;
+            font-family: var(--font-em);
+            color: silver;
+            font-size: 16px;
+            font-weight: bold;
+          }
+          
+          .description-button:hover {
+            background-color: green;
+            cursor: pointer;
+            transition-duration: 0.3s;
+          }
+          
+          @media (max-width: 800px) {
+            #description-options {
+              flex-direction: column;
+              align-items: center;
+            }
+          }
+/*DESCRIPTION END*/
