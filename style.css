@@ -434,7 +434,7 @@ input[type=text], select, textarea{
     flex: 0 0 20%;
     min-width: 350px;
     height: 400px;
-    margin: 25px -150px 0;
+    margin: 25px -150px 60;
     background-color: rgba(229,229,229, 1);
     position: relative;
     backface-visibility: hidden;
