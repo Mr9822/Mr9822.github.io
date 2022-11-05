@@ -832,10 +832,11 @@ color: #3D847F;
   @media only screen and (max-width: 768px) { 
 
     .box{
-        max-width: 90%;
+        max-width: 95%;
     }
     .box h5{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+	    
     }
    }
 
