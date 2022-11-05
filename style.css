@@ -839,4 +839,8 @@ color: #3D847F;
 	    
     }
    }
+/*ORG LIST STYLE8*/
+   .moralcode ol{
+    list-style: none;
+   }
 
