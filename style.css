@@ -850,8 +850,10 @@ ol{
     width: 3rem;
   }
 
+/* GOOGLE TRANSLATE FOR MEDIA
 @media only screen and (max-width: 768px) { 
 
     #google_translate_element {
         list-style:none
     }
+*/
