@@ -858,3 +858,7 @@ ol{
     }
 */
 
+/*GOOGLE MAP*/
+  iframe{
+    padding: 2rem;
+  }
