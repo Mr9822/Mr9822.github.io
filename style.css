@@ -1002,3 +1002,12 @@ ol{
   #fork:hover:before {
     transform: translateX(0) skewX(-45deg);
   }
+
+ @media only screen and (max-width: 768px) {
+	 #categories{
+    overflow:hidden;
+    width:80%;
+    margin:auto 3.5rem;
+	 }
+}
+	 
