@@ -843,3 +843,15 @@ ol{
     list-style: none;
    }
 
+   #google_translate_element {
+    position: right; 
+    margin-right: 0rem; 
+    padding-left: 1rem;
+    width: 3rem;
+  }
+
+@media only screen and (max-width: 768px) { 
+
+    #google_translate_element {
+        list-style:none
+    }
