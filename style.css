@@ -785,5 +785,7 @@ iframe{
 
 
 .red{
-  color: red;
+  color: white;
+  backgroud-color: red;
+  border-radius: .2rem;
 }
