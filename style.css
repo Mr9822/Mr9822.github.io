@@ -780,7 +780,8 @@ ol{
 
 /*GOOGLE MAP&Facebook feed*/
 iframe{
-    padding: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
   }
 
 
