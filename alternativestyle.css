@@ -40,3 +40,8 @@ background-color: #fff;
 color: #228B22;
 box-shadow: 0px 0px 10px 0px #228B22;
 }
+
+#disclaimer {
+    display: none;
+}
+
