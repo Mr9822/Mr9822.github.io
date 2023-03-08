@@ -6,7 +6,7 @@ const frenchContent = {
   enrollMessage: "Inscrivez-vous maintenant et faites le premier pas pour vous sentir en confiance et en sécurité!",
   enrollButton: "Inscription",
   disclaimerButton: "Avertissement",
-  disclaimerMessage: "Veuillez noter que bien que ce cours soit conçu"
+  disclaimerMessage: "Ce cours ne garantit pas la sécurité. Les participants doivent rester vigilants, éviter les situations dangereuses et utiliser les techniques d'auto-défense en dernier recours."
 };
 
 const englishContent = {
@@ -16,7 +16,7 @@ const englishContent = {
   enrollMessage: "Enroll now and take the first step towards feeling confident and secure!",
   enrollButton: "Enroll",
   disclaimerButton: "Disclaimer",
-  disclaimerMessage: "Please note that while this course"
+  disclaimerMessage: "This course is not a guarantee of safety. Participants should stay vigilant, avoid dangerous situations, and use self-defense techniques as a last resort."
 };
 
 const languageSelection = document.getElementById("language-selection");
