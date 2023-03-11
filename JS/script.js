@@ -11,7 +11,7 @@ const frenchContent = {
 
 const englishContent = {
   title: "Women's Self Defense Course",
-  welcomeMessage: "Welcome to the Women's Self Defense course at Restigouche Dojo!",
+  welcomeMessage: "Welcome to the Women's Self Defense workshop at Restigouche Dojo!",
   programDescription: "This course is designed to empower women with the skills and knowledge to defend themselves and get away from potentially dangerous situations. Our experienced instructors will guide you through 4 weeks of instruction, one time per week for 60 minutes each. In this course, you will not only learn practical self-defense techniques but also strategies for avoiding dangerous situations and how to escape if necessary. By the end of the course, you will have the confidence and skills to protect yourself and stay safe in a variety of scenarios.",
   enrollMessage: "Enroll now and take the first step towards feeling confident and secure!",
   enrollButton: "Enroll",
