@@ -10,13 +10,13 @@ const frenchContent = {
 };
 
 const englishContent = {
-  title: "Women's Self Defense Course",
+  title: "Women's Self Defense workshop",
   welcomeMessage: "Welcome to the Women's Self Defense workshop at Restigouche Dojo!",
-  programDescription: "This course is designed to empower women with the skills and knowledge to defend themselves and get away from potentially dangerous situations. Our experienced instructors will guide you through 4 weeks of instruction, one time per week for 60 minutes each. In this course, you will not only learn practical self-defense techniques but also strategies for avoiding dangerous situations and how to escape if necessary. By the end of the course, you will have the confidence and skills to protect yourself and stay safe in a variety of scenarios.",
+  programDescription: "Our workshop focuses on creating a safe space for women by equipping them with the tools they need to defend themselves in a way that prioritizes their safety and well-being. Whether you're a seasoned athlete or a beginner, our experienced instructors will work with you to develop the skills you need to feel empowered and confident. We understand the importance of feeling secure in your daily life, which is why we are committed to providing a supportive and inclusive environment for all participants. Our program is not about promoting aggression or violence, but rather about instilling a sense of confidence and control.",
   enrollMessage: "Enroll now and take the first step towards feeling confident and secure!",
   enrollButton: "Enroll",
   disclaimerButton: "Disclaimer",
-  disclaimerMessage: "This course is not a guarantee of safety. Participants should stay vigilant, avoid dangerous situations, and use self-defense techniques as a last resort."
+  disclaimerMessage: "This workshop is not a guarantee of safety. Participants should stay vigilant, avoid dangerous situations, and use self-defense techniques as a last resort."
 };
 
 const languageSelection = document.getElementById("language-selection");
