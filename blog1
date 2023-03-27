@@ -6,6 +6,7 @@
     <title>Blog 1</title>
     <!--CSS style sheet-->
     <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="alternativestylesheet2">
 
 </head>
 <body>
