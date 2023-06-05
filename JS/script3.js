@@ -28,13 +28,13 @@ const englishContent = {
 const languageSelection = document.getElementById("language-selection");
 const title = document.getElementById("title");
 const programDescription = document.getElementById("program-description");
-const whyrestigouchedojo = document.getElementById("why-restigouche-dojo");
-const reasonone = document.getElementById("reason-one");
-const reasononetext = document.getElementById("reason-one-text");
-const reasontwo = document.getElementById("reason-two");
-const reasontwotext = document.getElementById("reason-two-text");
-const reasonthree = document.getElementById("reason-three");
-const reasonthreetext = document.getElementById("reason-three-text");
+const whyRestigoucheDojo = document.getElementById("why-restigouche-dojo");
+const reasonOne = document.getElementById("reason-one");
+const reasonOneText = document.getElementById("reason-one-text");
+const reasonTwo = document.getElementById("reason-two");
+const reasonTwoText = document.getElementById("reason-two-text");
+const reasonThree = document.getElementById("reason-three");
+const reasonThreeText = document.getElementById("reason-three-text");
 const enrollMessage = document.getElementById("enroll-message");
 
 
