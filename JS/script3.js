@@ -7,7 +7,7 @@ const frenchContent = {
   reasonOne: "Développer des compétences essentielles grâce au jeu libre",
   reasonOneText: "Notre cours de groupe d'activités au Restigouche Dojo offre aux enfants l'occasion de s'engager dans le jeu libre, favorisant le développement de compétences essentielles telles que la résolution de problèmes, la créativité et la pensée critique.",
   reasonTwo: "Cultiver les compétences sociales et le travail d'équipe",
-  reasonTwoText: "Dans notre cours de groupe d'activités, nous accordons la priorité au travail d'équipe et à la coopération, permettant aux enfants d'apprendre des compétences sociales importantes et de se faire de nouveaux amis. Grâce à des activités interactives, ils amélioreront leurs capacités de communication et construiront des relations solides.",
+  reasonTwoText: "Dans notre classe de groupe d'activités, nous créons un environnement amusant et détendu où les enfants peuvent librement explorer, jouer et interagir les uns avec les autres. Nous encourageons l'expression de soi et l'indépendance, leur permettant de découvrir leurs propres intérêts et de s'engager dans un jeu imaginatif. Grâce à des activités non structurées et des expériences de jeu ouvertes, les enfants ont la liberté de se faire de nouveaux amis, de développer leurs compétences sociales et d'établir des liens significatifs à leur propre rythme.",
   reasonThree: "Vivre un jeu rempli de plaisir et d'apprentissage actif",
   reasonThreeText: "Le groupe d'activités du Restigouche Dojo offre un environnement dynamique et agréable où les enfants peuvent s'amuser tout en restant actifs. Nous croyons que l'apprentissage doit être amusant, et notre cours garantit une expérience passionnante pour chaque enfant.",
 };
@@ -20,7 +20,7 @@ const englishContent = {
   reasonOne: "Develop Essential Skills through Free Play",
   reasonOneText: "Our Activity Group class at Restigouche Dojo offers children the opportunity to engage in free play, fostering the development of essential skills such as problem-solving, creativity, and critical thinking.",
   reasonTwo: "Cultivate Social Skills and Teamwork",
-  reasonTwoText: "In our Activity Group class, we prioritize teamwork and cooperation, allowing children to learn important social skills and make new friends. Through interactive activities, they will enhance their communication abilities and build strong relationships.",
+  reasonTwoText: "In our Activity Group class, children freely explore, play, and interact in a fun and relaxed environment. We encourage self-expression, independence, and imaginative play, fostering their interests and social skills. Through unstructured activities, they make friends and build connections at their own pace.",
   reasonThree: "Experience Fun-Filled Play and Active Learning",
   reasonThreeText: "Restigouche Dojo's Activity Group provides a dynamic and enjoyable environment where children can have a great time while staying active. We believe that learning should be fun, and our class ensures an exciting experience for every child.",
 };
