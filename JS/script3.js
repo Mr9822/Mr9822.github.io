@@ -1,7 +1,7 @@
 // Add some interactivity with JavaScript
 const frenchContent = {
   title: "Playful - Découvrez le pouvoir du jeu au Restigouche Dojo!",
-  programDescription: "Appel à tous les parents et petits guerriers ! Vous recherchez une activité qui stimule non seulement l'esprit et le corps de votre enfant, mais qui favorise également le développement de compétences essentielles pour son développement global ? Ne cherchez plus ! Le Restigouche Dojo présente avec fierté notre nouvelle classe passionnante, où les enfants peuvent laisser libre cours à leur imagination, s'engager dans le jeu libre et cultiver des compétences essentielles !",
+  programDescription: "Appel à tous les parents et petits! Vous recherchez une activité qui stimule non seulement l'esprit et le corps de votre enfant, mais qui favorise également le développement de compétences essentielles pour son développement global ? Ne cherchez plus ! Le Restigouche Dojo présente avec fierté notre nouvelle classe passionnante, où les enfants peuvent laisser libre cours à leur imagination, s'engager dans le jeu libre et cultiver des compétences essentielles !",
   enrollMessage: "Inscrivez-vous maintenant",
   whyRestigoucheDojo: "Pourquoi choisir le Restigouche Dojo pour les groupes d'activités?", 
   reasonOne: "Développer des compétences essentielles grâce au jeu libre",
@@ -14,7 +14,7 @@ const frenchContent = {
 
 const englishContent = {
   title: "Playful - Discover the Power of Play at Restigouche Dojo! ",
-  programDescription: "Calling all parents and little warriors! Are you searching for an activity that not only engages your child's mind and body but also nurtures essential skills for their overall development? Look no further! Restigouche Dojo proudly presents our exciting new class, where children can unleash their imagination, engage in free play, and cultivate essential skills!",
+  programDescription: "Calling all parents and little ones! Are you searching for an activity that not only engages your child's mind and body but also nurtures essential skills for their overall development? Look no further! Restigouche Dojo proudly presents our exciting new class, where children can unleash their imagination, engage in free play, and cultivate essential skills!",
   enrollMessage: "Register now",
   whyRestigoucheDojo: "Why Choose Restigouche Dojo for Activity Groups?",
   reasonOne: "Develop Essential Skills through Free Play",
