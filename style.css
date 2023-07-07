@@ -230,7 +230,6 @@ body{
     background-image: url('Photos/canvabanner.png');
     background-size: 100% 100%;
     background-position: center center;
-    top: 4rem;
     height: 50%;
     width: 100%;
     position: fixed;
