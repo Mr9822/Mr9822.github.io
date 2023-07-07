@@ -228,7 +228,7 @@ body{
 
 .banner-area{
     background-image: url('Photos/judobjjlogo.png');
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center center;
     top: 4rem;
     height: 50%;
