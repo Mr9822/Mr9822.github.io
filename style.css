@@ -908,4 +908,10 @@ iframe{
 .instructor-card-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.instructor-card {
+    width: calc(50% - 1rem);
+    margin-bottom: 2rem;
 }
