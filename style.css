@@ -915,3 +915,40 @@ iframe{
     width: calc(50% - 1rem);
     margin-bottom: 2rem;
 }
+
+/*OFFERINGS*/
+#offerings-container {
+  background-color: #F2F2F2;
+  padding: 40px;
+  text-align: center;
+}
+
+#offerings-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#offerings-content h2 {
+  font-size: 32px;
+  color: #333333;
+}
+
+.offering {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offering h3 {
+  font-size: 24px;
+  color: #333333;
+}
+
+.offering p {
+  font-size: 18px;
+  color: #666666;
+}
+
+/*OFFERINGS END*/
