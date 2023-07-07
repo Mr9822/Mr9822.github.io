@@ -230,6 +230,7 @@ body{
     background-image: url('Photos/judobjjlogo.png');
     background-size: contain;
     background-position: center center;
+    background-repeat: no-repeat;
     top: 4rem;
     height: 50%;
     width: 100%;
