@@ -905,3 +905,7 @@ iframe{
       .instructor-card__desc a:hover {
           color: #DECFBD;
       }
+.instructor-card-container {
+    display: flex;
+    justify-content: space-between;
+}
