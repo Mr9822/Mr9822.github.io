@@ -228,7 +228,7 @@ body{
 
 .banner-area{
     background-image: url('Photos/padded_logo.png');
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     top: 4rem;
     height: 50%;
