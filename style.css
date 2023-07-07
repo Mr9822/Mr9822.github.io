@@ -824,3 +824,25 @@ iframe{
   background-color: red;
   border-radius: .2rem;
 }
+
+/* Send us message for more info Layout */
+.info-section {
+    background-color: #F2EFEB;
+    padding: 2rem;
+    text-align: center;
+}
+
+.info-message {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.info-link {
+    color: #3D847E;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.info-link:hover {
+    color: #DECFBD;
+}
