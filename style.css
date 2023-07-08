@@ -750,14 +750,74 @@ color: #3D847F;
   }
   
   @media only screen and (max-width: 768px) { 
+/*BOX STYLING*/
+.box {
+  position: relative;
+  width: 18rem;
+  height: 5rem;
+  background-color: #3D847E;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  transform: scale(1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
 
-    .box{
-        max-width: 95%;
-    }
-    .box h5{
-        font-size: 1.3rem;    
-    }
-   }
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+.box::before,
+.box::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #DECFBD, #3D847E);
+  transition: transform 0.4s;
+  z-index: -1;
+}
+
+.box::before {
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.box::after {
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.box:hover::before,
+.box:hover::after {
+  transform: scaleX(1);
+}
+
+.box h5 {
+  font-size: 1.6rem;
+  color: #FFF;
+  margin: 0;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.box a {
+  color: #FFF;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.box a:hover {
+  color: #DECFBD;
+}
+
+
+
 /*OL LIST STYLE*/
 ol{
     list-style: none;
