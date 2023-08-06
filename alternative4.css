@@ -121,6 +121,23 @@ h1 {
   max-width: 100%;
 }
 
+/* Language Selection Styles */
+#language-selection {
+  appearance: none;
+  background-color: #fff;
+  border: 2px solid #4F9A90;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  color: #4F9A90;
+  cursor: pointer;
+}
+
+#language-selection option {
+  font-size: 16px;
+  color: #4F9A90;
+}
+
 /* Media Query for Responsiveness */
 @media screen and (max-width: 600px) {
   .container {
