@@ -138,6 +138,12 @@ h1 {
   color: #4F9A90;
 }
 
+/* Hover effect for Language Selection */
+#language-selection:hover {
+  background-color: #4F9A90;
+  color: #fff;
+  cursor: pointer;
+
 /* Media Query for Responsiveness */
 @media screen and (max-width: 600px) {
   .container {
