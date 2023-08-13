@@ -11,7 +11,7 @@ const frenchContent = {
 
 const englishContent = {
   title: "Fall prevention and safe landing workshop",
-  welcomeMessage: "Welcome to the Fall prevention and safe landing workshop at Restigouche Dojo!",
+  welcomeMessage: "Welcome to the fall prevention and safe landing workshop at Restigouche Dojo!",
   programDescription: "Our program is designed to help elderly adults reduce their risk of falling and improve their balance and mobility, while also teaching them how to fall properly to reduce the risk of injury. Our experienced instructors will guide you through 1-hour sessions, once a week, providing clear instructions and a supportive community to help you achieve your goals.",
   enrollMessage: "Enroll now and take the first step towards a safer and more active lifestyle!",
   //enrollButton: "Enroll",
