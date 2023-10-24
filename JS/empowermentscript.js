@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const sectionContent1 = document.getElementById('section-content-1');
   const sectionTitle2 = document.getElementById('section-title-2');
   const sectionContent2 = document.getElementById('section-content-2');
-  const sectionTitle3 = document.getElementById('section-title-3');
+  //const sectionTitle3 = document.getElementById('section-title-3');
   const sectionTitle4 = document.getElementById('section-title-4');
   const sectionContent4 = document.getElementById('section-content-4');
   const testimonialContent1 = document.getElementById('testimonial-content-1');
@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', function () {
         </ul>
       `;
 
-      sectionTitle3.textContent = 'Témoignages des Participants';
-      testimonialContent1.textContent = '«...»';
-      testimonialContent2.textContent = '«...»';
+      //sectionTitle3.textContent = 'Témoignages des Participants';
+      //testimonialContent1.textContent = '«...»';
+      //testimonialContent2.textContent = '«...»';
 
       sectionTitle4.textContent = 'Inscrivez-vous dès maintenant !';
       sectionContent4.textContent = "Ne manquez pas cette opportunité de vous autonomiser et d'acquérir des techniques de self-défense précieuses!";
@@ -51,9 +51,9 @@ document.addEventListener('DOMContentLoaded', function () {
         </ul>
       `;
 
-      sectionTitle3.textContent = 'What Participants Say';
-      testimonialContent1.textContent = '“…”';
-      testimonialContent2.textContent = '“…”';
+      //sectionTitle3.textContent = 'What Participants Say';
+      //testimonialContent1.textContent = '“…”';
+      //testimonialContent2.textContent = '“…”';
 
       sectionTitle4.textContent = 'Register Now!';
       sectionContent4.textContent = "Don't miss this opportunity to empower yourself and acquire valuable self-defense techniques!";
