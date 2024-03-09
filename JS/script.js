@@ -1,4 +1,4 @@
-// Add some interactivity with JavaScript
+// Language-specific content
 const frenchContent = {
   title: "Atelier d'Autodéfense pour Femmes",
   welcomeMessage: "Bienvenue à l'Atelier d'Autodéfense pour Femmes au Restigouche Dojo !",
@@ -17,14 +17,16 @@ const englishContent = {
   disclaimerMessage: "This workshop is not a guarantee of safety. Participants should stay vigilant, avoid dangerous situations, and use self-defense techniques as a last resort."
 };
 
+// Selecting elements from the HTML
 const languageSelection = document.getElementById("language-selection");
 const title = document.querySelector("header h1");
-const welcomeMessage = document.querySelector(".section-content");
-const programDescription = document.querySelector(".section-content");
-const enrollMessage = document.querySelector(".section-content");
+const welcomeMessage = document.getElementById("section-content-1");
+const programDescription = document.getElementById("section-content-1");
+const enrollMessage = document.getElementById("section-content-2");
 const disclaimerButton = document.getElementById("disclaimer-title");
 const disclaimerMessage = document.getElementById("disclaimer-content");
 
+// Event listener for language selection dropdown
 languageSelection.addEventListener("change", function () {
   const selectedLanguage = languageSelection.value;
 
@@ -45,8 +47,9 @@ languageSelection.addEventListener("change", function () {
   }
 });
 
+// Event listener for disclaimer button
 disclaimerButton.addEventListener("click", function () {
-  if (disclaimerMessage.style.display === "none") {
+  if (disclaimerMessage.style.display === "none" || disclaimerMessage.style.display === "") {
     disclaimerMessage.style.display = "block";
   } else {
     disclaimerMessage.style.display = "none";
