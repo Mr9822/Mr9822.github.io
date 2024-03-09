@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const sectionContent4 = document.getElementById('section-content-4');
     const testimonialContent1 = document.getElementById('testimonial-content-1');
     const testimonialContent2 = document.getElementById('testimonial-content-2');
-    const disclaimerTitle = document.getElementById('section-title-5'); // Added for "Disclaimer"
-    const disclaimerContent = document.getElementById('section-content-5');
+    const disclaimerTitle = document.getElementById('disclaimer-title'); // Added for "Disclaimer"
+    const disclaimerContent = document.getElementById('disclaimer-content');
   
     languageSelection.addEventListener('change', function () {
       const selectedLanguage = languageSelection.value;
