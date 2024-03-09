@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (selectedLanguage === 'fr') {
             workshopTitle.textContent = 'Atelier de Prévention des Chutes et d\'Atterrissage Sécurisé';
             sectionTitle1.textContent = 'Bienvenue à l\'Atelier de Prévention des Chutes';
-            sectionContent1.textContent = "Notre programme est conçu pour aider les personnes âgées à réduire leur risque de chute, à améliorer leur équilibre et leur mobilité, tout en leur apprenant comment tomber correctement pour réduire le risque de blessure. Rejoignez-nous pour des sessions d'une heure animées par des instructeurs expérimentés une fois par semaine.";
+            sectionContent1.textContent = "Notre programme est conçu pour aider les personnes âgées à réduire leur risque de chute, à améliorer leur équilibre et leur mobilité, tout en leur apprenant comment tomber correctement pour réduire le risque de blessure. Rejoignez-nous pour des sessions d'environ une heure animées par un instructeur expérimenté, une fois par semaine pendant quatre semaines.";
 
             sectionTitle2.textContent = 'Avantages du Programme';
             sectionContent2.innerHTML = `
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             workshopTitle.textContent = 'Fall Prevention and Safe Landing Workshop';
             sectionTitle1.textContent = 'Welcome to the Fall Prevention Workshop';
-            sectionContent1.textContent = "Our program is designed to help senior citizens reduce their risk of falling and improve their balance and mobility, while also teaching them how to fall properly to reduce the risk of injury. Join us for 1-hour sessions led by experienced instructors once a week.";
+            sectionContent1.textContent = "Our program is designed to help senior citizens reduce their risk of falling and improve their balance and mobility, while also teaching them how to fall properly to reduce the risk of injury. Join us for ~1-hour sessions led by an experienced instructor once a week for 4 weeks.";
 
             sectionTitle2.textContent = 'Program Benefits';
             sectionContent2.innerHTML = `
