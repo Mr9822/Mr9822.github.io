@@ -47,6 +47,16 @@ languageSelection.addEventListener("change", function () {
   }
 });
 
+// Update section titles
+const sectionTitle1 = document.getElementById("section-title-1");
+const sectionTitle2 = document.getElementById("section-title-2");
+const disclaimerTitle = document.getElementById("disclaimer-title");
+
+// Set initial section titles
+sectionTitle1.innerText = "Welcome to the Women's Self-Defense Workshop";
+sectionTitle2.innerText = "Enroll Now!";
+disclaimerTitle.innerText = "Disclaimer";
+
 // Event listener for disclaimer button
 disclaimerButton.addEventListener("click", function () {
   if (disclaimerMessage.style.display === "none" || disclaimerMessage.style.display === "") {
@@ -55,3 +65,4 @@ disclaimerButton.addEventListener("click", function () {
     disclaimerMessage.style.display = "none";
   }
 });
+
