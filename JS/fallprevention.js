@@ -5,11 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const sectionContent1 = document.getElementById('section-content-1');
     const sectionTitle2 = document.getElementById('section-title-2');
     const sectionContent2 = document.getElementById('section-content-2');
-    const sectionTitle3 = document.getElementById('section-title-3');
     const sectionTitle4 = document.getElementById('section-title-4');
     const sectionContent4 = document.getElementById('section-content-4');
-    const testimonialContent1 = document.getElementById('testimonial-content-1');
-    const testimonialContent2 = document.getElementById('testimonial-content-2');
     const disclaimerTitle = document.getElementById('disclaimer-title');
     const disclaimerContent = document.getElementById('disclaimer-content');
 
@@ -29,10 +26,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     <li><i class="fas fa-check"></i> Communauté de soutien et instructeurs expérimentés</li>
                 </ul>
             `;
-
-            sectionTitle3.textContent = 'Témoignages des Participants';
-            testimonialContent1.textContent = '"..."';
-            testimonialContent2.textContent = '"..."';
 
             sectionTitle4.textContent = 'Inscrivez-vous dès maintenant !';
             sectionContent4.textContent = "Faites le premier pas vers un mode de vie plus sûr et plus actif!";
@@ -55,10 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     <li><i class="fas fa-check"></i> Supportive community and experienced instructors</li>
                 </ul>
             `;
-
-            sectionTitle3.textContent = 'Participant Testimonials';
-            testimonialContent1.textContent = '"..."';
-            testimonialContent2.textContent = '"..."';
 
             sectionTitle4.textContent = 'Enroll Now!';
             sectionContent4.textContent = "Take the first step towards a safer and more active lifestyle!";
