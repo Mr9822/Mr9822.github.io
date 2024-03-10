@@ -52,7 +52,3 @@ languageSelection.addEventListener("change", function () {
     sectionTitle2.innerText = "Enroll Now!";
   }
 });
-
-// Set initial section titles
-sectionTitle1.innerText = "Welcome to the Women's Self-Defense Workshop";
-sectionTitle2.innerText = "Enroll Now!";
