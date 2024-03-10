@@ -25,6 +25,8 @@ const programDescription = document.getElementById("section-content-1");
 const enrollMessage = document.getElementById("section-content-2");
 const disclaimerButton = document.getElementById("disclaimer-title");
 const disclaimerMessage = document.getElementById("disclaimer-content");
+const sectionTitle1 = document.getElementById("section-title-1");
+const sectionTitle2 = document.getElementById("section-title-2");
 
 // Event listener for language selection dropdown
 languageSelection.addEventListener("change", function () {
@@ -37,6 +39,8 @@ languageSelection.addEventListener("change", function () {
     enrollMessage.innerText = frenchContent.enrollMessage;
     disclaimerButton.innerText = frenchContent.disclaimerButton;
     disclaimerMessage.innerText = frenchContent.disclaimerMessage;
+    sectionTitle1.innerText = "Bienvenue à l'Atelier d'Autodéfense pour Femmes";
+    sectionTitle2.innerText = "Inscrivez-vous maintenant !";
   } else {
     title.innerText = englishContent.title;
     welcomeMessage.innerText = englishContent.welcomeMessage;
@@ -44,25 +48,11 @@ languageSelection.addEventListener("change", function () {
     enrollMessage.innerText = englishContent.enrollMessage;
     disclaimerButton.innerText = englishContent.disclaimerButton;
     disclaimerMessage.innerText = englishContent.disclaimerMessage;
+    sectionTitle1.innerText = "Welcome to the Women's Self-Defense Workshop";
+    sectionTitle2.innerText = "Enroll Now!";
   }
 });
-
-// Update section titles
-const sectionTitle1 = document.getElementById("section-title-1");
-const sectionTitle2 = document.getElementById("section-title-2");
-const disclaimerTitle = document.getElementById("disclaimer-title");
 
 // Set initial section titles
 sectionTitle1.innerText = "Welcome to the Women's Self-Defense Workshop";
 sectionTitle2.innerText = "Enroll Now!";
-disclaimerTitle.innerText = "Disclaimer";
-
-// Event listener for disclaimer button
-disclaimerButton.addEventListener("click", function () {
-  if (disclaimerMessage.style.display === "none" || disclaimerMessage.style.display === "") {
-    disclaimerMessage.style.display = "block";
-  } else {
-    disclaimerMessage.style.display = "none";
-  }
-});
-
