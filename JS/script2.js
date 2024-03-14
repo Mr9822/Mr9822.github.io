@@ -2,7 +2,7 @@
 const frenchContent = {
   title: "Prévention des chutes et atterrissage en toute sécurité",
   welcomeMessage: "Bienvenue à l'atelier de prévention des chutes et atterrissage en toute sécurité au Restigouche Dojo!",
-  programDescription: "Notre programme est conçu pour aider les personnes âgées à réduire leur risque de chute et à améliorer leur équilibre et leur mobilité, tout en leur apprenant à tomber correctement pour réduire les risques de blessures. Rejoignez-nous pour une séance unique d'environ 45 minutes dirigée par un instructeur expérimenté.",
+  programDescription: "Notre programme est conçu pour aider les personnes âgées à réduire leur risque de chute et à améliorer leur équilibre et leur mobilité, tout en leur apprenant à tomber correctement pour réduire les risques de blessures. Rejoignez-nous pour une séance unique d'environ 1 heure dirigée par un instructeur expérimenté.",
   enrollMessage: "Inscrivez-vous maintenant et faites le premier pas vers un mode de vie plus sûr et plus actif !",
   //enrollButton: "Inscription",
   disclaimerButton: "Avertissement",
@@ -12,7 +12,7 @@ const frenchContent = {
 const englishContent = {
   title: "Fall prevention and safe landing workshop",
   welcomeMessage: "Welcome to the fall prevention and safe landing workshop at Restigouche Dojo!",
-  programDescription: "Our program is designed to help senior citizens reduce their risk of falling and improve their balance and mobility, while also teaching them how to fall properly to reduce the risk of injury. Join us for a one time ~45-minutes sessions led by an experienced instructor.",
+  programDescription: "Our program is designed to help senior citizens reduce their risk of falling and improve their balance and mobility, while also teaching them how to fall properly to reduce the risk of injury. Join us for a one time 1 hour session led by an experienced instructor.",
   enrollMessage: "Enroll now and take the first step towards a safer and more active lifestyle!",
   //enrollButton: "Enroll",
   disclaimerButton: "Disclaimer",
