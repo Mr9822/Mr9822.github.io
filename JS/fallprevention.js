@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     languageSelection.addEventListener('change', function () {
         const selectedLanguage = languageSelection.value;
         if (selectedLanguage === 'fr') {
-            workshopTitle.textContent = 'Atelier de Prévention des Chutes et d\'Atterrissage Sécurisé';
+            workshopTitle.textContent = 'Atelier de prévention des chutes et d\'atterrissage sécurisé';
             sectionTitle1.textContent = 'Bienvenue à l\'Atelier de Prévention des Chutes';
             sectionContent1.textContent = "Notre programme est conçu pour aider les personnes âgées à réduire leur risque de chute, à améliorer leur équilibre et leur mobilité, tout en leur apprenant comment tomber correctement pour réduire le risque de blessure. Rejoignez-nous pour une séance unique d'environ 1 heure dirigée par un instructeur expérimenté.";
 
