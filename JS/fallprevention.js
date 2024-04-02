@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (selectedLanguage === 'fr') {
             workshopTitle.textContent = 'Atelier de Prévention des Chutes et d\'Atterrissage Sécurisé';
             sectionTitle1.textContent = 'Bienvenue à l\'Atelier de Prévention des Chutes';
-            sectionContent1.textContent = "Notre programme est conçu pour aider les personnes âgées à réduire leur risque de chute, à améliorer leur équilibre et leur mobilité, tout en leur apprenant comment tomber correctement pour réduire le risque de blessure. Rejoignez-nous pour des sessions d'environ 45 minutes animées par un instructeur expérimenté, une fois par semaine pendant quatre semaines.";
+            sectionContent1.textContent = "Notre programme est conçu pour aider les personnes âgées à réduire leur risque de chute, à améliorer leur équilibre et leur mobilité, tout en leur apprenant comment tomber correctement pour réduire le risque de blessure. Rejoignez-nous pour des sessions d'environ 1 heure animées par un instructeur expérimenté, une fois par semaine pendant quatre semaines.";
 
             sectionTitle2.textContent = 'Avantages du Programme';
             sectionContent2.innerHTML = `
