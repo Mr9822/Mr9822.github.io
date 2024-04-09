@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             workshopTitle.textContent = 'Fall Prevention and Safe Landing Workshop';
             sectionTitle1.textContent = 'Welcome to the Fall Prevention Workshop';
-            sectionContent1.textContent = "Our program is designed to help senior citizens reduce their risk of falling and improve their balance and mobility, while also teaching them how to fall properly to reduce the risk of injury. Join us for 75 minutes sessions led by an experienced instructor once a week for 4 weeks.";
+            sectionContent1.textContent = "Our program is designed to help senior citizens reduce their risk of falling and improve their balance and mobility, while also teaching them how to fall properly to reduce the risk of injury. Join us for a one time 75 minutes session led by an experienced instructor.";
 
             sectionTitle2.textContent = 'Program Benefits';
             sectionContent2.innerHTML = `
