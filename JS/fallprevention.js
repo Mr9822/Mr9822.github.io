@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (selectedLanguage === 'fr') {
             workshopTitle.textContent = 'Atelier de prévention des chutes et d\'atterrissage sécurisé';
             sectionTitle1.textContent = 'Bienvenue à l\'Atelier de Prévention des Chutes';
-            sectionContent1.textContent = "Notre programme est conçu pour aider les personnes âgées à réduire leur risque de chute, à améliorer leur équilibre et leur mobilité, tout en leur apprenant comment tomber correctement pour réduire le risque de blessure. Rejoignez-nous pour une séance unique d'environ 1 heure dirigée par un instructeur expérimenté.";
+            sectionContent1.textContent = "Notre programme est conçu pour aider les personnes âgées à réduire leur risque de chute, à améliorer leur équilibre et leur mobilité, tout en leur apprenant comment tomber correctement pour réduire le risque de blessure. Rejoignez-nous pour une séance unique d'environ 75 minutes dirigée par un instructeur expérimenté.";
 
             sectionTitle2.textContent = 'Avantages du Programme';
             sectionContent2.innerHTML = `
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             workshopTitle.textContent = 'Fall Prevention and Safe Landing Workshop';
             sectionTitle1.textContent = 'Welcome to the Fall Prevention Workshop';
-            sectionContent1.textContent = "Our program is designed to help senior citizens reduce their risk of falling and improve their balance and mobility, while also teaching them how to fall properly to reduce the risk of injury. Join us for ~45-minutes sessions led by an experienced instructor once a week for 4 weeks.";
+            sectionContent1.textContent = "Our program is designed to help senior citizens reduce their risk of falling and improve their balance and mobility, while also teaching them how to fall properly to reduce the risk of injury. Join us for 75 minutes sessions led by an experienced instructor once a week for 4 weeks.";
 
             sectionTitle2.textContent = 'Program Benefits';
             sectionContent2.innerHTML = `
