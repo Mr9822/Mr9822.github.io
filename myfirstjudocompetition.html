@@ -5,23 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your First Judo Competition: A Guide</title>
-    <!--CSS style sheet-->
+    <!-- CSS Stylesheets -->
     <link href="style.css" rel="stylesheet">
     <link href="alternativestyle2.css" rel="stylesheet">
-    <!--Google Fonts-->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--NAV BAR AND LOGO-->
+    <!-- NAV BAR AND LOGO -->
     <div class="wrapper">
         <nav class="navbar">
             <div class="navbar-container container">
-                <input type="checkbox" name="" id="">
+                <!-- Hamburger Menu -->
+                <input type="checkbox" name="" id="menu-toggle">
                 <div class="hamburger-lines">
                     <span class="line line1"></span>
                     <span class="line line2"></span>
                     <span class="line line3"></span>
                 </div>
+                <!-- Navigation Menu -->
                 <ul class="menu-items">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="meettheteam.html">Instructors</a></li>
@@ -29,31 +31,39 @@
                     <li><a href="payment.html">Registration</a></li>
                     <li><a href="photosvideos.html">Media</a></li>
                     <li><a href="contactus.html">Contact us</a></li>
+                    <!-- Google Translate Widget -->
                     <div id="google_translate_element"></div>
                     <script type="text/javascript">
                         function googleTranslateElementInit() {
-                            new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                            new google.translate.TranslateElement({
+                                pageLanguage: 'en', 
+                                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                            }, 'google_translate_element');
                         }
                     </script>
                     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                 </ul>
+                <!-- Logo -->
                 <h1 class="logo">Restigouche Dojo</h1>
             </div>
         </nav>
     </div>
 
-    <!--BANNER-->
+    <!-- BANNER -->
     <div class="banner-area">
-        <img src="" alt="" class="">
+        <img src="" alt="Banner Image" class="">
     </div>
     
-    <!--CONTENT-->
+    <!-- CONTENT -->
     <div class="content-area">
         <div class="wrapper-body">
+            <!-- Language Selection -->
             <select id="language-selection">
                 <option value="en">English</option>
                 <option value="fr">Français</option>
             </select>
+
+            <!-- Hero Section -->
             <section class="hero">
                 <div class="container">
                     <h2 id="title">Your First Judo Competition: A Guide for Restigouche Dojo Athletes</h2>
@@ -62,13 +72,19 @@
                     </p>
                 </div>
             </section>
+
+            <!-- Guide Section -->
             <section class="guide">
                 <div class="container">
                     <h2 id="guide-title">Competition Preparation Guide</h2>
-                    
-                    <h3 id="define-objectives">1. Define Your Objectives</h3>
-                    <p id="define-objectives-text">Before you step onto the mat, clarify your goals. Whether it’s to test your techniques, gain competitive experience, or push your limits, having a clear objective will help guide your preparation.</p>
 
+                    <!-- Define Objectives -->
+                    <h3 id="define-objectives">1. Define Your Objectives</h3>
+                    <p id="define-objectives-text">
+                        Before you step onto the mat, clarify your goals. Whether it’s to test your techniques, gain competitive experience, or push your limits, having a clear objective will help guide your preparation.
+                    </p>
+
+                    <!-- Create a Game Plan -->
                     <h3 id="create-game-plan">2. Create a Game Plan</h3>
                     <p id="create-game-plan-text">
                         A solid game plan is crucial for success in Judo. This plan should outline how you’ll approach each match, considering the following:
@@ -79,6 +95,7 @@
                         </ul>
                     </p>
 
+                    <!-- Training for Competition -->
                     <h3 id="training">3. Training for Competition</h3>
                     <p id="training-text">
                         Consistency and smart training are key to preparing for a Judo competition.
@@ -89,6 +106,7 @@
                         </ul>
                     </p>
 
+                    <!-- Mental Preparation -->
                     <h3 id="mental-preparation">4. Mental Preparation</h3>
                     <p id="mental-preparation-text">
                         The mental aspect of Judo is as important as the physical.
@@ -99,6 +117,7 @@
                         </ul>
                     </p>
 
+                    <!-- Understand the Rules -->
                     <h3 id="understand-rules">5. Understand the Rules</h3>
                     <p id="understand-rules-text">
                         Familiarize yourself with Judo competition rules to avoid penalties and maximize your scoring potential.
@@ -108,6 +127,7 @@
                         </ul>
                     </p>
 
+                    <!-- Gear and Uniform -->
                     <h3 id="gear-uniform">6. Gear and Uniform</h3>
                     <p id="gear-uniform-text">
                         Ensure you have the proper gear:
@@ -118,6 +138,7 @@
                         </ul>
                     </p>
 
+                    <!-- Warm-Up Effectively -->
                     <h3 id="warm-up">7. Warm-Up Effectively</h3>
                     <p id="warm-up-text">
                         A good warm-up prepares both your body and mind.
@@ -127,6 +148,7 @@
                         </ul>
                     </p>
 
+                    <!-- Nutrition and Hydration -->
                     <h3 id="nutrition-hydration">8. Nutrition and Hydration</h3>
                     <p id="nutrition-hydration-text">
                         Proper nutrition and hydration are crucial for optimal performance.
@@ -136,6 +158,7 @@
                         </ul>
                     </p>
 
+                    <!-- On Competition Day -->
                     <h3 id="competition-day">9. On Competition Day</h3>
                     <p id="competition-day-text">
                         - <strong>Arrive Early:</strong> Give yourself ample time to check in, warm up, and get settled.<br>
@@ -143,6 +166,7 @@
                         - <strong>Execute Your Plan:</strong> Trust your preparation and follow your game plan.
                     </p>
 
+                    <!-- Post-Competition Reflection -->
                     <h3 id="post-competition">10. Post-Competition Reflection</h3>
                     <p id="post-competition-text">
                         Reflect on your performance to identify areas for improvement.
@@ -155,7 +179,8 @@
             </section>
         </div>
     </div>
-    <!--SCRIPT-->
+
+    <!-- SCRIPT -->
     <script src="JS/script5.js"></script>
 </body>
 </html>
