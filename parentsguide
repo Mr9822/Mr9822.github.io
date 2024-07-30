@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent's Guide to Supporting Your Young Athlete</title>
+    <!-- CSS Stylesheets -->
+    <link href="style.css" rel="stylesheet">
+    <link href="alternativestyle2.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAV BAR AND LOGO -->
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <!-- Hamburger Menu -->
+                <input type="checkbox" name="" id="menu-toggle">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <!-- Navigation Menu -->
+                <ul class="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="meettheteam.html">Instructors</a></li>
+                    <li><a href="membership.html">Schedule</a></li>
+                    <li><a href="payment.html">Registration</a></li>
+                    <li><a href="photosvideos.html">Media</a></li>
+                    <li><a href="contactus.html">Contact us</a></li>
+                </ul>
+                <!-- Logo -->
+                <h1 class="logo">Restigouche Dojo</h1>
+            </div>
+        </nav>
+    </div>
+
+    <!-- BANNER -->
+    <div class="banner-area">
+        <img src="" alt="" class="">
+    </div>
+    
+    <!-- CONTENT -->
+    <div class="content-area">
+        <div class="wrapper-body">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="container">
+                    <h2 id="title">Parent's Guide to Supporting Your Young Athlete at Restigouche Dojo</h2>
+                </div>
+            </section>
+
+            <!-- Guide Content -->
+            <section class="guide">
+                <div class="container">
+                    <h3 id="chapter1">Chapter 1: You're Part of the Team</h3>
+                    <p>
+                        Welcome to Restigouche Dojo, where your child is not just a student but a member of our martial arts family. As a parent, you play a vital role in this community. Your support, encouragement, and involvement are key components of your child's success and enjoyment at our dojo.
+                    </p>
+                    <p>
+                        Just like in any team, everyone has a role to play. Your presence at practices and competitions shows your child that you are invested in their martial arts journey. Your words of encouragement and praise boost their confidence and motivation. Your understanding and support during both victories and setbacks help them navigate the ups and downs of training and competing.
+                    </p>
+                    <p>
+                        At Restigouche Dojo, we believe in the power of teamwork, and that includes parents. By being actively engaged in your child's martial arts experience, you not only enhance their performance but also contribute to the positive atmosphere and sense of community within our dojo.
+                    </p>
+
+                    <h3 id="chapter2">Chapter 2: Avoiding Common Mistakes</h3>
+                    <p>
+                        As parents, we all want the best for our children, but sometimes our good intentions can unintentionally lead to common mistakes. At Restigouche Dojo, we want to help you avoid these pitfalls so that you can support your child effectively.
+                    </p>
+                    <p>
+                        One common mistake is placing too much emphasis on outcomes, such as winning competitions, rather than focusing on the process of growth and development. While success is important, it's equally essential to celebrate the journey, the effort, and the lessons learned along the way.
+                    </p>
+                    <p>
+                        Another mistake is projecting our own desires and expectations onto our children. It's essential to remember that your child's martial arts journey is theirs alone. Encourage them to set their own goals, pursue their passions, and find joy in their achievements, no matter how big or small.
+                    </p>
+                    <p>
+                        By avoiding these common mistakes and adopting a supportive and nurturing approach, you can help your child thrive at Restigouche Dojo and beyond.
+                    </p>
+
+                    <h3 id="chapter3">Chapter 3: Building Self-Esteem</h3>
+                    <p>
+                        Self-esteem is a fundamental aspect of a child's well-being and success in martial arts. At Restigouche Dojo, we strive to foster a supportive and empowering environment where every child feels valued and confident.
+                    </p>
+                    <p>
+                        One way parents can contribute to building their child's self-esteem is by offering genuine praise and encouragement. Acknowledge their efforts, celebrate their progress, and highlight their strengths. By focusing on their positive qualities and accomplishments, you help reinforce their self-worth and confidence.
+                    </p>
+                    <p>
+                        Additionally, it's essential to provide a safe space for your child to express themselves and explore their abilities without fear of judgment or criticism. Encourage them to embrace challenges, learn from mistakes, and believe in their potential. By instilling a growth mindset and resilience, you equip them with the tools they need to overcome obstacles and thrive in martial arts and in life.
+                    </p>
+
+                    <h3 id="chapter4">Chapter 4: Recognizing Tank Drainers</h3>
+                    <p>
+                        In our efforts to support our children, we must be mindful of behaviors and attitudes that may inadvertently undermine their confidence and enthusiasm for martial arts. At Restigouche Dojo, we call these "tank drainers" – actions or comments that drain your child's emotional tank and diminish their motivation.
+                    </p>
+                    <p>
+                        Tank drainers can take many forms, such as overly focusing on winning at all costs, setting unrealistic expectations, or criticizing their performance harshly. These negative interactions can erode your child's self-esteem, dampen their enjoyment of martial arts, and even lead to burnout or dropout.
+                    </p>
+                    <p>
+                        By recognizing and eliminating tank drainers from your interactions with your child, you create a more positive and supportive environment at Restigouche Dojo. Together, we can ensure that every child feels valued, respected, and empowered to reach their full potential.
+                    </p>
+
+                    <h3 id="chapter5">Chapter 5: Implementing Tank Fillers</h3>
+                    <p>
+                        At Restigouche Dojo, we believe in the power of positive reinforcement and encouragement to uplift and motivate our young athletes. By implementing "tank fillers" – actions and behaviors that replenish your child's emotional tank – you can create a nurturing and empowering atmosphere where they can thrive.
+                    </p>
+                    <p>
+                        Tank fillers can include offering specific and genuine praise, expressing appreciation for their efforts, and actively listening to their thoughts and feelings. By affirming their strengths, validating their experiences, and providing unconditional support, you help foster their self-esteem and resilience.
+                    </p>
+                    <p>
+                        Additionally, non-verbal cues such as smiling, nodding, and maintaining eye contact can convey warmth, acceptance, and encouragement. By being present, engaged, and attuned to your child's needs, you demonstrate your unwavering support and belief in their abilities.
+                    </p>
+                    <p>
+                        Together, let's fill our dojo with positivity, encouragement, and support, ensuring that every child feels empowered to pursue their martial arts goals with confidence and joy.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
