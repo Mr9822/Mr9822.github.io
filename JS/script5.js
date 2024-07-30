@@ -59,77 +59,75 @@ document.addEventListener('DOMContentLoaded', () => {
             { id: "create-game-plan", text: "2. Create a Game Plan" },
             { id: "create-game-plan-text", text: "A solid game plan is crucial for success in Judo. This plan should outline how you will approach each match, considering the following elements:" },
             { id: "attacks", text: "Attacks: Choose your main throws (e.g., O-Soto-Gari, Ippon-Seoi-Nage) and perfect them. Have a few backup techniques ready." },
-            { id: "groundwork", text: "Groundwork: Be prepared for Ne-Waza (groundwork). Know your favorite holds (e.g., Kesa-Gatame, Yoko-Shiho-Gatame) and submissions (e.g., Juji-Gatame)." },
-            { id: "defense", text: "Defense: Have strategies for defending against common attacks and recovering from disadvantageous positions." },
+            { id: "groundwork", text: "Groundwork: Be prepared for Ne-Waza (ground work). Know your preferred pins (e.g., Kesa-Gatame, Yoko-Shiho-Gatame) and submissions (e.g., Juji-Gatame)." },
+            { id: "defense", text: "Defense: Have strategies for defending against common attacks and recovering from unfavorable positions." },
             { id: "train-smart", text: "3. Train Smart" },
-            { id: "train-smart-text", text: "Consistency and smart training are key to preparing for a Judo competition." },
-            { id: "technical-drills", text: "Technical Drills: Focus on perfecting your throwing techniques and transitions. Repeated practice builds muscle memory." },
-            { id: "randori", text: "Randori: Engage in randoris with partners of various levels and sizes to simulate match conditions." },
-            { id: "conditioning", text: "Conditioning: Incorporate strength, speed, and agility exercises. Sprinting, plyometrics, and core training will improve your performance." },
+            { id: "train-smart-text", text: "Consistency and smart training are key for preparing for a Judo competition." },
+            { id: "technical-drills", text: "Technical Drills: Focus on perfecting your throwing techniques and transitions. Repetitive practice builds muscle memory." },
+            { id: "randori", text: "Randori: Engage in randoris with partners of different levels and sizes to simulate match conditions." },
+            { id: "conditioning", text: "Conditioning: Include strength, speed, and agility exercises. Sprints, plyometrics, and core training will enhance your performance." },
             { id: "mental-preparation", text: "4. Mental Preparation" },
             { id: "mental-preparation-text", text: "The mental aspect of Judo is as important as physical preparation." },
-            { id: "stay-calm", text: "Stay Calm: Learn to manage pre-competition stress. Practice deep breathing: inhale through your nose for four seconds and exhale through your mouth for eight seconds." },
-            { id: "visualization", text: "Visualization: Imagine your matches in your mind. Visualize yourself executing throws, defending, and reacting to different situations. Always visualize positive outcomes." },
-            { id: "positive-self-talk", text: "Positive Self-Talk: Use affirmations to build confidence. Remind yourself of your training and strengths." },
+            { id: "stay-calm", text: "Stay Calm: Learn to manage pre-competition stress. Practice deep breathing: inhale through your nose for four seconds, and exhale through your mouth for eight seconds." },
+            { id: "visualization", text: "Visualization: Imagine your matches in your mind. Visualize yourself executing throws, defending, and reacting to various situations. Always visualize positive outcomes." },
+            { id: "positive-self-talk", text: "Positive Self-Talk: Use affirmations to boost your confidence. Remind yourself of your training and strengths." },
             { id: "understand-rules", text: "5. Understand the Rules" },
             { id: "understand-rules-text", text: "Familiarize yourself with the competition rules to avoid penalties and maximize scoring potential." },
-            { id: "scoring", text: "Scoring: Understand how points are awarded for throws, holds, and submissions. An Ippon (full point) wins the match, while a Waza-Ari (half point) can lead to an eventual victory if accumulated." },
-            { id: "penalties", text: "Penalties: Learn the penalties (Shido) for rule infractions. Avoid actions that lead to penalties, such as grip violations or stalling." },
+            { id: "scoring", text: "Scoring: Understand how points are awarded for throws, holds, and submissions. Ippon (full point) wins the match, while Waza-Ari (half-point) can lead to eventual victory if accumulated." },
+            { id: "penalties", text: "Penalties: Learn about penalties (Shido) for rule violations. Avoid actions that result in penalties, such as grip violations or stalling." },
             { id: "gear-up", text: "6. Gear Up" },
-            { id: "gear-up-text", text: "Ensure you have the right gear:" },
-            { id: "gi", text: "Gi (Judogi): Your gi should be clean, in good condition, and compliant with competition specifications. Make sure it fits properly." },
-            { id: "belt", text: "Belt: Wear a belt that matches your rank." },
-            { id: "extras", text: "Extras: Bring a spare gi, water, snacks, and any other personal items you may need." },
+            { id: "gear-up-text", text: "Make sure you have the right equipment:" },
+            { id: "gi", text: "Gi (Judogi): Your gi should be clean, in good condition, and compliant with competition specifications. Ensure it fits well." },
+            { id: "belt", text: "Belt: Wear a belt that corresponds to your rank." },
+            { id: "extras", text: "Extras: Bring a spare gi, water, snacks, and any other personal items you might need." },
             { id: "warm-up", text: "7. Warm Up Properly" },
             { id: "warm-up-text", text: "A good warm-up prepares your body and mind." },
-            { id: "routine", text: "Routine: Perform a familiar warm-up routine to prepare your muscles and calm your nerves. Include dynamic stretches and light randori." },
-            { id: "focus", text: "Focus: Concentrate on your warm-up, not the upcoming match. Familiar movements help ground you." },
+            { id: "routine", text: "Routine: Follow a familiar warm-up routine to prepare your muscles and calm your nerves. Include dynamic stretches and light randori." },
+            { id: "focus", text: "Focus: Concentrate on your warm-up, not on the upcoming match. Familiar movements help center you." },
             { id: "nutrition-hydration", text: "8. Nutrition and Hydration" },
             { id: "nutrition-hydration-text", text: "Proper nutrition and hydration are crucial for optimal performance." },
             { id: "hydrate", text: "Hydrate: Drink plenty of water before and on the day of the competition." },
-            { id: "eat-well", text: "Eat Well: Consume a balanced diet rich in proteins, carbohydrates, and healthy fats. On competition day, opt for light and easily digestible foods." },
+            { id: "eat-well", text: "Eat Well: Maintain a balanced diet rich in proteins, carbohydrates, and healthy fats. On competition day, choose light and easily digestible foods." },
             { id: "competition-day", text: "9. Competition Day" },
-            { id: "competition-day-text", text: "On competition day, arrive early and stay calm." },
-            { id: "arrival", text: "Arrival: Give yourself enough time to check in, warm up, and get settled." },
-            { id: "warm-up-again", text: "Warm Up Again: Do a light warm-up to get your body ready for competition." },
+            { id: "competition-day-text", text: "On the day of the competition, arrive early and stay calm." },
+            { id: "arrival", text: "Arrival: Give yourself ample time to check in, warm up, and get settled." },
+            { id: "warm-up-again", text: "Warm Up Again: Do a light warm-up to prepare your body for competition." },
             { id: "post-competition", text: "10. Post-Competition Reflection" },
             { id: "post-competition-text", text: "Reflecting on your performance helps identify areas for improvement." },
             { id: "seek-feedback", text: "Seek Feedback: Ask for constructive feedback from your coach and teammates. Learn from your matches and training." },
-            { id: "reflect-on-experience", text: "Reflect on Experience: Consider what went well and what could be improved. Use this information to guide your future training." }
+            { id: "reflect-on-experience", text: "Reflect on the Experience: Consider what went well and what could be improved. Use this information to guide your future training." }
         ]
     };
 
-    const titleElement = document.getElementById('title');
-    const programDescriptionElement = document.getElementById('program-description');
-    const guideTitleElement = document.getElementById('guide-title');
-    const guideListElement = document.getElementById('guide-list');
-    const languageSelector = document.getElementById('language-selector');
+    function populateContent(language) {
+        const content = language === 'fr' ? frenchContent : englishContent;
 
-    function loadContent(language) {
-        let content;
-        if (language === 'fr') {
-            content = frenchContent;
-        } else {
-            content = englishContent;
-        }
+        document.querySelector('#title').textContent = content.title;
+        document.querySelector('#program-description').textContent = content.programDescription;
+        document.querySelector('#guide-title').textContent = content.guideTitle;
 
-        titleElement.textContent = content.title;
-        programDescriptionElement.textContent = content.programDescription;
-        guideTitleElement.textContent = content.guideTitle;
+        const guideList = document.querySelector('#guide-list');
+        guideList.innerHTML = '';
 
-        guideListElement.innerHTML = ''; // Clear existing list items
         content.guideList.forEach(item => {
             const listItem = document.createElement('li');
             listItem.id = item.id;
-            listItem.textContent = item.text;
-            guideListElement.appendChild(listItem);
+
+            if (item.id.includes('-text')) {
+                listItem.textContent = item.text;
+                listItem.style.marginLeft = '20px';
+            } else {
+                listItem.textContent = item.text;
+                listItem.style.fontWeight = 'bold';
+            }
+
+            guideList.appendChild(listItem);
         });
     }
 
-    // Load default content
-    loadContent('en');
-
-    languageSelector.addEventListener('change', (event) => {
-        loadContent(event.target.value);
+    document.querySelector('#language-switcher').addEventListener('change', (event) => {
+        populateContent(event.target.value);
     });
+
+    populateContent('en'); // Default to English on page load
 });
