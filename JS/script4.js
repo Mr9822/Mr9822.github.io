@@ -112,19 +112,26 @@ const englishContent = {
   ]
 };
 
-document.getElementById('language-selection').addEventListener('change', function() {
-  const selectedLanguage = this.value;
-  const content = selectedLanguage === 'fr' ? frenchContent : englishContent;
-  
-  document.getElementById('title').textContent = content.title;
-  document.getElementById('program-description').textContent = content.programDescription;
-  document.getElementById('guide-title').textContent = content.guideTitle;
+function updateContent(language) {
+  const content = language === "fr" ? frenchContent : englishContent;
+
+  document.getElementById("title").innerText = content.title;
+  document.getElementById("program-description").innerText = content.programDescription;
+  document.getElementById("guide-title").innerText = content.guideTitle;
 
   content.guideList.forEach(item => {
     const element = document.getElementById(item.id);
     if (element) {
-      element.textContent = item.text;
+      element.innerText = item.text;
+    } else {
+      console.error(`Element with id "${item.id}" not found.`);
     }
   });
+}
+
+document.getElementById("language-selection").addEventListener("change", function () {
+  updateContent(this.value);
 });
 
+// Initialize with default language (English)
+updateContent('en');
