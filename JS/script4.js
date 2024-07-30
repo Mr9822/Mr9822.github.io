@@ -71,80 +71,38 @@ const englishContent = {
 };
 
 const languageSelection = document.getElementById("language-selection");
-const title = document.getElementById("title");
-const programDescription = document.getElementById("program-description");
-const guideTitle = document.getElementById("guide-title");
-const setGoals = document.getElementById("set-goals");
-const setGoalsText = document.getElementById("set-goals-text");
-const developGamePlan = document.getElementById("develop-game-plan");
-const developGamePlanText = document.getElementById("develop-game-plan-text");
-const trainSmart = document.getElementById("train-smart");
-const trainSmartText = document.getElementById("train-smart-text");
-const mentalPreparation = document.getElementById("mental-preparation");
-const mentalPreparationText = document.getElementById("mental-preparation-text");
-const understandRules = document.getElementById("understand-rules");
-const understandRulesText = document.getElementById("understand-rules-text");
-const gearUp = document.getElementById("gear-up");
-const gearUpText = document.getElementById("gear-up-text");
-const warmUp = document.getElementById("warm-up");
-const warmUpText = document.getElementById("warm-up-text");
-const nutritionHydration = document.getElementById("nutrition-hydration");
-const nutritionHydrationText = document.getElementById("nutrition-hydration-text");
-const competitionDay = document.getElementById("competition-day");
-const competitionDayText = document.getElementById("competition-day-text");
-const postCompetition = document.getElementById("post-competition");
-const postCompetitionText = document.getElementById("post-competition-text");
+
+function updateContent(language) {
+  const content = language === "fr" ? frenchContent : englishContent;
+
+  document.getElementById("title").innerText = content.title;
+  document.getElementById("program-description").innerText = content.programDescription;
+  document.getElementById("guide-title").innerText = content.guideTitle;
+  document.getElementById("set-goals").innerText = content.setGoals;
+  document.getElementById("set-goals-text").innerText = content.setGoalsText;
+  document.getElementById("develop-game-plan").innerText = content.developGamePlan;
+  document.getElementById("develop-game-plan-text").innerText = content.developGamePlanText;
+  document.getElementById("train-smart").innerText = content.trainSmart;
+  document.getElementById("train-smart-text").innerText = content.trainSmartText;
+  document.getElementById("mental-preparation").innerText = content.mentalPreparation;
+  document.getElementById("mental-preparation-text").innerText = content.mentalPreparationText;
+  document.getElementById("understand-rules").innerText = content.understandRules;
+  document.getElementById("understand-rules-text").innerText = content.understandRulesText;
+  document.getElementById("gear-up").innerText = content.gearUp;
+  document.getElementById("gear-up-text").innerText = content.gearUpText;
+  document.getElementById("warm-up").innerText = content.warmUp;
+  document.getElementById("warm-up-text").innerText = content.warmUpText;
+  document.getElementById("nutrition-hydration").innerText = content.nutritionHydration;
+  document.getElementById("nutrition-hydration-text").innerText = content.nutritionHydrationText;
+  document.getElementById("competition-day").innerText = content.competitionDay;
+  document.getElementById("competition-day-text").innerText = content.competitionDayText;
+  document.getElementById("post-competition").innerText = content.postCompetition;
+  document.getElementById("post-competition-text").innerText = content.postCompetitionText;
+}
 
 languageSelection.addEventListener("change", function () {
-  const selectedLanguage = languageSelection.value;
-
-  if (selectedLanguage === "fr") {
-    title.innerText = frenchContent.title;
-    programDescription.innerText = frenchContent.programDescription;
-    guideTitle.innerText = frenchContent.guideTitle;
-    setGoals.innerText = frenchContent.setGoals;
-    setGoalsText.innerText = frenchContent.setGoalsText;
-    developGamePlan.innerText = frenchContent.developGamePlan;
-    developGamePlanText.innerText = frenchContent.developGamePlanText;
-    trainSmart.innerText = frenchContent.trainSmart;
-    trainSmartText.innerText = frenchContent.trainSmartText;
-    mentalPreparation.innerText = frenchContent.mentalPreparation;
-    mentalPreparationText.innerText = frenchContent.mentalPreparationText;
-    understandRules.innerText = frenchContent.understandRules;
-    understandRulesText.innerText = frenchContent.understandRulesText;
-    gearUp.innerText = frenchContent.gearUp;
-    gearUpText.innerText = frenchContent.gearUpText;
-    warmUp.innerText = frenchContent.warmUp;
-    warmUpText.innerText = frenchContent.warmUpText;
-    nutritionHydration.innerText = frenchContent.nutritionHydration;
-    nutritionHydrationText.innerText = frenchContent.nutritionHydrationText;
-    competitionDay.innerText = frenchContent.competitionDay;
-    competitionDayText.innerText = frenchContent.competitionDayText;
-    postCompetition.innerText = frenchContent.postCompetition;
-    postCompetitionText.innerText = frenchContent.postCompetitionText;
-  } else {
-    title.innerText = englishContent.title;
-    programDescription.innerText = englishContent.programDescription;
-    guideTitle.innerText = englishContent.guideTitle;
-    setGoals.innerText = englishContent.setGoals;
-    setGoalsText.innerText = englishContent.setGoalsText;
-    developGamePlan.innerText = englishContent.developGamePlan;
-    developGamePlanText.innerText = englishContent.developGamePlanText;
-    trainSmart.innerText = englishContent.trainSmart;
-    trainSmartText.innerText = englishContent.trainSmartText;
-    mentalPreparation.innerText = englishContent.mentalPreparation;
-    mentalPreparationText.innerText = englishContent.mentalPreparationText;
-    understandRules.innerText = englishContent.understandRules;
-    understandRulesText.innerText = englishContent.understandRulesText;
-    gearUp.innerText = englishContent.gearUp;
-    gearUpText.innerText = englishContent.gearUpText;
-    warmUp.innerText = englishContent.warmUp;
-    warmUpText.innerText = englishContent.warmUpText;
-    nutritionHydration.innerText = englishContent.nutritionHydration;
-    nutritionHydrationText.innerText = englishContent.nutritionHydrationText;
-    competitionDay.innerText = englishContent.competitionDay;
-    competitionDayText.innerText = englishContent.competitionDayText;
-    postCompetition.innerText = englishContent.postCompetition;
-    postCompetitionText.innerText = englishContent.postCompetitionText;
-  }
+  updateContent(languageSelection.value);
 });
+
+// Initialize with default language (English)
+updateContent('en');
