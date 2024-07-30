@@ -1,134 +1,140 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const frenchContent = {
-        title: "Votre Première Compétition de Judo : Un Guide pour les Athlètes du Restigouche Dojo",
-        programDescription: "Félicitations pour avoir franchi le pas vers votre première compétition de Judo. La compétition est un excellent moyen de tester vos compétences, de gagner de l'expérience et de grandir en tant qu'artiste martial. Ce guide vous aidera à vous préparer à la fois physiquement et mentalement pour le défi à venir.",
-        guideTitle: "Guide de Préparation pour la Compétition",
-        guideList: [
-            { id: "define-objectives", text: "1. Définissez vos Objectifs" },
-            { id: "define-objectives-text", text: "Avant de monter sur le tatami, clarifiez vos objectifs. Que ce soit pour tester vos techniques, acquérir de l'expérience ou repousser vos limites, avoir un objectif clair vous aidera à orienter votre préparation." },
-            { id: "create-game-plan", text: "2. Créez un Plan de Jeu" },
-            { id: "create-game-plan-text", text: "Un plan de jeu solide est crucial pour réussir en Judo. Ce plan doit décrire comment vous aborderez chaque match, en tenant compte des éléments suivants :" },
-            { id: "attacks", text: "Attaques : Choisissez vos projections principales (par exemple, O-Soto-Gari, Ippon-Seoi-Nage) et maîtrisez-les bien. Ayez quelques techniques de secours prêtes." },
-            { id: "groundwork", text: "Travail au Sol : Soyez prêt pour le Ne-Waza (travail au sol). Connaissez vos prises préférées (par exemple, Kesa-Gatame, Yoko-Shiho-Gatame) et vos soumissions (par exemple, Juji-Gatame)." },
-            { id: "defense", text: "Défense : Ayez des stratégies pour défendre contre les attaques courantes et vous remettre de positions défavorables." },
-            { id: "train-smart", text: "3. Entraînez-vous Intelligemment" },
-            { id: "train-smart-text", text: "La constance et un entraînement intelligent sont clés pour se préparer à une compétition de Judo." },
-            { id: "technical-drills", text: "Exercices Techniques : Concentrez-vous sur la perfection de vos techniques de projection et transitions. La pratique répétée développe la mémoire musculaire." },
-            { id: "randori", text: "Randori : Engagez-vous dans des randoris avec des partenaires de différents niveaux et tailles pour simuler les conditions de match." },
-            { id: "conditioning", text: "Conditionnement : Incorporez des exercices de force, de vitesse et d'agilité. Des exercices comme le sprint, les plyométriques et les entraînements de base amélioreront votre performance." },
-            { id: "mental-preparation", text: "4. Préparation Mentale" },
-            { id: "mental-preparation-text", text: "L'aspect mental du Judo est aussi important que la préparation physique." },
-            { id: "stay-calm", text: "Restez Calme : Apprenez à gérer le stress avant la compétition. Pratiquez la respiration profonde : inspirez par le nez pendant quatre secondes et expirez par la bouche pendant huit secondes." },
-            { id: "visualization", text: "Visualisation : Imaginez vos matchs dans votre esprit. Visualisez-vous en train d'exécuter des projections, de défendre et de réagir à différentes situations. Visualisez toujours des résultats positifs." },
-            { id: "positive-self-talk", text: "Discours Positif : Utilisez des affirmations pour renforcer votre confiance. Rappelez-vous de votre entraînement et de vos points forts." },
-            { id: "understand-rules", text: "5. Comprenez les Règles" },
-            { id: "understand-rules-text", text: "Familiarisez-vous avec les règles de la compétition de Judo pour éviter les pénalités et maximiser votre potentiel de scoring." },
-            { id: "scoring", text: "Scoring : Comprenez comment les points sont attribués pour les projections, les contrôles et les soumissions. L'Ippon (point complet) gagne le match, tandis que le Waza-Ari (demi-point) peut mener à une victoire éventuelle s'il est accumulé." },
-            { id: "penalties", text: "Pénalités : Apprenez les pénalités (Shido) pour les infractions aux règles. Évitez les actions qui entraînent des pénalités, telles que les violations de prise ou le ralentissement." },
-            { id: "gear-up", text: "6. Préparez votre Équipement" },
-            { id: "gear-up-text", text: "Assurez-vous d'avoir le bon équipement :" },
-            { id: "gi", text: "Gi (Judogi) : Votre gi doit être propre, en bon état et conforme aux spécifications de la compétition. Assurez-vous qu'il vous va bien." },
-            { id: "belt", text: "Ceinture : Portez une ceinture correspondant à votre grade." },
-            { id: "extras", text: "Extras : Apportez un gi de rechange, de l'eau, des collations et tout autre objet personnel dont vous pourriez avoir besoin." },
-            { id: "warm-up", text: "7. Échauffez-vous Correctement" },
-            { id: "warm-up-text", text: "Un bon échauffement prépare votre corps et votre esprit." },
-            { id: "routine", text: "Routine : Effectuez une routine d'échauffement familière pour préparer vos muscles et calmer vos nerfs. Incluez des étirements dynamiques et un léger randori." },
-            { id: "focus", text: "Concentration : Concentrez-vous sur votre échauffement, pas sur le match à venir. Les mouvements familiers vous aident à vous ancrer." },
-            { id: "nutrition-hydration", text: "8. Nutrition et Hydratation" },
-            { id: "nutrition-hydration-text", text: "Une bonne nutrition et hydratation sont cruciales pour une performance optimale." },
-            { id: "hydrate", text: "Hydratez-vous : Buvez beaucoup d'eau avant et le jour de la compétition." },
-            { id: "eat-well", text: "Mangez Bien : Consommez une alimentation équilibrée riche en protéines, en glucides et en graisses saines. Le jour de la compétition, optez pour des aliments légers et facilement digestibles." },
-            { id: "competition-day", text: "9. Le Jour de la Compétition" },
-            { id: "competition-day-text", text: "Le jour de la compétition, arrivez tôt et restez calme." },
-            { id: "arrival", text: "Arrivée : Donnez-vous suffisamment de temps pour vous enregistrer, vous échauffer et vous installer." },
-            { id: "warm-up-again", text: "Échauffez-vous à nouveau : Faites un léger échauffement pour préparer votre corps à la compétition." },
-            { id: "post-competition", text: "10. Réflexion Post-Compétition" },
-            { id: "post-competition-text", text: "Réfléchir à votre performance vous aide à identifier les domaines à améliorer." },
-            { id: "seek-feedback", text: "Cherchez des Retours : Demandez des commentaires constructifs à votre coach et à vos coéquipiers. Apprenez de vos matchs et de votre entraînement." },
-            { id: "reflect-on-experience", text: "Réfléchissez à l'Expérience : Considérez ce qui s'est bien passé et ce qui pourrait être amélioré. Utilisez ces informations pour guider votre entraînement futur." }
-        ]
-    };
+// Define content for different languages
+const frenchContent = {
+  title: "Votre Première Compétition de BJJ : Un Guide pour les Athlètes du Restigouche Dojo",
+  programDescription: "Félicitations pour avoir franchi le pas vers votre première compétition de Brazilian Jiu-Jitsu (BJJ). La compétition est un excellent moyen de tester vos compétences, de gagner de l'expérience et de grandir en tant qu'artiste martial. Ce guide vous aidera à vous préparer à la fois physiquement et mentalement pour le défi à venir.",
+  
+  guideTitle: "Guide de Préparation pour la Compétition",
+  guideList: [
+    { id: "set-goals", text: "1. Fixez des Objectifs Clairs" },
+    { id: "set-goals-text", text: "Comprenez pourquoi vous participez. Est-ce pour tester vos compétences, acquérir de l'expérience ou simplement repousser vos limites ? Avoir un objectif clair vous aidera à rester concentré et motivé." },
+    { id: "develop-game-plan", text: "2. Développez un Plan de Jeu" },
+    { id: "develop-game-plan-text", text: "Un plan de jeu est essentiel pour réussir. Il s'agit d'une stratégie détaillée pour chaque scénario possible." },
+    { id: "starting-position", text: "Position de Départ : Décidez si vous allez viser une prise ou tirer la garde." },
+    { id: "top-positions", text: "Positions Supérieures : Connaissez vos mouvements favoris pour passer la garde et maintenir le contrôle." },
+    { id: "bottom-positions", text: "Positions Inférieures : Ayez des balayages et des échappatoires spécifiques bien ancrés dans votre mémoire musculaire." },
+    { id: "submissions", text: "Soumissions : Concentrez-vous sur quelques soumissions à fort pourcentage que vous pouvez exécuter avec succès." },
+    { id: "defense", text: "Défense : Soyez prêt à défendre contre des attaques courantes et à vous remettre de positions défavorables." },
+    { id: "train-smart", text: "3. Entraînez-vous Intelligemment" },
+    { id: "train-smart-text", text: "La régularité est clé. Les sessions d'entraînement régulières amélioreront vos techniques, votre endurance et votre forme physique globale." },
+    { id: "spar-with-partners", text: "Sparrez avec Différents Partenaires : Cela vous exposera à différents styles et types de corps." },
+    { id: "drill-drill-drill", text: "Répétition, Répétition, Répétition : La répétition construit la compétence. Concentrez-vous sur les techniques de votre plan de jeu." },
+    { id: "conditioning", text: "Conditionnement : Incorporez des exercices de cardio, de renforcement musculaire et de flexibilité. La corde à sauter, la course et les exercices au poids du corps sont d'excellents choix." },
+    { id: "mental-preparation", text: "4. Préparation Mentale" },
+    { id: "mental-preparation-text", text: "Votre état d'esprit est tout aussi important que votre préparation physique." },
+    { id: "relax-and-breathe", text: "Relaxez-vous et Respirez : Apprenez à contrôler votre respiration. Pratiquez la respiration diaphragmatique : inspirez par le nez pendant quatre secondes, remplissez vos poumons, et expirez par la bouche pendant huit secondes." },
+    { id: "visualization", text: "Visualisation : Imaginez vos matchs dans votre esprit. Voyez-vous exécuter votre plan de jeu, rester calme et gérer les défis. Visualisez toujours des résultats positifs." },
+    { id: "stay-positive", text: "Restez Positif : Remplacez les pensées négatives par des affirmations positives. Croyez en votre entraînement et en votre capacité à bien performer." },
+    { id: "understand-rules", text: "5. Comprenez les Règles" },
+    { id: "understand-rules-text", text: "Familiarisez-vous avec les règles et le système de points du tournoi." },
+    { id: "takedown-or-throw", text: "Prise ou Projection : 2 points" },
+    { id: "sweep", text: "Balayage : 2 points" },
+    { id: "knee-on-belly", text: "Genou sur le Ventre : 2 points" },
+    { id: "passing-guard", text: "Passage de Garde : 3 points" },
+    { id: "mount-position", text: "Position de Montée : 4 points" },
+    { id: "gear-up", text: "6. Préparez votre Équipement" },
+    { id: "gear-up-text", text: "Assurez-vous d'avoir le bon équipement." },
+    { id: "gi", text: "Gi : Assurez-vous que votre gi est conforme aux règles de l’IBJJF ou aux exigences spécifiques du tournoi. Il doit être propre et en bon état." },
+    { id: "belt", text: "Ceinture : Portez une ceinture correspondant à votre grade." },
+    { id: "mouthguard", text: "Protège-dents : Protégez vos dents." },
+    { id: "extras", text: "Extras : Apportez un gi de rechange, de l'eau, des collations et tout autre objet personnel dont vous pourriez avoir besoin." },
+    { id: "warm-up", text: "7. Échauffez-vous Correctement" },
+    { id: "warm-up-text", text: "Un bon échauffement aide à calmer votre esprit et à préparer votre corps." },
+    { id: "routine", text: "Routine : Effectuez une routine d'échauffement familière que vous faites avant les sessions d'entraînement." },
+    { id: "focus", text: "Concentration : Concentrez-vous sur vos mouvements et votre respiration, et non sur les matchs à venir." },
+    { id: "nutrition-hydration", text: "8. Nutrition et Hydratation" },
+    { id: "nutrition-hydration-text", text: "Votre performance dépend de la manière dont vous alimentez votre corps." },
+    { id: "hydrate", text: "Hydratez-vous : Buvez beaucoup d'eau avant la compétition." },
+    { id: "eat-smart", text: "Mangez Bien : Consommez une alimentation équilibrée riche en protéines, en glucides et en graisses saines. Le jour de la compétition, mangez léger et des aliments facilement digestibles." },
+    { id: "competition-day", text: "9. Le Jour de la Compétition" },
+    { id: "competition-day-text", text: "Le jour de la compétition, arrivez tôt et restez calme." },
+    { id: "arrival", text: "Arrivée : Vérifiez le programme et familiarisez-vous avec le lieu." },
+    { id: "warm-up-again", text: "Échauffez-vous à nouveau : Faites un échauffement léger pour préparer votre corps à la compétition." },
+    { id: "post-competition", text: "10. Réflexion Post-Compétition" },
+    { id: "post-competition-text", text: "Chaque compétition est une expérience d'apprentissage." },
+    { id: "review-performance", text: "Révisez votre Performance : Analysez ce qui s'est bien passé et ce qui pourrait être amélioré." },
+    { id: "set-new-goals", text: "Fixez de Nouveaux Objectifs : Utilisez l'expérience pour définir de nouveaux objectifs pour les compétitions futures." }
+  ]
+};
 
-    const englishContent = {
-        title: "Your First Judo Competition: A Guide for Restigouche Dojo Athletes",
-        programDescription: "Congratulations on taking the step to compete in your first Judo tournament. Competing is a fantastic way to test your skills, gain experience, and grow as a martial artist. This guide will help you prepare both physically and mentally for the challenge ahead.",
-        guideTitle: "Competition Preparation Guide",
-        guideList: [
-            { id: "define-objectives", text: "1. Define Your Objectives" },
-            { id: "define-objectives-text", text: "Before you step onto the mat, clarify your goals. Whether it’s to test your skills, gain experience, or push your limits, having a clear objective will help guide your preparation." },
-            { id: "create-game-plan", text: "2. Create a Game Plan" },
-            { id: "create-game-plan-text", text: "A solid game plan is crucial for Judo competition. Your game plan should outline how you will approach each match, considering the following elements:" },
-            { id: "attacks", text: "Attacks: Choose your main throws (e.g., O-Soto-Gari, Ippon-Seoi-Nage) and master them well. Have a few backup techniques ready." },
-            { id: "groundwork", text: "Groundwork: Be prepared for Ne-Waza (ground work). Know your preferred pins (e.g., Kesa-Gatame, Yoko-Shiho-Gatame) and submissions (e.g., Juji-Gatame)." },
-            { id: "defense", text: "Defense: Have strategies for defending against common attacks and recovering from unfavorable positions." },
-            { id: "train-smart", text: "3. Train Smart" },
-            { id: "train-smart-text", text: "Consistency and smart training are key for preparing for a Judo competition." },
-            { id: "technical-drills", text: "Technical Drills: Focus on perfecting your throwing techniques and transitions. Repetitive practice builds muscle memory." },
-            { id: "randori", text: "Randori: Engage in randoris with partners of different levels and sizes to simulate match conditions." },
-            { id: "conditioning", text: "Conditioning: Include strength, speed, and agility exercises. Sprints, plyometrics, and core training will enhance your performance." },
-            { id: "mental-preparation", text: "4. Mental Preparation" },
-            { id: "mental-preparation-text", text: "The mental aspect of Judo is as important as physical preparation." },
-            { id: "stay-calm", text: "Stay Calm: Learn to manage pre-competition stress. Practice deep breathing: inhale through your nose for four seconds, and exhale through your mouth for eight seconds." },
-            { id: "visualization", text: "Visualization: Imagine your matches in your mind. Visualize yourself executing throws, defending, and reacting to various situations. Always visualize positive outcomes." },
-            { id: "positive-self-talk", text: "Positive Self-Talk: Use affirmations to boost your confidence. Remind yourself of your training and strengths." },
-            { id: "understand-rules", text: "5. Understand the Rules" },
-            { id: "understand-rules-text", text: "Familiarize yourself with the competition rules to avoid penalties and maximize scoring potential." },
-            { id: "scoring", text: "Scoring: Understand how points are awarded for throws, holds, and submissions. Ippon (full point) wins the match, while Waza-Ari (half-point) can lead to eventual victory if accumulated." },
-            { id: "penalties", text: "Penalties: Learn about penalties (Shido) for rule violations. Avoid actions that result in penalties, such as grip violations or stalling." },
-            { id: "gear-up", text: "6. Gear Up" },
-            { id: "gear-up-text", text: "Make sure you have the right equipment:" },
-            { id: "gi", text: "Gi (Judogi): Your gi should be clean, in good condition, and compliant with competition specifications. Ensure it fits well." },
-            { id: "belt", text: "Belt: Wear a belt that corresponds to your rank." },
-            { id: "extras", text: "Extras: Bring a spare gi, water, snacks, and any other personal items you might need." },
-            { id: "warm-up", text: "7. Warm Up Properly" },
-            { id: "warm-up-text", text: "A good warm-up prepares your body and mind." },
-            { id: "routine", text: "Routine: Follow a familiar warm-up routine to prepare your muscles and calm your nerves. Include dynamic stretches and light randori." },
-            { id: "focus", text: "Focus: Concentrate on your warm-up, not on the upcoming match. Familiar movements help center you." },
-            { id: "nutrition-hydration", text: "8. Nutrition and Hydration" },
-            { id: "nutrition-hydration-text", text: "Proper nutrition and hydration are crucial for optimal performance." },
-            { id: "hydrate", text: "Hydrate: Drink plenty of water before and on the day of the competition." },
-            { id: "eat-well", text: "Eat Well: Maintain a balanced diet rich in proteins, carbohydrates, and healthy fats. On competition day, choose light and easily digestible foods." },
-            { id: "competition-day", text: "9. Competition Day" },
-            { id: "competition-day-text", text: "On the day of the competition, arrive early and stay calm." },
-            { id: "arrival", text: "Arrival: Give yourself ample time to check in, warm up, and get settled." },
-            { id: "warm-up-again", text: "Warm Up Again: Do a light warm-up to prepare your body for competition." },
-            { id: "post-competition", text: "10. Post-Competition Reflection" },
-            { id: "post-competition-text", text: "Reflecting on your performance helps identify areas for improvement." },
-            { id: "seek-feedback", text: "Seek Feedback: Ask for constructive feedback from your coach and teammates. Learn from your matches and training." },
-            { id: "reflect-on-experience", text: "Reflect on the Experience: Consider what went well and what could be improved. Use this information to guide your future training." }
-        ]
-    };
+const englishContent = {
+  title: "Your First BJJ Competition: A Guide for Restigouche Dojo Athletes",
+  programDescription: "Congratulations on taking the step to compete in your first Brazilian Jiu-Jitsu (BJJ) tournament. Competing is a fantastic way to test your skills, gain experience, and grow as a martial artist. This guide will help you prepare both physically and mentally for the challenge ahead.",
+  
+  guideTitle: "Competition Preparation Guide",
+  guideList: [
+    { id: "set-goals", text: "1. Set Clear Goals" },
+    { id: "set-goals-text", text: "Understand why you’re competing. Is it to test your skills, gain experience, or simply push your boundaries? Having a clear purpose will help you stay focused and motivated." },
+    { id: "develop-game-plan", text: "2. Develop a Game Plan" },
+    { id: "develop-game-plan-text", text: "A game plan is essential for success. This isn’t just a vague idea but a detailed strategy for every possible scenario." },
+    { id: "starting-position", text: "Starting Position: Decide whether you’ll aim for a takedown or pull guard." },
+    { id: "top-positions", text: "Top Positions: Know your go-to moves for passing guard and maintaining control." },
+    { id: "bottom-positions", text: "Bottom Positions: Have specific sweeps and escapes well-rehearsed." },
+    { id: "submissions", text: "Submissions: Focus on a few high-percentage submissions you can execute reliably." },
+    { id: "defense", text: "Defense: Be prepared to defend against common attacks and recover from disadvantageous positions." },
+    { id: "train-smart", text: "3. Train Smart" },
+    { id: "train-smart-text", text: "Consistency is key. Regular training will improve your techniques, endurance, and overall fitness." },
+    { id: "spar-with-partners", text: "Spar with Different Partners: This exposes you to various styles and body types." },
+    { id: "drill-drill-drill", text: "Drill, Drill, Drill: Repetition builds skill. Focus on the techniques in your game plan." },
+    { id: "conditioning", text: "Conditioning: Incorporate cardio, strength training, and flexibility exercises. Jump rope, run, and do bodyweight exercises." },
+    { id: "mental-preparation", text: "4. Mental Preparation" },
+    { id: "mental-preparation-text", text: "Your mindset is just as crucial as physical preparation." },
+    { id: "relax-and-breathe", text: "Relax and Breathe: Learn to control your breathing. Practice diaphragmatic breathing: inhale through your nose for four seconds, fill your lungs, and exhale through your mouth for eight seconds." },
+    { id: "visualization", text: "Visualization: Picture your matches in your mind. See yourself executing your game plan, staying calm, and handling challenges. Always visualize positive outcomes." },
+    { id: "stay-positive", text: "Stay Positive: Replace negative thoughts with positive affirmations. Believe in your training and your ability to perform well." },
+    { id: "understand-rules", text: "5. Understand the Rules" },
+    { id: "understand-rules-text", text: "Familiarize yourself with the tournament rules and scoring system." },
+    { id: "takedown-or-throw", text: "Takedown or Throw: 2 points" },
+    { id: "sweep", text: "Sweep: 2 points" },
+    { id: "knee-on-belly", text: "Knee on Belly: 2 points" },
+    { id: "passing-guard", text: "Passing Guard: 3 points" },
+    { id: "mount-position", text: "Mount Position: 4 points" },
+    { id: "gear-up", text: "6. Gear Up" },
+    { id: "gear-up-text", text: "Make sure you have the right gear." },
+    { id: "gi", text: "Gi: Ensure your gi meets the IBJJF or tournament-specific requirements. It should be clean and in good condition." },
+    { id: "belt", text: "Belt: Wear a belt corresponding to your rank." },
+    { id: "mouthguard", text: "Mouthguard: Protect your teeth." },
+    { id: "extras", text: "Extras: Bring an extra gi, water, snacks, and any other personal items you might need." },
+    { id: "warm-up", text: "7. Warm Up Properly" },
+    { id: "warm-up-text", text: "A good warm-up helps calm your mind and prepare your body." },
+    { id: "routine", text: "Routine: Do a familiar warm-up routine that you do before training sessions." },
+    { id: "focus", text: "Focus: Concentrate on your movements and breathing, not on the upcoming matches." },
+    { id: "nutrition-hydration", text: "8. Nutrition and Hydration" },
+    { id: "nutrition-hydration-text", text: "Your performance depends on how you fuel your body." },
+    { id: "hydrate", text: "Stay Hydrated: Drink plenty of water leading up to the competition." },
+    { id: "eat-smart", text: "Eat Smart: Consume a balanced diet rich in protein, carbs, and healthy fats. On competition day, eat light and easily digestible foods." },
+    { id: "competition-day", text: "9. Competition Day" },
+    { id: "competition-day-text", text: "On competition day, arrive early and stay calm." },
+    { id: "arrival", text: "Arrival: Check the schedule and familiarize yourself with the venue." },
+    { id: "warm-up-again", text: "Warm Up Again: Do a light warm-up to get your body ready for the competition." },
+    { id: "post-competition", text: "10. Post-Competition Reflection" },
+    { id: "post-competition-text", text: "Every competition is a learning experience." },
+    { id: "review-performance", text: "Review Your Performance: Analyze what went well and what could be improved." },
+    { id: "set-new-goals", text: "Set New Goals: Use the experience to set new goals for future competitions." }
+  ]
+};
 
-    function updateContent(language) {
-        const content = language === 'fr' ? frenchContent : englishContent;
+function updateContent(language) {
+  const content = language === "fr" ? frenchContent : englishContent;
 
-        document.querySelector('#title').textContent = content.title;
-        document.querySelector('#program-description').textContent = content.programDescription;
-        document.querySelector('#guide-title').textContent = content.guideTitle;
+  document.getElementById("title").innerText = content.title;
+  document.getElementById("program-description").innerText = content.programDescription;
+  document.getElementById("guide-title").innerText = content.guideTitle;
 
-        const guideList = document.querySelector('#guide-list');
-        guideList.innerHTML = '';
-
-        content.guideList.forEach(item => {
-            const listItem = document.createElement('li');
-            listItem.id = item.id;
-
-            if (item.id.includes('-text')) {
-                listItem.textContent = item.text;
-                listItem.style.marginLeft = '20px';
-            } else {
-                listItem.textContent = item.text;
-                listItem.style.fontWeight = 'bold';
-            }
-
-            guideList.appendChild(listItem);
-        });
+  content.guideList.forEach(item => {
+    const element = document.getElementById(item.id);
+    if (element) {
+      element.innerText = item.text;
     }
+  });
+}
 
-    const languageSwitcher = document.querySelector('#language-selection');
-    languageSwitcher.addEventListener('change', (event) => {
-        updateContent(event.target.value);
-    });
-
-    updateContent('en'); // Default to English on page load
+// Add event listener to language selection dropdown
+document.getElementById("language-selection").addEventListener("change", function () {
+  const selectedLanguage = this.value;
+  updateContent(selectedLanguage);
+  console.log('Selected language:', selectedLanguage);
 });
+
+// Initialize with default language (English)
+updateContent('en');
+
