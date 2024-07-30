@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { id: "define-objectives-text", text: "Before you step onto the mat, clarify your goals. Whether it’s to test your techniques, gain competitive experience, or push your limits, having a clear objective will help guide your preparation." },
             { id: "create-game-plan", text: "2. Create a Game Plan" },
             { id: "create-game-plan-text", text: "A solid game plan is crucial for success in Judo. This plan should outline how you will approach each match, considering the following elements:" },
-            { id: "attacks", text: "Attacks: Choose your main throws (e.g., O-Soto-Gari, Ippon-Seoi-Nage) and perfect them. Have a few backup techniques ready." },
+            { id: "attacks", text: "Attacks: Choose your main throws (e.g., O-Soto-Gari, Ippon-Seoi-Nage) and practice them thoroughly. Have a few backup techniques ready." },
             { id: "groundwork", text: "Groundwork: Be prepared for Ne-Waza (ground work). Know your preferred pins (e.g., Kesa-Gatame, Yoko-Shiho-Gatame) and submissions (e.g., Juji-Gatame)." },
             { id: "defense", text: "Defense: Have strategies for defending against common attacks and recovering from unfavorable positions." },
             { id: "train-smart", text: "3. Train Smart" },
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
     };
 
-    function populateContent(language) {
+    function updateContent(language) {
         const content = language === 'fr' ? frenchContent : englishContent;
 
         document.querySelector('#title').textContent = content.title;
@@ -126,8 +126,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.querySelector('#language-switcher').addEventListener('change', (event) => {
-        populateContent(event.target.value);
+        updateContent(event.target.value);
     });
 
-    populateContent('en'); // Default to English on page load
+    updateContent('en'); // Default to English on page load
 });
