@@ -36,48 +36,60 @@ const frenchContent = {
   avoid_common_mistakes_text_3: "Une autre erreur est de projeter nos propres désirs et attentes sur nos enfants. Il est essentiel de se rappeler que le parcours martial de votre enfant lui appartient. Encouragez-le à définir ses propres objectifs, à poursuivre ses passions et à trouver de la joie dans ses réalisations, qu'elles soient grandes ou petites.",
   avoid_common_mistakes_text_4: "En évitant ces erreurs courantes et en adoptant une approche de soutien et de bienveillance, vous pouvez aider votre enfant à s'épanouir au Restigouche Dojo et au-delà.",
   boost_self_esteem: "Chapitre 3 : Renforcer l'estime de soi",
-  boost_self_esteem_text: "L'estime de soi est un aspect fondamental du bien-être et du succès de l'enfant dans les arts martiaux. Au Restigouche Dojo, nous nous efforçons de créer un environnement de soutien et d'autonomisation où chaque enfant se sent valorisé et confiant.",
-  boost_self_esteem_text_2: "Une façon pour les parents de contribuer à renforcer l'estime de soi de leur enfant est d'offrir des éloges et des encouragements sincères. Reconnaissez leurs efforts, célébrez leurs progrès et mettez en avant leurs forces. En vous concentrant sur leurs qualités et réalisations positives, vous renforcez leur valeur personnelle et leur confiance.",
-  boost_self_esteem_text_3: "De plus, il est essentiel de fournir un espace sûr pour que votre enfant puisse exprimer ses pensées et explorer ses capacités sans peur du jugement ou de la critique. Encouragez-le à relever des défis, à apprendre de ses erreurs et à croire en son potentiel. En inculquant une mentalité de croissance et de résilience, vous les équipez des outils nécessaires pour surmonter les obstacles et s'épanouir dans les arts martiaux et dans la vie.",
-  recognize_energy_drainers: "Chapitre 4 : Reconnaître les puits émotionnels",
-  recognize_energy_drainers_text: "Dans nos efforts pour soutenir nos enfants, nous devons être attentifs aux comportements et attitudes qui peuvent, sans le vouloir, miner leur confiance et leur enthousiasme pour les arts martiaux. Au Restigouche Dojo, nous appelons ces éléments des 'puits émotionnels' – des actions ou des commentaires qui drainent le réservoir émotionnel de votre enfant et diminuent sa motivation.",
-  recognize_energy_drainers_text_2: "Les puits émotionnels peuvent se manifester sous diverses formes, telles qu'une focalisation excessive sur la victoire à tout prix, des attentes irréalistes ou des critiques sévères de leur performance. Ces interactions négatives peuvent éroder l'estime de soi de votre enfant, diminuer son plaisir dans les arts martiaux, et même entraîner l'épuisement ou le décrochage.",
-  recognize_energy_drainers_text_3: "En reconnaissant et en éliminant les puits émotionnels de vos interactions avec votre enfant, vous créez un environnement plus positif et de soutien au Restigouche Dojo. Ensemble, nous pouvons veiller à ce que chaque enfant se sente valorisé, respecté et habilité à atteindre son plein potentiel.",
-  implement_tank_fillers: "Chapitre 5 : Mettre en œuvre des éléments de remplissage",
-  implement_tank_fillers_text: "Au Restigouche Dojo, nous croyons au pouvoir du renforcement positif et de l'encouragement pour élever et motiver nos jeunes athlètes. En mettant en œuvre des 'éléments de remplissage' – des actions et des comportements qui reconstituent le réservoir émotionnel de votre enfant – vous pouvez créer une atmosphère de soutien et d'autonomisation où ils peuvent s'épanouir.",
-  implement_tank_fillers_text_2: "Les éléments de remplissage peuvent inclure des éloges spécifiques et sincères, l'expression de l'appréciation pour leurs efforts, et l'écoute active de leurs pensées et sentiments. En affirmant leurs forces, en validant leurs expériences, et en fournissant un soutien inconditionnel, vous favorisez leur estime de soi et leur résilience.",
-  implement_tank_fillers_text_3: "De plus, des indices non verbaux tels que sourire, hocher la tête, et maintenir un contact visuel peuvent transmettre chaleur, acceptation et encouragement. En étant présent, engagé, et attentif aux besoins de votre enfant, vous démontrez votre soutien indéfectible et votre croyance en ses capacités.",
+  boost_self_esteem_text: "L'estime de soi est un aspect fondamental du bien-être et du succès d'un enfant dans les arts martiaux. Au Restigouche Dojo, nous nous efforçons de favoriser un environnement de soutien et d'encouragement où chaque enfant se sent valorisé et confiant.",
+  boost_self_esteem_text_2: "Une façon dont les parents peuvent contribuer à renforcer l'estime de soi de leur enfant est d'offrir des éloges et des encouragements sincères. Reconnaissez leurs efforts, célébrez leurs progrès et mettez en avant leurs points forts. En vous concentrant sur leurs qualités et réalisations positives, vous contribuez à renforcer leur estime de soi et leur confiance.",
+  boost_self_esteem_text_3: "De plus, il est essentiel de fournir un espace sûr pour que votre enfant puisse s'exprimer et explorer ses capacités sans crainte de jugement ou de critique. Encouragez-le à relever des défis, à apprendre de ses erreurs et à croire en son potentiel. En instillant une mentalité de croissance et de résilience, vous lui donnez les outils nécessaires pour surmonter les obstacles et s'épanouir dans les arts martiaux et dans la vie.",
+  recognize_energy_drainers: "Chapitre 4 : Reconnaître les vidanges d'énergie",
+  recognize_energy_drainers_text: "Dans nos efforts pour soutenir nos enfants, nous devons être attentifs aux comportements et attitudes qui pourraient mineurir leur confiance et leur enthousiasme pour les arts martiaux. Au Restigouche Dojo, nous appelons ces comportements des 'vidanges d'énergie' – des actions ou des commentaires qui drainent le réservoir émotionnel de votre enfant et diminuent sa motivation.",
+  recognize_energy_drainers_text_2: "Les vidanges d'énergie peuvent prendre diverses formes, telles qu'une concentration excessive sur la victoire à tout prix, la définition d'attentes irréalistes ou la critique sévère de leurs performances. Ces interactions négatives peuvent éroder l'estime de soi de votre enfant, réduire son plaisir des arts martiaux et même entraîner un épuisement ou un abandon.",
+  recognize_energy_drainers_text_3: "En reconnaissant et en éliminant les vidanges d'énergie de vos interactions avec votre enfant, vous créez un environnement plus positif et de soutien au Restigouche Dojo. Ensemble, nous pouvons veiller à ce que chaque enfant se sente valorisé, respecté et habilité à atteindre son plein potentiel.",
+  implement_tank_fillers: "Chapitre 5 : Mettre en œuvre des remplisseurs de réservoir",
+  implement_tank_fillers_text: "Au Restigouche Dojo, nous croyons en la puissance du renforcement positif et de l'encouragement pour élever et motiver nos jeunes athlètes. En mettant en œuvre des 'remplisseurs de réservoir' – des actions et des comportements qui reconstituent le réservoir émotionnel de votre enfant – vous pouvez créer une atmosphère nourrissante et stimulante où ils peuvent s'épanouir.",
+  implement_tank_fillers_text_2: "Les remplisseurs de réservoir peuvent inclure offrir des éloges spécifiques et sincères, exprimer de l'appréciation pour leurs efforts et écouter activement leurs pensées et sentiments. En affirmant leurs points forts, en validant leurs expériences et en offrant un soutien inconditionnel, vous contribuez à renforcer leur estime de soi et leur résilience.",
+  implement_tank_fillers_text_3: "De plus, des signaux non verbaux tels que sourire, hocher la tête et maintenir le contact visuel peuvent transmettre chaleur, acceptation et encouragement. En étant présent, engagé et attentif aux besoins de votre enfant, vous montrez votre soutien indéfectible et votre croyance en ses capacités.",
   implement_tank_fillers_text_4: "Ensemble, remplissons notre dojo de positivité, d'encouragement et de soutien, en veillant à ce que chaque enfant se sente habilité à poursuivre ses objectifs martiaux avec confiance et joie."
 };
 
+// Function to update content based on selected language
 function updateContent(language) {
   const content = language === 'fr' ? frenchContent : englishContent;
-
-  document.getElementById("title").innerText = content.title;
-  document.getElementById("role_in_team").innerText = content.role_in_team;
-  document.getElementById("role_in_team_text").innerText = content.role_in_team_text;
-  document.getElementById("program_description").innerText = content.program_description;
-  document.getElementById("role_in_team_text_2").innerText = content.role_in_team_text_2;
-  document.getElementById("avoid_common_mistakes").innerText = content.avoid_common_mistakes;
-  document.getElementById("avoid_common_mistakes_text").innerText = content.avoid_common_mistakes_text;
-  document.getElementById("avoid_common_mistakes_text_2").innerText = content.avoid_common_mistakes_text_2;
-  document.getElementById("avoid_common_mistakes_text_3").innerText = content.avoid_common_mistakes_text_3;
-  document.getElementById("avoid_common_mistakes_text_4").innerText = content.avoid_common_mistakes_text_4;
-  document.getElementById("boost_self_esteem").innerText = content.boost_self_esteem;
-  document.getElementById("boost_self_esteem_text").innerText = content.boost_self_esteem_text;
-  document.getElementById("boost_self_esteem_text_2").innerText = content.boost_self_esteem_text_2;
-  document.getElementById("boost_self_esteem_text_3").innerText = content.boost_self_esteem_text_3;
-  document.getElementById("recognize_energy_drainers").innerText = content.recognize_energy_drainers;
-  document.getElementById("recognize_energy_drainers_text").innerText = content.recognize_energy_drainers_text;
-  document.getElementById("recognize_energy_drainers_text_2").innerText = content.recognize_energy_drainers_text_2;
-  document.getElementById("recognize_energy_drainers_text_3").innerText = content.recognize_energy_drainers_text_3;
-  document.getElementById("implement_tank_fillers").innerText = content.implement_tank_fillers;
-  document.getElementById("implement_tank_fillers_text").innerText = content.implement_tank_fillers_text;
-  document.getElementById("implement_tank_fillers_text_2").innerText = content.implement_tank_fillers_text_2;
-  document.getElementById("implement_tank_fillers_text_3").innerText = content.implement_tank_fillers_text_3;
-  document.getElementById("implement_tank_fillers_text_4").innerText = content.implement_tank_fillers_text_4;
+  
+  // Update elements with translated text
+  const elementsToUpdate = [
+    { id: 'title', text: content.title },
+    { id: 'role_in_team', text: content.role_in_team },
+    { id: 'role_in_team_text', text: content.role_in_team_text },
+    { id: 'program_description', text: content.program_description },
+    { id: 'role_in_team_text_2', text: content.role_in_team_text_2 },
+    { id: 'avoid_common_mistakes', text: content.avoid_common_mistakes },
+    { id: 'avoid_common_mistakes_text', text: content.avoid_common_mistakes_text },
+    { id: 'avoid_common_mistakes_text_2', text: content.avoid_common_mistakes_text_2 },
+    { id: 'avoid_common_mistakes_text_3', text: content.avoid_common_mistakes_text_3 },
+    { id: 'avoid_common_mistakes_text_4', text: content.avoid_common_mistakes_text_4 },
+    { id: 'boost_self_esteem', text: content.boost_self_esteem },
+    { id: 'boost_self_esteem_text', text: content.boost_self_esteem_text },
+    { id: 'boost_self_esteem_text_2', text: content.boost_self_esteem_text_2 },
+    { id: 'boost_self_esteem_text_3', text: content.boost_self_esteem_text_3 },
+    { id: 'recognize_energy_drainers', text: content.recognize_energy_drainers },
+    { id: 'recognize_energy_drainers_text', text: content.recognize_energy_drainers_text },
+    { id: 'recognize_energy_drainers_text_2', text: content.recognize_energy_drainers_text_2 },
+    { id: 'recognize_energy_drainers_text_3', text: content.recognize_energy_drainers_text_3 },
+    { id: 'implement_tank_fillers', text: content.implement_tank_fillers },
+    { id: 'implement_tank_fillers_text', text: content.implement_tank_fillers_text },
+    { id: 'implement_tank_fillers_text_2', text: content.implement_tank_fillers_text_2 },
+    { id: 'implement_tank_fillers_text_3', text: content.implement_tank_fillers_text_3 },
+    { id: 'implement_tank_fillers_text_4', text: content.implement_tank_fillers_text_4 },
+  ];
+  
+  elementsToUpdate.forEach(item => {
+    const element = document.getElementById(item.id);
+    if (element) {
+      element.textContent = item.text;
+    }
+  });
 }
 
-document.getElementById("language-selection").addEventListener("change", (event) => {
-  updateContent(event.target.value);
+// Set default language on page load
+document.addEventListener('DOMContentLoaded', () => {
+  updateContent('en'); // or 'fr' based on your default preference
 });
