@@ -244,7 +244,7 @@ body{
     background-position: center center; /* Center the image both vertically and horizontally */
     top: 4rem;
     width: 100%; /* Full width */
-    height: 150px; /* Fixed height, adjust as needed */
+    height: 300px; /* Fixed height, adjust as needed */
     position: fixed;
     display: flex; /* Use flexbox to center content if needed */
     justify-content: center; /* Center horizontally */
