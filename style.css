@@ -245,6 +245,7 @@ body{
     top: 4rem;
     height: auto; /* Adjust height based on content */
     width: 100%;
+    padding-top: 20%; /* Use padding to control aspect ratio indirectly */
     position: fixed;
   }
 }
