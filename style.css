@@ -239,16 +239,19 @@ body{
 @media only screen and (max-width: 31.25rem) {
   .banner-area {
     background-image: url('Photos/roundlogo.png');
-    background-size: contain; /* Use contain to keep the aspect ratio */
-    background-repeat: no-repeat; /* Prevent tiling of the image */
-    background-position: center center; /* Center the image in the container */
+    background-size: contain; /* Scale the image proportionally */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center center; /* Center the image both vertically and horizontally */
     top: 4rem;
-    height: auto; /* Adjust height based on content */
-    width: 100%;
-    padding-top: 20%; /* Use padding to control aspect ratio indirectly */
+    width: 100%; /* Full width */
+    height: 150px; /* Fixed height, adjust as needed */
     position: fixed;
+    display: flex; /* Use flexbox to center content if needed */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
   }
 }
+
 
 
 
