@@ -227,7 +227,7 @@ body{
 }
 
 .banner-area {
-  background-image: url('Photos/longlogo.png');
+  background-image: url('Photos/longlogo1.png');
   background-size: contain; /* Scale the image proportionally */
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-position: center center; /* Center the image */
