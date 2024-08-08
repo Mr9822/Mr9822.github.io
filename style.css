@@ -228,7 +228,7 @@ body{
 
 .banner-area {
   background-image: url('Photos/longlogo.png');
-  background-size: cover; /* Maintain the aspect ratio of the logo */
+  background-size: contain; /* Scale the image proportionally */
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-position: center center; /* Center the image */
   background-color: #4f9a91; /* Replace with the actual color code of the logo's background */
