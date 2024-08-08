@@ -238,7 +238,7 @@ body{
 
 @media only screen and (max-width: 31.25rem){
   .banner-area{
-    background-image: url('Photos/bannerlogosmall.jpg');
+    background-image: url('Photos/roundlogo.png');
     background-size: 100% 100%;
     background-position: center center;
     top: 4rem;
