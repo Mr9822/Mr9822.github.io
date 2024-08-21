@@ -157,10 +157,11 @@ h1 {
   }
 }
 
-  .gallery-img {
-    max-width: 100%; /* Ensures the image fits within its container */
-    height: auto;    /* Maintains the aspect ratio */
-    display: block;  /* Removes any extra spacing below the image */
-    margin: 0 auto;  /* Centers the image if it’s smaller than the container */
+.gallery-img {
+    width: 300px; /* Set the width you need */
+    height: auto; /* Adjust height proportionally */
+    display: block;
+    margin: 0 auto;
 }
+
 
