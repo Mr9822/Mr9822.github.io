@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 </ul>
             `;
 
-            galleryTitle.textContent = 'Galerie de Photos';
+            galleryTitle.textContent = 'Hal MacDonald';
             reserveTitle.textContent = 'Réservez Votre Place!';
             reserveContent.textContent = "Ne manquez pas cette occasion de vous entraîner avec Hal MacDonald, une ceinture noire très respectée qui a apporté des contributions significatives sur et en dehors des tapis. Réservez votre place dès aujourd'hui!";
         } else {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 </ul>
             `;
 
-            galleryTitle.textContent = 'Photo Gallery';
+            galleryTitle.textContent = 'Hal MacDonald';
             reserveTitle.textContent = 'Reserve Your Spot!';
             reserveContent.textContent = "Don’t miss this chance to train with Hal MacDonald, a highly respected Black Belt who has made significant contributions both on and off the mats. Reserve your spot today!";
         }
