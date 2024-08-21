@@ -157,11 +157,5 @@ h1 {
   }
 }
 
-.gallery-img {
-    width: 300px; /* Set the width you need */
-    height: auto; /* Adjust height proportionally */
-    display: block;
-    margin: 0 auto;
-}
 
 
