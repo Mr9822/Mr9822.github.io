@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
             detailsContent.innerHTML = `
                 <ul class="event-details">
                     <li><strong>Date :</strong> 8 octobre 2024</li>
-                    <li><strong>Heure :</strong> [Insérer Heure]</li>
+                    <li><strong>Heure :</strong> 18h-20h</li>
                     <li><strong>Lieu :</strong> Restigouche Dojo</li>
                     <li><strong>Inscription :</strong> Événement en espèces uniquement</li>
                 </ul>
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
             detailsContent.innerHTML = `
                 <ul class="event-details">
                     <li><strong>Date:</strong> October 8th, 2024</li>
-                    <li><strong>Time:</strong> [Insert Time]</li>
+                    <li><strong>Time:</strong> 6-8 pm</li>
                     <li><strong>Location:</strong> Restigouche Dojo</li>
                     <li><strong>Registration:</strong> Cash only event</li>
                 </ul>
