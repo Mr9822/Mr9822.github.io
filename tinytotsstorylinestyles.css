@@ -1,0 +1,92 @@
+/* CSS Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4F9A90;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #4F9A90;
+}
+
+.section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.animal-image {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 5px;
+  margin: 10px 0;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.animal-image:hover {
+  transform: scale(1.1); /* Scale image on hover */
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #327B6E;
+  color: #fff;
+  padding: 14px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cta-btn:hover {
+  background-color: #4F9A90;
+  cursor: pointer; /* Show a pointer cursor on hover */
+}
+
+/* Media Query for Responsiveness */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .section-title {
+    font-size: 20px;
+  }
+  .section p {
+    font-size: 16px;
+  }
+}
