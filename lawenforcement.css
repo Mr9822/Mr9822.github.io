@@ -83,19 +83,21 @@ h1 {
 
 .benefits-list li {
   position: relative;
-  padding-left: 30px;
+  padding-left: 30px; /* Space for the bullet */
   margin-bottom: 10px;
   color: #4F9A90;
+  font-size: 18px; /* Adjust font size for better readability */
 }
 
+/* Custom bullet point using the content property */
 .benefits-list li:before {
-  content: "\f00c";
-  font-family: FontAwesome;
+  content: "✓"; /* Use a checkmark for bullet points */
   position: absolute;
-  left: 0;
+  left: 0; /* Position it to the left */
   top: 0;
-  font-size: 18px;
-  color: #4F9A90;
+  font-size: 20px; /* Size of the bullet */
+  color: #4F9A90; /* Color matching the text */
+  line-height: 1.6; /* Align with text */
 }
 
 .testimonial {
