@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-image: url('https://images.unsplash.com/photo-1604093479659-c987d7805728'); /* Optional background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #e74c3c;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.event-details {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Event Info Styles */
+.event-info {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.info-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #f39c12;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Photo Section */
+.photo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.event-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.event-photo:hover {
+    transform: scale(1.05);
+}
+
+/* Agenda Section */
+.agenda {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.agenda-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #e74c3c;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.agenda-box p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    color: #f39c12;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .info-box, .agenda-box {
+        padding: 15px;
+    }
+
+    .event-photo {
+        width: 80%;
+    }
+}
