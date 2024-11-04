@@ -15,11 +15,11 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg, #0056b3, #003c87);
+    background: linear-gradient(135deg, #4F9A90, #3a7267);
     color: white;
     padding: 2rem 1rem;
     text-align: center;
-    border-bottom: 4px solid #003c87;
+    border-bottom: 4px solid #3a7267;
 }
 
 header h1 {
@@ -32,7 +32,7 @@ header h1 {
 .subtitle {
     font-size: 1.3rem;
     margin-top: 0.5rem;
-    color: #a0c4ff;
+    color: #c1e0dd;
 }
 
 /* Main Section Styles */
@@ -52,9 +52,9 @@ section {
 }
 
 h2 {
-    color: #0056b3;
+    color: #4F9A90;
     font-size: 1.8rem;
-    border-left: 6px solid #0056b3;
+    border-left: 6px solid #4F9A90;
     padding-left: 0.8rem;
     margin-bottom: 1rem;
 }
@@ -73,8 +73,8 @@ ul {
 }
 
 ul li {
-    background: #f0f4ff;
-    color: #003c87;
+    background: #e0f4f2;
+    color: #3a7267;
     padding: 0.7rem 1rem;
     border-radius: 6px;
     margin: 0.4rem 0;
@@ -85,7 +85,7 @@ ul li {
 
 ul li::before {
     content: "✓";
-    color: #0056b3;
+    color: #4F9A90;
     margin-right: 0.5rem;
 }
 
@@ -108,7 +108,7 @@ ul li::before {
 .event-info {
     display: grid;
     gap: 1rem;
-    background: #eef2ff;
+    background: #eaf5f4;
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
@@ -121,8 +121,8 @@ ul li::before {
 
 /* What to Expect Section */
 .what-to-expect ul li {
-    background: #e8f4fa;
-    color: #00576b;
+    background: #d4f0ec;
+    color: #4F9A90;
     padding: 0.8rem 1.2rem;
     font-weight: 500;
 }
@@ -130,7 +130,7 @@ ul li::before {
 .what-to-expect p:last-child {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #0056b3;
+    color: #4F9A90;
     margin-top: 1rem;
 }
 
@@ -138,11 +138,11 @@ ul li::before {
 footer {
     text-align: center;
     padding: 1.5rem 1rem;
-    background-color: #0056b3;
+    background-color: #4F9A90;
     color: white;
     font-size: 0.9rem;
     margin-top: 2rem;
-    border-top: 4px solid #003c87;
+    border-top: 4px solid #3a7267;
 }
 
 /* Animations */
