@@ -1,0 +1,158 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9fafb;
+    color: #333;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, #0056b3, #003c87);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 4px solid #003c87;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    color: #a0c4ff;
+}
+
+/* Main Section Styles */
+main {
+    width: 90%;
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s ease-in;
+}
+
+section {
+    margin-bottom: 2.5rem;
+}
+
+h2 {
+    color: #0056b3;
+    font-size: 1.8rem;
+    border-left: 6px solid #0056b3;
+    padding-left: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f0f4ff;
+    color: #003c87;
+    padding: 0.7rem 1rem;
+    border-radius: 6px;
+    margin: 0.4rem 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+ul li::before {
+    content: "✓";
+    color: #0056b3;
+    margin-right: 0.5rem;
+}
+
+/* Enhanced About Section */
+.bio, .what-to-expect {
+    margin-top: 1.5rem;
+}
+
+.bio p, .what-to-expect p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.expertise ul, .what-to-expect ul {
+    margin-top: 1rem;
+}
+
+/* Event Info Cards */
+.event-info {
+    display: grid;
+    gap: 1rem;
+    background: #eef2ff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.event-info p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* What to Expect Section */
+.what-to-expect ul li {
+    background: #e8f4fa;
+    color: #00576b;
+    padding: 0.8rem 1.2rem;
+    font-weight: 500;
+}
+
+.what-to-expect p:last-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0056b3;
+    margin-top: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    background-color: #0056b3;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    border-top: 4px solid #003c87;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
