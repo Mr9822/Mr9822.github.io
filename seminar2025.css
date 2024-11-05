@@ -32,7 +32,7 @@ header h1 {
 .subtitle {
     font-size: 1.3rem;
     margin-top: 0.5rem;
-    color: #c1e0dd;
+    color: white;
 }
 
 /* Main Section Styles */
@@ -57,6 +57,12 @@ h2 {
     border-left: 6px solid #4F9A90;
     padding-left: 0.8rem;
     margin-bottom: 1rem;
+}
+
+h3 {
+    color: #3a7267;
+    font-size: 1.4rem;
+    margin-top: 1rem;
 }
 
 p {
@@ -132,6 +138,28 @@ ul li::before {
     font-weight: bold;
     color: #4F9A90;
     margin-top: 1rem;
+}
+
+/* Action Call Section */
+.action-call {
+    background: #4F9A90;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.action-call h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: white
+}
+
+.action-call p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: white
 }
 
 /* Footer Styles */
