@@ -35,11 +35,6 @@ header h1 {
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    transition: color 0.3s ease;
-}
-
-header h1:hover {
-    color: #27ae60; /* Green hover effect */
 }
 
 /* Hero Section */
@@ -147,11 +142,6 @@ header h1:hover {
     margin-top: 0;
     letter-spacing: 1px;
     text-transform: capitalize;
-    transition: color 0.3s ease;
-}
-
-.feature-item h3:hover {
-    color: #27ae60; /* Hover color change */
 }
 
 .feature-item p {
@@ -218,25 +208,19 @@ footer p {
     letter-spacing: 0.5px;
 }
 
-/* Text Hover Effects for Links */
+/* Text Hover Effects for Links Removed */
 a {
     color: #3498db;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 a:hover {
     color: #e67e22;
 }
 
-/* Headings and Subheadings */
+/* Headings and Subheadings - No Hover Effect */
 h1, h2, h3, h4 {
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: capitalize;
-    transition: color 0.3s ease;
-}
-
-h1:hover, h2:hover, h3:hover, h4:hover {
-    color: #27ae60;
 }
