@@ -82,9 +82,10 @@ header h1 {
 }
 
 .cta-button:hover {
-    background: #d35400;
+    background: white;
     transform: translateY(-3px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    color: #4F9A90;
 }
 
 /* Features Section */
