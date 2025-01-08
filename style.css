@@ -868,77 +868,66 @@ iframe{
 
 /* Instructors Section */
 
-       .instructors-container {
-    width: 90%;
-    margin: 40px auto;
-    padding: 2rem;
-    text-align: center;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.instructors-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-bottom: 3rem;
-    color: #333;
-}
-
+/* Ensure the instructor cards are displayed correctly on different screen sizes */
 .instructors-list {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 20px; /* Adjust space between cards */
 }
 
 .instructor-card {
-    background-color: #fff;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    width: 250px;
+    flex: 1 1 30%; /* Takes up 30% of the container width, adjusts as needed */
+    min-width: 250px; /* Ensures the cards don’t shrink too small */
+    box-sizing: border-box;
     padding: 20px;
+    background-color: #f9f9f9; /* Example background */
+    border-radius: 8px;
     text-align: center;
-    transition: all 0.3s ease;
-}
-
-.instructor-card:hover {
-    border-color: #007BFF;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
 
 .instructor-card img {
-    width: 100%;
+    width: 100%; /* Makes images responsive */
+    max-width: 250px; /* Ensures image size is not too large */
     height: auto;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .instructor-card h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.2em;
     margin-bottom: 10px;
-    color: #333;
 }
 
 .instructor-card p {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+    word-wrap: break-word; /* Prevents text from overflowing */
 }
 
-.instructor-card a {
+.learn-more, .results-link {
     display: inline-block;
-    font-size: 1rem;
-    color: #007BFF;
-    margin: 5px 0;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
     text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
-.instructor-card a:hover {
-    text-decoration: underline;
+.learn-more:hover, .results-link:hover {
+    background-color: #0056b3;
 }
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .instructor-card {
+        flex: 1 1 100%; /* Takes full width on smaller screens */
+    }
+}
+
 /*INSTRUCTOR END*/
 
 
