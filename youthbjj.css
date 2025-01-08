@@ -32,9 +32,11 @@ header h1 {
 
 /* Hero Section */
 .hero {
-    background-color: #fff;
+    background-color: #e0e0e0; /* Gray background for the box */
     padding: 40px 0;
     text-align: center;
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: adds subtle shadow for depth */
 }
 
 .hero h2 {
@@ -53,13 +55,6 @@ header h1 {
 /* Features Section */
 .features {
     margin: 40px 0;
-}
-
-.features h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #333;
 }
 
 .feature-item {
@@ -160,4 +155,3 @@ footer p {
         padding: 12px 25px;
     }
 }
-
