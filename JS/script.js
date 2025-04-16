@@ -1,54 +1,43 @@
-// Language-specific content
 const frenchContent = {
-  title: "Programme d'Autodéfense pour Femmes",
-  welcomeTitle: "Bienvenue au Programme d'Autodéfense pour Femmes",
-  welcomeMessage: "*Dates à déterminer*",
-  programDescription: "Notre programme offre des outils concrets pour développer la confiance, la conscience de l’environnement, et la capacité à réagir sous pression. À travers des exercices pratiques et des mises en situation réalistes, les participantes apprendront à reconnaître les signes de danger, à se positionner de manière sécuritaire et à utiliser des techniques simples mais efficaces adaptées à diverses situations. Notre priorité est d'enseigner des stratégies de protection personnelle accessibles à toutes, peu importe l’âge ou la condition physique.",
-  enrollMessage: "Inscrivez-vous dès maintenant et commencez votre parcours vers plus de confiance et de sécurité !",
-  disclaimerButton: "Avertissement",
-  disclaimerMessage: "Ce programme ne garantit pas une protection absolue. Les participantes doivent rester conscientes de leur environnement et utiliser leur jugement dans les situations réelles. L’objectif est de renforcer la confiance et de fournir des outils utiles, mais la sécurité dépend de nombreux facteurs."
+  title: "Atelier d'autodéfense pour femmes",
+  sectionTitle1: "Atelier d'autodéfense pour femmes : Contrôle & Connexion <br>*Dates à déterminer*",
+  sectionContent1: "Nous sommes ravis de ramener notre atelier d'autodéfense pour femmes — avec un nouveau focus! Lors de notre session précédente, nous avons abordé la prévention, la création de distance et la recherche de sécurité. Cette fois, nous explorons ce qui se passe lorsque le contact est déjà établi.<br><br>Apprenez les techniques les plus efficaces de Judo et de Jiu-Jitsu Brésilien pour contrôler, immobiliser et neutraliser un agresseur jusqu'à l'arrivée des secours. Que vous soyez débutante ou athlète expérimentée, nos instructeurs qualifiés travailleront avec vous pour développer la confiance et le calme sous pression.<br><br>Notre objectif est de créer un environnement sécuritaire, inclusif et solidaire, où vous pourrez vous sentir forte et en contrôle — sans promouvoir l’agressivité ou la violence. Joignez-vous à nous pour apprendre à reprendre le contrôle lorsque ça compte le plus.",
+  sectionTitle2: "Inscrivez-vous maintenant !",
+  sectionContent2: "Faites le premier pas vers plus de confiance, de contrôle et de sécurité.",
+  disclaimerTitle: "Avertissement",
+  disclaimerContent: "Veuillez noter que notre programme ne garantit pas la sécurité absolue. Bien que nous enseignions des techniques d'autodéfense, chaque situation est unique et les participantes doivent faire preuve de jugement dans la vie réelle. Notre objectif est d'offrir des compétences et de renforcer la confiance, mais la sécurité dépend de nombreux facteurs."
 };
 
 const englishContent = {
-  title: "Women's Self-Defense Program",
-  welcomeTitle: "Welcome to the Women's Self-Defense Program",
-  welcomeMessage: "*Dates to be determined*",
-  programDescription: "Our program offers practical tools to build confidence, situational awareness, and the ability to respond under pressure. Through hands-on training and realistic scenarios, participants will learn to recognize danger, position themselves safely, and use simple yet effective techniques for various situations. Our priority is to teach personal protection strategies that are accessible to everyone, regardless of age or fitness level.",
-  enrollMessage: "Enroll now and begin your journey to greater confidence and safety!",
-  disclaimerButton: "Disclaimer",
-  disclaimerMessage: "This program does not guarantee absolute safety. Participants must remain aware of their surroundings and use their judgment in real-life situations. The goal is to build confidence and provide useful tools, but safety depends on many factors."
+  title: "Women's Self-Defense Workshop",
+  sectionTitle1: "Women's Self-Defense Workshop: Control & Connection <br>*Dates to be determined*",
+  sectionContent1: "We're excited to bring back our Women's Self-Defense Workshop — with a new focus! In our previous session, we covered prevention, creating distance, and seeking safety. This time, we’re diving into what happens when connection is already made.<br><br>Learn the most effective Judo and Brazilian Jiu-Jitsu techniques to control, immobilize, and neutralize an aggressor until help arrives. Whether you're a beginner or an experienced athlete, our skilled instructors will work with you to develop confidence and calm under pressure.<br><br>Our goal is to create a safe, supportive, and inclusive environment where you can feel empowered and strong — without promoting aggression or violence. Join us in learning how to take control when it matters most.",
+  sectionTitle2: "Enroll Now!",
+  sectionContent2: "Take the first step toward building confidence, control, and safety.",
+  disclaimerTitle: "Disclaimer",
+  disclaimerContent: "Please note that our program is not a guarantee of safety. While we teach self-defense techniques, situations can vary, and participants should use their judgment in real-life situations. Our goal is to empower women with skills and confidence, but ultimate safety relies on various factors."
 };
 
-// Selecting elements from the HTML
+// Target HTML elements
 const languageSelection = document.getElementById("language-selection");
-const title = document.querySelector("header h1");
-const welcomeTitle = document.getElementById("section-title-1");
-const welcomeMessage = document.getElementById("section-content-1");
-const programDescription = document.getElementById("section-content-1");
-const enrollMessage = document.getElementById("section-content-2");
-const disclaimerButton = document.getElementById("disclaimer-title");
-const disclaimerMessage = document.getElementById("disclaimer-content");
+const pageTitle = document.querySelector("header h1");
+const sectionTitle1 = document.getElementById("section-title-1");
+const sectionContent1 = document.getElementById("section-content-1");
 const sectionTitle2 = document.getElementById("section-title-2");
+const sectionContent2 = document.getElementById("section-content-2");
+const disclaimerTitle = document.getElementById("disclaimer-title");
+const disclaimerContent = document.getElementById("disclaimer-content").querySelector("p");
 
-// Event listener for language selection dropdown
+// Update content based on selected language
 languageSelection.addEventListener("change", function () {
-  const selectedLanguage = languageSelection.value;
+  const selectedLang = languageSelection.value;
+  const content = selectedLang === "fr" ? frenchContent : englishContent;
 
-  if (selectedLanguage === "fr") {
-    title.innerText = frenchContent.title;
-    welcomeTitle.innerHTML = `${frenchContent.welcomeTitle}<br>${frenchContent.welcomeMessage}`;
-    welcomeMessage.innerText = frenchContent.programDescription;
-    enrollMessage.innerText = frenchContent.enrollMessage;
-    disclaimerButton.innerText = frenchContent.disclaimerButton;
-    disclaimerMessage.innerText = frenchContent.disclaimerMessage;
-    sectionTitle2.innerText = "Inscrivez-vous maintenant !";
-  } else {
-    title.innerText = englishContent.title;
-    welcomeTitle.innerHTML = `${englishContent.welcomeTitle}<br>${englishContent.welcomeMessage}`;
-    welcomeMessage.innerText = englishContent.programDescription;
-    enrollMessage.innerText = englishContent.enrollMessage;
-    disclaimerButton.innerText = englishContent.disclaimerButton;
-    disclaimerMessage.innerText = englishContent.disclaimerMessage;
-    sectionTitle2.innerText = "Enroll Now!";
-  }
+  pageTitle.innerText = content.title;
+  sectionTitle1.innerHTML = content.sectionTitle1;
+  sectionContent1.innerHTML = content.sectionContent1;
+  sectionTitle2.innerText = content.sectionTitle2;
+  sectionContent2.innerText = content.sectionContent2;
+  disclaimerTitle.innerText = content.disclaimerTitle;
+  disclaimerContent.innerText = content.disclaimerContent;
 });
