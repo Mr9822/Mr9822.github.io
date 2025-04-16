@@ -1,31 +1,33 @@
 // Language-specific content
 const frenchContent = {
-  title: "Atelier d'Autodéfense pour Femmes",
-  welcomeMessage: "Bienvenue à l'Atelier d'Autodéfense pour Femmes au Restigouche Dojo! \n*Dates à déterminer*",
-  programDescription: "Notre atelier vise à créer un espace sûr pour les femmes en leur fournissant les outils dont elles ont besoin pour se défendre de manière à prioriser leur sécurité et leur bien-être. Que vous soyez une athlète chevronnée ou une débutante, nos instructeurs expérimentés travailleront avec vous pour développer les compétences dont vous avez besoin pour vous sentir autonome et confiante. Nous comprenons l'importance de se sentir en sécurité dans sa vie quotidienne, c'est pourquoi nous nous engageons à offrir un environnement de soutien et inclusif à tous les participants. Notre programme ne vise pas à promouvoir l'agression ou la violence, mais plutôt à inculquer un sentiment de confiance et de contrôle.",
-  enrollMessage: "Inscrivez-vous maintenant et faites le premier pas pour vous sentir en confiance et en sécurité !",
+  title: "Programme d'Autodéfense pour Femmes",
+  welcomeTitle: "Bienvenue au Programme d'Autodéfense pour Femmes",
+  welcomeMessage: "*Dates à déterminer*",
+  programDescription: "Notre programme offre des outils concrets pour développer la confiance, la conscience de l’environnement, et la capacité à réagir sous pression. À travers des exercices pratiques et des mises en situation réalistes, les participantes apprendront à reconnaître les signes de danger, à se positionner de manière sécuritaire et à utiliser des techniques simples mais efficaces adaptées à diverses situations. Notre priorité est d'enseigner des stratégies de protection personnelle accessibles à toutes, peu importe l’âge ou la condition physique.",
+  enrollMessage: "Inscrivez-vous dès maintenant et commencez votre parcours vers plus de confiance et de sécurité !",
   disclaimerButton: "Avertissement",
-  disclaimerMessage: "Cet atelier ne garantit pas la sécurité. Les participants doivent rester vigilants, éviter les situations dangereuses et utiliser les techniques d'auto-défense en dernier recours."
+  disclaimerMessage: "Ce programme ne garantit pas une protection absolue. Les participantes doivent rester conscientes de leur environnement et utiliser leur jugement dans les situations réelles. L’objectif est de renforcer la confiance et de fournir des outils utiles, mais la sécurité dépend de nombreux facteurs."
 };
 
 const englishContent = {
-  title: "Women's Self Defense Workshop",
-  welcomeMessage: "Welcome to the Women's Self Defense Workshop at Restigouche Dojo! \n*Dates to be determined*",
-  programDescription: "Our workshop focuses on creating a safe space for women by equipping them with the tools they need to defend themselves in a way that prioritizes their safety and well-being. Whether you're a seasoned athlete or a beginner, our experienced instructors will work with you to develop the skills you need to feel empowered and confident. We understand the importance of feeling secure in your daily life, which is why we are committed to providing a supportive and inclusive environment for all participants. Our program is not about promoting aggression or violence, but rather about instilling a sense of confidence and control.",
-  enrollMessage: "Enroll now and take the first step towards feeling confident and secure!",
+  title: "Women's Self-Defense Program",
+  welcomeTitle: "Welcome to the Women's Self-Defense Program",
+  welcomeMessage: "*Dates to be determined*",
+  programDescription: "Our program offers practical tools to build confidence, situational awareness, and the ability to respond under pressure. Through hands-on training and realistic scenarios, participants will learn to recognize danger, position themselves safely, and use simple yet effective techniques for various situations. Our priority is to teach personal protection strategies that are accessible to everyone, regardless of age or fitness level.",
+  enrollMessage: "Enroll now and begin your journey to greater confidence and safety!",
   disclaimerButton: "Disclaimer",
-  disclaimerMessage: "This workshop is not a guarantee of safety. Participants should stay vigilant, avoid dangerous situations, and use self-defense techniques as a last resort."
+  disclaimerMessage: "This program does not guarantee absolute safety. Participants must remain aware of their surroundings and use their judgment in real-life situations. The goal is to build confidence and provide useful tools, but safety depends on many factors."
 };
 
 // Selecting elements from the HTML
 const languageSelection = document.getElementById("language-selection");
 const title = document.querySelector("header h1");
+const welcomeTitle = document.getElementById("section-title-1");
 const welcomeMessage = document.getElementById("section-content-1");
 const programDescription = document.getElementById("section-content-1");
 const enrollMessage = document.getElementById("section-content-2");
 const disclaimerButton = document.getElementById("disclaimer-title");
 const disclaimerMessage = document.getElementById("disclaimer-content");
-const sectionTitle1 = document.getElementById("section-title-1");
 const sectionTitle2 = document.getElementById("section-title-2");
 
 // Event listener for language selection dropdown
@@ -34,21 +36,19 @@ languageSelection.addEventListener("change", function () {
 
   if (selectedLanguage === "fr") {
     title.innerText = frenchContent.title;
-    welcomeMessage.innerText = frenchContent.welcomeMessage;
-    programDescription.innerText = frenchContent.programDescription;
+    welcomeTitle.innerHTML = `${frenchContent.welcomeTitle}<br>${frenchContent.welcomeMessage}`;
+    welcomeMessage.innerText = frenchContent.programDescription;
     enrollMessage.innerText = frenchContent.enrollMessage;
     disclaimerButton.innerText = frenchContent.disclaimerButton;
     disclaimerMessage.innerText = frenchContent.disclaimerMessage;
-    sectionTitle1.innerText = "Bienvenue à l'Atelier d'Autodéfense pour Femmes";
     sectionTitle2.innerText = "Inscrivez-vous maintenant !";
   } else {
     title.innerText = englishContent.title;
-    welcomeMessage.innerText = englishContent.welcomeMessage;
-    programDescription.innerText = englishContent.programDescription;
+    welcomeTitle.innerHTML = `${englishContent.welcomeTitle}<br>${englishContent.welcomeMessage}`;
+    welcomeMessage.innerText = englishContent.programDescription;
     enrollMessage.innerText = englishContent.enrollMessage;
     disclaimerButton.innerText = englishContent.disclaimerButton;
     disclaimerMessage.innerText = englishContent.disclaimerMessage;
-    sectionTitle1.innerText = "Welcome to the Women's Self-Defense Workshop";
     sectionTitle2.innerText = "Enroll Now!";
   }
 });
