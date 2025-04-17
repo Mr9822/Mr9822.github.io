@@ -1,17 +1,17 @@
 const frenchContent = {
-  title: "Camp d’entraînement pré-été pour jeunes",
-  sectionTitle1: "Camp de conditionnement physique pour jeunes sur 4 semaines <br><em>Commence en juin!</em>",
-  sectionContent1: "Prépare-toi à transpirer, à progresser et à créer des liens avec ton équipe comme jamais auparavant. Notre camp de conditionnement de 4 semaines est conçu pour développer l’athlétisme, la discipline et une vraie chimie d’équipe — juste à temps pour l’été.<br><br>Ce programme dynamique comprend des séances stimulantes axées sur la force, l’endurance, la mobilité et l’état d’esprit. Des circuits au poids du corps aux jeux d’équipe et exercices inspirés du judo, c’est ici que les jeunes athlètes deviennent plus forts — ensemble.<br><br>Encadré par des entraîneurs expérimentés, chaque session vise à développer le courage, améliorer la forme physique et renforcer des valeurs comme le respect, l’effort et le travail d’équipe. Que tu te prépares pour un sport ou que tu veuilles simplement te dépasser, ce camp est pour toi.",
+  title: "Dojo Fit",
+  sectionTitle1: "Camp Dojo Fit de 4 semaines <br><em>Commence en juin!</em>",
+  sectionContent1: "Prépare-toi à transpirer, à évoluer et à créer des liens avec ton équipe comme jamais auparavant. Notre camp Dojo Fit de 4 semaines est conçu pour développer l’athlétisme, la discipline et une vraie chimie d’équipe — juste à temps pour l’été.<br><br>Ce programme est rempli de séances d'entraînement stimulantes et amusantes axées sur la force, l’endurance, la mobilité et l’état d’esprit. Des exercices de grappling aux circuits au poids du corps en passant par des jeux qui repoussent tes limites, c’est ici que les jeunes athlètes deviennent plus forts — ensemble.<br><br>Dirigée par des entraîneurs expérimentés, chaque séance est conçue pour développer la détermination, améliorer la forme physique et renforcer des valeurs fondamentales comme le respect, l’effort et le travail d’équipe. Que tu te prépares pour un sport ou que tu veuilles simplement te dépasser, ce camp est fait pour toi.",
   sectionTitle2: "Places limitées — Inscris-toi maintenant !",
   sectionContent2: "Fais de cet été ton plus fort à ce jour. Apprends. Transpire. Crée des liens. Répète.",
   disclaimerTitle: "Avertissement",
-  disclaimerContent: "Ce camp est axé sur la condition physique. Tous les participants doivent être prêts à un niveau d’activité modéré à élevé. Veuillez nous informer de toute condition médicale ou blessure avant de participer. Nos instructeurs veilleront à adapter les exercices au besoin pour assurer un environnement sécuritaire et positif."
+  disclaimerContent: "Ceci est un camp de conditionnement physique. Tous les participants doivent être prêts à un niveau d’activité modéré à élevé. Veuillez nous informer de toute condition médicale ou blessure avant de participer. Nos instructeurs sont engagés à assurer la sécurité et adapteront les exercices si nécessaire pour garantir un environnement positif et sécuritaire."
 };
 
 const englishContent = {
-  title: "Youth Pre-Summer Training Camp",
-  sectionTitle1: "4-Week Youth Physical Training Camp <br><em>Starts this June!</em>",
-  sectionContent1: "Get ready to sweat, grow, and bond with your teammates like never before. Our 4-week physical training camp is designed to build athleticism, discipline, and real team chemistry — just in time for summer.<br><br>This program is packed with challenging and fun training sessions focused on strength, endurance, mobility, and mindset. From grappling drills and bodyweight circuits to games that push your limits, this is where young athletes become stronger — together.<br><br>Led by experienced coaches, every session is built around developing grit, improving fitness, and reinforcing core values like respect, effort, and teamwork. Whether you're preparing for sport or just want to level up, this camp is for you.",
+  title: "Dojo Fit",
+  sectionTitle1: "4-Week Dojo Fit Camp <br><em>Starts this June!</em>",
+  sectionContent1: "Get ready to sweat, grow, and bond with your teammates like never before. Our 4-week Dojo Fit camp is designed to build athleticism, discipline, and real team chemistry — just in time for summer.<br><br>This program is packed with challenging and fun training sessions focused on strength, endurance, mobility, and mindset. From grappling drills and bodyweight circuits to games that push your limits, this is where young athletes become stronger — together.<br><br>Led by experienced coaches, every session is built around developing grit, improving fitness, and reinforcing core values like respect, effort, and teamwork. Whether you're preparing for sport or just want to level up, this camp is for you.",
   sectionTitle2: "Spots Are Limited — Register Now!",
   sectionContent2: "Make this summer your strongest yet. Learn. Sweat. Bond. Repeat.",
   disclaimerTitle: "Disclaimer",
