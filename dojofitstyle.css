@@ -29,6 +29,7 @@ h1 {
 
 .hero-image {
   width: 50%;
+  max-width: 50%; /* Ensure it doesn't scale larger than 50% */
   height: auto;
   max-height: 400px;
   object-fit: cover;
