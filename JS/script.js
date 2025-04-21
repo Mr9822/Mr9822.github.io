@@ -9,13 +9,13 @@ const frenchContent = {
 };
 
 const englishContent = {
-  title: "Women's Self-Defense Workshop",
-  sectionTitle1: "Women's Self-Defense Workshop: Control & Connection <br>*Dates to be determined*",
-  sectionContent1: "We're excited to bring back our Women's Self-Defense Workshop — with a new focus! In our previous session, we covered prevention, creating distance, and seeking safety. This time, we’re diving into what happens when connection is already made.<br><br>Learn the most effective Judo and Brazilian Jiu-Jitsu techniques to control, immobilize, and neutralize an aggressor until help arrives. Whether you're a beginner or an experienced athlete, our skilled instructors will work with you to develop confidence and calm under pressure.<br><br>Our goal is to create a safe, supportive, and inclusive environment where you can feel empowered and strong — without promoting aggression or violence. Join us in learning how to take control when it matters most.",
+  title: "Women's Self-Defence Workshop",
+  sectionTitle1: "Women's Self-Defence Workshop: Control & Connection <br>*Dates to be determined*",
+  sectionContent1: "We're excited to bring back our Women's Self-Defence Workshop — with a new focus! In our previous session, we covered prevention, creating distance, and seeking safety. This time, we’re diving into what happens when connection is already made.<br><br>Learn the most effective Judo and Brazilian Jiu-Jitsu techniques to control, immobilize, and neutralize an aggressor until help arrives. Whether you're a beginner or an experienced athlete, our skilled instructors will work with you to develop confidence and calm under pressure.<br><br>Our goal is to create a safe, supportive, and inclusive environment where you can feel empowered and strong — without promoting aggression or violence. Join us in learning how to take control when it matters most.",
   sectionTitle2: "Enroll Now!",
   sectionContent2: "Take the first step toward building confidence, control, and safety.",
   disclaimerTitle: "Disclaimer",
-  disclaimerContent: "Please note that our program is not a guarantee of safety. While we teach self-defense techniques, situations can vary, and participants should use their judgment in real-life situations. Our goal is to empower women with skills and confidence, but ultimate safety relies on various factors."
+  disclaimerContent: "Please note that our program is not a guarantee of safety. While we teach self-defence techniques, situations can vary, and participants should use their judgment in real-life situations. Our goal is to empower women with skills and confidence, but ultimate safety relies on various factors."
 };
 
 // Target HTML elements
