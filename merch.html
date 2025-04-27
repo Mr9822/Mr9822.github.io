@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Restigouche Dojo No-Gi Rashguards</title>
+  <title>Restigouche Dojo No-Gi Gear</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -79,43 +79,68 @@
     .contact-button:hover {
       background-color: #0056b3;
     }
+    .sizes-group {
+      margin-top: 8px;
+      text-align: left;
+      font-size: 15px;
+    }
+    .sizes-group strong {
+      display: block;
+      margin-bottom: 4px;
+      color: #555;
+    }
   </style>
 </head>
 <body>
 
 <div class="container">
-  <h1>Restigouche Dojo No-Gi Rashguards</h1>
-  <p style="text-align:center;">Official training rashguards built for performance and durability. Limited quantities — available for pick-up only!</p>
+  <h1>Restigouche Dojo No-Gi Gear</h1>
+  <p style="text-align:center;">Official training gear built for performance and durability. Limited quantities — available for pick-up only!</p>
 
   <div class="products">
 
-    <!-- Rashguard Product -->
+    <!-- Rashguard and Shorts Product -->
     <div class="product">
-      <img src="rashguard.jpg" alt="Restigouche Dojo No-Gi Rashguard">
-      <h3>No-Gi Rashguard</h3>
-      <div class="price">Youth: $100 | Adult: $100</div>
-      <div class="stock" data-youth="10" data-adult="8">Stock: Kids - 0 | Adult - 4</div>
-      <div class="sizes">Sizes Available: Kids 0 | Adult XXL, XL</div>
-      <a href="mailto:restigouchedojo@gmail.com?subject=Rashguard%20Inquiry" class="contact-button">Contact Us to Reserve</a>
+      <img src="rashguard.jpg" alt="Restigouche Dojo No-Gi Rashguard and Shorts">
+      <h3>No-Gi Rashguard + Shorts</h3>
+      <div class="price">Youth: $60(Top) / $40 (Bottom) | Adult: $60 (Top) / $40 (Bottom)</div>
+      <div class="stock" data-youth="10" data-adult="8">Stock: Youth - 0 sets | Adult - 4 sets</div>
+      <div class="sizes-group">
+        <strong>Rashguard Sizes Available:</strong> Kids 0 | Adult XL, XL, XXL, XXL
+      </div>
+      <div class="sizes-group">
+        <strong>Shorts Sizes Available:</strong> Kids 0 | Adult XL, XL, XL
+      </div>
+      <a href="mailto:restigouchedojo@gmail.com?subject=Gear%20Inquiry" class="contact-button">Contact Us to Reserve</a>
     </div>
 
-    <!-- Future Product 1 (Hidden for now) -->
+    <!-- Future Product 1 (Hidden) -->
     <div class="product hidden">
       <img src="future-product1.jpg" alt="Coming Soon">
       <h3>Coming Soon Item #1</h3>
       <div class="price">Price: $XX.XX</div>
       <div class="stock" data-youth="0" data-adult="0">Stock: Youth - 0 | Adult - 0</div>
-      <div class="sizes">Sizes Available: Coming Soon</div>
+      <div class="sizes-group">
+        <strong>Rashguard Sizes Available:</strong> Coming Soon
+      </div>
+      <div class="sizes-group">
+        <strong>Shorts Sizes Available:</strong> Coming Soon
+      </div>
       <a href="mailto:info@restigouchedojo.com?subject=Product%20Inquiry" class="contact-button">Contact Us to Reserve</a>
     </div>
 
-    <!-- Future Product 2 (Hidden for now) -->
+    <!-- Future Product 2 (Hidden) -->
     <div class="product hidden">
       <img src="future-product2.jpg" alt="Coming Soon">
       <h3>Coming Soon Item #2</h3>
       <div class="price">Price: $XX.XX</div>
       <div class="stock" data-youth="0" data-adult="0">Stock: Youth - 0 | Adult - 0</div>
-      <div class="sizes">Sizes Available: Coming Soon</div>
+      <div class="sizes-group">
+        <strong>Rashguard Sizes Available:</strong> Coming Soon
+      </div>
+      <div class="sizes-group">
+        <strong>Shorts Sizes Available:</strong> Coming Soon
+      </div>
       <a href="mailto:info@restigouchedojo.com?subject=Product%20Inquiry" class="contact-button">Contact Us to Reserve</a>
     </div>
 
@@ -123,7 +148,7 @@
 </div>
 
 <script>
-  // Auto-style the stock text if stock is zero
+  // Highlight if totally out of stock
   document.addEventListener('DOMContentLoaded', function() {
     const stockElements = document.querySelectorAll('.stock');
     stockElements.forEach(function(stockEl) {
