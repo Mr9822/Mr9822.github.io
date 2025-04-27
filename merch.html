@@ -6,88 +6,116 @@
   <title>Restigouche Dojo No-Gi Gear</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f2f5;
       margin: 0;
       padding: 0;
+      color: #333;
     }
+
     .container {
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 20px;
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 30px;
       background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
     }
-    h1, h2 {
+
+    h1 {
       text-align: center;
-      color: #222;
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #111;
     }
+
+    p {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 40px;
+      color: #555;
+    }
+
     .products {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      margin-top: 30px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
     }
+
     .product {
       background: #fafafa;
       border: 1px solid #ddd;
-      border-radius: 8px;
+      border-radius: 10px;
       overflow: hidden;
       text-align: center;
-      padding: 15px;
-      transition: transform 0.2s ease;
-      position: relative;
+      padding: 20px 15px;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
+
     .product:hover {
-      transform: scale(1.02);
+      transform: translateY(-5px);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
+
     .product img {
       width: 100%;
       height: auto;
       min-height: 250px;
       object-fit: contain;
-      border-bottom: 1px solid #ddd;
+      margin-bottom: 15px;
+      background: #fff;
     }
+
     .product h3 {
-      margin: 10px 0 5px;
-      font-size: 20px;
-      color: #333;
+      font-size: 22px;
+      margin-bottom: 8px;
+      color: #222;
     }
+
     .price, .stock, .sizes {
+      font-size: 16px;
       margin: 5px 0;
-      font-size: 16px;
     }
-    .hidden {
-      display: none;
-    }
-    .out-of-stock {
-      color: red;
-      font-weight: bold;
-    }
-    .contact-button {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 20px;
-      background-color: #007BFF;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 16px;
-      transition: background-color 0.3s ease;
-    }
-    .contact-button:hover {
-      background-color: #0056b3;
-    }
+
     .sizes-group {
-      margin-top: 8px;
+      margin-top: 10px;
       text-align: left;
       font-size: 15px;
     }
+
     .sizes-group strong {
       display: block;
       margin-bottom: 4px;
-      color: #555;
+      color: #666;
+    }
+
+    .contact-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background-color: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-button:hover {
+      background-color: #0056b3;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .out-of-stock {
+      color: red;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -95,7 +123,7 @@
 
 <div class="container">
   <h1>Restigouche Dojo No-Gi Gear</h1>
-  <p style="text-align:center;">Official training gear built for performance and durability. Limited quantities — available for pick-up only!</p>
+  <p>Official training gear built for performance and durability. Limited quantities — available for pick-up only!</p>
 
   <div class="products">
 
@@ -103,13 +131,13 @@
     <div class="product">
       <img src="Photos/nogisetlongsleeve.png" alt="Restigouche Dojo No-Gi Rashguard and Shorts">
       <h3>No-Gi Rashguard + Shorts</h3>
-      <div class="price">Kids: No-Gi Set- $100  | Adult: No-Gi Sets- $100 </div>
-      <div class="stock" data-youth="10" data-adult="8">Stock: Kids - 0 sets | Adult - 4 sets</div>
+      <div class="price">Kids: $100 | Adult: $100</div>
+      <div class="stock" data-youth="10" data-adult="8">Stock: Kids - 0 sets | Adults - 4 sets</div>
       <div class="sizes-group">
-        <strong>Rashguard Sizes Available:</strong> Kids 0 | Adult XL, XL, XXL, XXL
+        <strong>Rashguard Sizes Available:</strong> Kids 0 | Adults XL, XL, XXL, XXL
       </div>
       <div class="sizes-group">
-        <strong>Shorts Sizes Available:</strong> Kids 0 | Adult XL, XL, XL
+        <strong>Shorts Sizes Available:</strong> Kids 0 | Adults XL, XL, XL
       </div>
       <a href="mailto:restigouchedojo@gmail.com?subject=Gear%20Inquiry" class="contact-button">Contact Us to Reserve</a>
     </div>
