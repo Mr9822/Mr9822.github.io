@@ -19,18 +19,25 @@
       border-radius: 8px;
       box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
-    h1 {
-      text-align: center;
-      font-size: 38px;
-      font-weight: 700;
-      color: #fff;
-      background: linear-gradient(90deg, #009688 0%, #00695c 100%);
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-      letter-spacing: 1px;
-    }
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #004d40;
+  margin-bottom: 10px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+h1::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: #009688;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
     h2 {
       text-align: center;
       color: #222;
