@@ -37,6 +37,7 @@
       text-align: center;
       padding: 15px;
       transition: transform 0.2s ease;
+      position: relative;
     }
     .product:hover {
       transform: scale(1.02);
@@ -53,11 +54,7 @@
       font-size: 20px;
       color: #333;
     }
-    .price {
-      margin: 5px 0;
-      font-size: 16px;
-    }
-    .stock {
+    .price, .stock {
       margin: 5px 0;
       font-size: 16px;
     }
@@ -68,13 +65,27 @@
       color: red;
       font-weight: bold;
     }
+    .contact-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+    .contact-button:hover {
+      background-color: #0056b3;
+    }
   </style>
 </head>
 <body>
 
 <div class="container">
   <h1>Restigouche Dojo No-Gi Rashguards</h1>
-  <p style="text-align:center;">Official training rashguards built for performance and durability. Limited quantities — get yours now!</p>
+  <p style="text-align:center;">Official training rashguards built for performance and durability. Limited quantities — available for pick-up only!</p>
 
   <div class="products">
 
@@ -84,6 +95,7 @@
       <h3>No-Gi Rashguard</h3>
       <div class="price">Youth: $39.99 | Adult: $49.99</div>
       <div class="stock" data-youth="10" data-adult="8">Stock: Youth - 10 | Adult - 8</div>
+      <a href="mailto:info@restigouchedojo.com?subject=Rashguard%20Inquiry" class="contact-button">Contact Us to Reserve</a>
     </div>
 
     <!-- Future Product 1 (Hidden for now) -->
@@ -92,6 +104,7 @@
       <h3>Coming Soon Item #1</h3>
       <div class="price">Price: $XX.XX</div>
       <div class="stock" data-youth="0" data-adult="0">Stock: Youth - 0 | Adult - 0</div>
+      <a href="mailto:info@restigouchedojo.com?subject=Product%20Inquiry" class="contact-button">Contact Us to Reserve</a>
     </div>
 
     <!-- Future Product 2 (Hidden for now) -->
@@ -100,6 +113,7 @@
       <h3>Coming Soon Item #2</h3>
       <div class="price">Price: $XX.XX</div>
       <div class="stock" data-youth="0" data-adult="0">Stock: Youth - 0 | Adult - 0</div>
+      <a href="mailto:info@restigouchedojo.com?subject=Product%20Inquiry" class="contact-button">Contact Us to Reserve</a>
     </div>
 
   </div>
