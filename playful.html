@@ -1,103 +1,155 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playful</title>
-    <!--CSS style sheet-->
-    <link href="style.css" rel="stylesheet">
-    <link href="alternativestyle2.css" rel="stylesheet">
-    <!--Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Playful — Discover the Power of Play • Restigouche Dojo</title>
 
+  <!-- Core styles (same as index) -->
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!--NAV BAR AND LOGO-->
-    <div class="wrapper">
-            <nav class="navbar">
-             <div class="navbar-container container">
-                 <input type="checkbox" name="" id="">
-                 <div class="hamburger-lines">
-                 <span class="line line1"></span>
-                  <span class="line line2"></span>
-                  <span class="line line3"></span>
-                 </div>
-                 <ul class="menu-items">
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="instructors.html">Instructors</a></li>
-                     <li><a href="schedule.html">Schedule</a></li>
-	                 <li><a href="registration.html">Registration</a></li>
-                     <li><a href="media.html">Media</a></li>
-                     <li><a href="contactus.html">Contact us</a></li>
-                                                               <div id="google_translate_element"></div><script type="text/javascript">
-                      function googleTranslateElementInit() {
-                        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-                      }
-                      </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                 </ul>
-                     <h1 class="logo">Restigouche Dojo</h1>
-                </div>
-            </nav>
-    </div>
 
-    <!--BANNER-->
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Restigouche Dojo</h1>
 
-    <div class="banner-area">
-        <h2></h2>
+      <!-- Mobile nav toggle (checkbox + label) -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu" role="button" aria-controls="primary-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav id="primary-menu" aria-hidden="true">
+        <ul class="menu">
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="schedule-registration.html">Schedule & Registration</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="menu-social">
+            <a href="https://www.facebook.com/restigouchedojo" target="_blank" aria-label="Facebook" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/restigouchedojo" target="_blank" aria-label="Instagram" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    
-    <!--CONTENT-->
-    <div class="content-area">
-        <div class="wrapper-body">
-            <select id="language-selection">
-                <option value="en">English</option>
-                <option value="fr">Français</option>
-                </select>
-             <section class="hero">
-      <div class="container">
-        <h2 id="title">
-          Playful - Discover the Power of Play at Restigouche Dojo! 
-        </h2>
-        <p id="program-description">
-          Calling all parents and little ones! Are you searching for an activity that not only engages your child's mind and body but also nurtures essential skills for their overall development? Look no further! Restigouche Dojo proudly presents our exciting new class, where children can unleash their imagination, engage in free play, and cultivate essential skills!
-        </p>
-        <a href="" class="cta-button" id="enroll-message">Register now</a>
+  </header>
+
+  <!-- SUBPAGE HERO -->
+  <section class="hero subpage">
+    <div class="hero-content">
+      <img src="Photos/logo.png" alt="Restigouche Dojo Logo" class="hero-logo" />
+      <h2 class="motto">Playful — Movement Through Imagination</h2>
+      <a href="EMPTY" class="btn btn-primary">Register Now</a>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Discover the Power of Play</h2>
+      <p style="max-width: 900px; margin: 0 auto; color:#EEE;">
+        Calling all parents and little ones! Our <strong>Playful</strong> class channels imagination and free play to build
+        balance, coordination, and confidence. Kids explore movement in a safe, positive space — climbing,
+        crawling, rolling, and laughing their way to stronger bodies and brighter minds.
+      </p>
+      <div style="margin-top:1.25rem;">
+        <a href="EMPTY" class="btn btn-secondary">Save Your Spot</a>
       </div>
-    </section>
-    <section class="features">
-      <div class="container">
-        <h2 id="why-restigouche-dojo">Why Choose Restigouche Dojo for Activity Groups?</h2>
-        <div class="feature-item">
-          <img src="https://img.icons8.com/color/256/puzzle.png">
-          <h3 id="reason-one">Develop Essential Skills through Free Play</h3>
-          <p id="reason-one-text">Our Activity Group class at Restigouche Dojo offers children the opportunity to engage in free play, fostering the development of essential skills such as problem-solving, creativity, and critical thinking.</p>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Why Families Love Playful</h2>
+      <div class="program-grid">
+        <div class="program-card">
+          <h3><i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> Essential Skills</h3>
+          <p>Free play develops problem-solving, creativity, and motor skills that transfer to sport and school.</p>
         </div>
-        <div class="feature-item">
-          <img src="https://img.icons8.com/ios/256/communication-skills.png">
-          <h3 id="reason-two">Cultivate Social Skills and Teamwork</h3>
-          <p id="reason-two-text">In our Activity Group class, children freely explore, play, and interact in a fun and relaxed environment. We encourage self-expression, independence, and imaginative play, fostering their interests and social skills. Through unstructured activities, they make friends and build connections at their own pace.</p>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-people-group" aria-hidden="true"></i> Social & Teamwork</h3>
+          <p>Kids explore together in a relaxed setting that encourages sharing, turn-taking, and friendship.</p>
         </div>
-        <div class="feature-item">
-          <img src="https://img.icons8.com/dusk/256/like--v2.png" alt="Fun Icon">
-          <h3 id="reason-three">Experience Fun-Filled Play and Active Learning</h3>
-          <p id="reason-three-text">Restigouche Dojo's Activity Group provides a dynamic and enjoyable environment where children can have a great time while staying active. We believe that learning should be fun, and our class ensures an exciting experience for every child.</p>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-face-smile-beam" aria-hidden="true"></i> Active Fun</h3>
+          <p>Obstacle courses, balance beams, mats, and playful tasks keep energy high and smiles big.</p>
         </div>
       </div>
-    </section>
-
-
-<div class="icons8-credit"><a target="_blank" href="https://icons8.com/">Icons by Icons8</a></div>
-
-                </div>
-                </div>
-                
-                <script src="/JS/script3.js"></script>
-           
-        </div>
     </div>
+  </section>
 
-    
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- WHAT TO EXPECT -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">What to Expect</h2>
+      <div style="max-width:900px;margin:0 auto;color:#EEE; text-align:left;">
+        <p><strong>Format:</strong> short instructions → guided free play → simple challenges for movement confidence.</p>
+        <p><strong>Environment:</strong> safe mats, age-appropriate obstacles, supportive coaches.</p>
+        <p><strong>Wear/Bring:</strong> comfy athletic clothes (no zippers) and a water bottle.</p>
+      </div>
+      <div style="margin-top:1.5rem;">
+        <a href="EMPTY" class="btn btn-primary">Register Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.facebook.com/restigouchedojo" target="_blank" class="social-icon fa fa-facebook" aria-label="Facebook" rel="noopener"></a>
+      <a href="https://www.instagram.com/restigouchedojo" target="_blank" class="social-icon fa fa-instagram" aria-label="Instagram" rel="noopener"></a>
+    </div>
+    <p>© 2023–2025 Restigouche Dojo · All Rights Reserved</p>
+  </footer>
+
+  <!-- Navbar shadow on scroll -->
+  <script>
+    const header = document.querySelector('.navbar');
+    function onScroll() {
+      if (window.scrollY > 8) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    }
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+
+  <!-- Mobile nav accessibility + close on link/Esc -->
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const label  = document.querySelector('label.hamburger');
+      const menu   = document.getElementById('primary-menu');
+      if (!toggle || !label || !menu) return;
+
+      function syncAria() {
+        const expanded = toggle.checked ? 'true' : 'false';
+        label.setAttribute('aria-expanded', expanded);
+        menu.setAttribute('aria-hidden', expanded === 'true' ? 'false' : 'true');
+      }
+      toggle.addEventListener('change', syncAria);
+      syncAria();
+
+      // Close menu on link click (mobile)
+      menu.querySelectorAll('a').forEach(a =>
+        a.addEventListener('click', () => {
+          if (toggle.checked) { toggle.checked = false; syncAria(); }
+        })
+      );
+
+      // Close on Escape
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && toggle.checked) {
+          toggle.checked = false;
+          syncAria();
+        }
+      }, { passive: true });
+    })();
+  </script>
 </body>
 </html>
