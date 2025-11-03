@@ -1,192 +1,233 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restigouche Dojo</title>
-    <!--CSS style sheet-->
-    <link href="style.css" rel="stylesheet">
-	<!--Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restigouche Dojo</title>
 
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!--NAV BAR AND LOGO-->
-    <div class="wrapper">
-            <nav class="navbar">
-             <div class="navbar-container container">
-                 <input type="checkbox" name="" id="">
-                 <div class="hamburger-lines">
-                 <span class="line line1"></span>
-                  <span class="line line2"></span>
-                  <span class="line line3"></span>
-                 </div>
-                 <ul class="menu-items">
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="instructors.html">Instructors</a></li>
-                     <li><a href="schedule.html">Schedule</a></li>
-			<li><a href="registration.html">Registration</a></li>
-                     <li><a href="media.html">Media</a></li>
-                     <li><a href="contactus.html">Contact us</a></li>
-                                          <div id="google_translate_element"></div><script type="text/javascript">
-                      function googleTranslateElementInit() {
-                        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-                      }
-                      </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                 </ul>
-                     <h1 class="logo">Restigouche Dojo</h1>
 
-                </div>
-            </nav>
-    </div>
+<!-- NAVIGATION -->
+<header class="navbar">
+  <div class="container nav-container">
+    <h1 class="logo">Restigouche Dojo</h1>
 
-    <!--BANNER-->
+    <!-- Mobile nav toggle (checkbox + label) -->
+    <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle menu" role="button" aria-controls="primary-menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </label>
 
-    <div class="banner-area">
-        <h2></h2>
-    </div>
-    
-    <!--CONTENT-->
-    <div class="content-area">
-        <div class="wrapper-body">
-            <h3></h3>
-            
-            <!--BOX-->
-           
-                <br> <div class="box">
-                <span></span>
-                <h5><a href="registration.html">FALL REGISTRATION OPEN for JUDO and YOUTH BJJ</a></h5>
-              </div>
-            <!--BOX END-->
+    <nav id="primary-menu" aria-hidden="true">
+      <ul class="menu">
+        <li><a href="index.html#programs">Programs</a></li>
+        <li><a href="schedule.html">Schedule & Registration</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li class="menu-social">
+          <a href="https://www.facebook.com/restigouchedojo" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/restigouchedojo" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-		
-		
-                        <!--New content-->
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-content">
+    <img src="Photos/logo.png" alt="Restigouche Dojo Logo" class="hero-logo" />
+    <h2 class="motto">Strength • Respect • Community</h2>
+    <a href="schedule-registration.html" class="btn btn-primary">Register Now</a>
+  </div>
+</section>
 
-   <div class="pen-info">
-              <h1 class="pen-info__title"><!--TEXT HERE--></h1>
-          </div>
-      
-          <div class="demo">
-      
-              <div class="demo__div people">
-                  <div class="people__div people__div--img">
-                      <img src="Photos/Est.2022.jpg" alt="" class="people__img">
-                  </div>
-                  <div class="people__div people__div--info">
-                      <h2 class="people__name">Est. 2023</h2>
-                      <p class="people__desc">Address: 44 Salmon Blvd Campbellton, NB E3N 3T7
-			      <a href="https://goo.gl/maps/Awc5UfAsaySFEben8" target="_blank">Get directions</a></p>
-                  </div>
-                  <div class="people__div people__div--name">
-                      <h2 class="people-name">Our Dojo</h2>
-                  </div>
-              </div>          
-      
-              <div class="demo__div people">
-                <div class="people__div people__div--img">
-                    <img src="Photos/ourmission.jpg" alt="" class="people__img">
-                </div>
-                <div class="people__div people__div--info">
-                    <h2 class="people__name">Our Mission</h2>
-                    <p class="people__desc">Welcome to Restigouche Dojo! Our mission is to spread the fundamentals of martial arts to people of all skill levels. We now offer a variety of classes including kids' activities, self-defense, Judo, BJJ, and more. Join us to experience the transformative power of martial arts.</p>
-                </div>
-                <div class="people__div people__div--name">
-                    <h2 class="people-name">Mission</h2>
-                </div>
-            </div>    
-		  <!--TRY-->
-		                <div class="demo__div people">
-                  <div class="people__div people__div--img">
-                      <img src="Photos/upcomingevents.jpg" alt="" class="people__img">
-                  </div>
-                  <div class="people__div people__div--info">
-                      <h2 class="people__name">Upcoming events</h2>
-                      <p class="people__desc">
-			      <a href="https://restigouchedojo.com/semiprivates.html">Semi private lessons</a>
-		      		<br><a href="https://restigouchedojo.com/dojofit.html">Dojo Fit</a>
-		      		<br> <a href="https://restigouchedojo.com/womenselfdefence.html">Women self-defence 2.0</a>
-		      </p>
-                  </div>
-                  <div class="people__div people__div--name">
-                      <h2 class="people-name">Events</h2>
-                  </div>
-              </div>    
-		  <!--TRY-->
-		  
-              </div>               
-          </div>
+<!-- PROGRAMS SECTION -->
+<section id="programs" class="section programs">
+  <div class="container">
+    <h2 class="section-title">Programs Offered</h2>
+    <div class="program-grid">
 
-           <!--New content end
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frestigouchedojo&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-            -->
-	    <!--DESCRIPTION-->
-        <section id="offerings-container">
-          <div id="offerings-content">
-            <div class="offering">
-              <h3>Judo</h3>
-              <p>Discover the art of Judo, a modern Japanese martial art.<br> Programs info:
-	      <ul>
-		      <li><a href="tinytotsinfo.html">Tiny Tots</a></li>
-		      <li><a href="kinderjudoinfo.html">Kinder Judo</a></li>
-		      <li><a href="youthjudoinfo.html">Youth Judo</a></li>
-	      </ul>
-	      </p>
-            </div>
-            <div class="offering">
-              <h3>BJJ - Brazilian Jiu-Jitsu</h3>
-              <p>Learn the art of Brazilian Jiu-Jitsu and its ground fighting techniques. <br> Program info:
-	      <ul>
-		      <li><a href="bjjinfo.html">Adult Brazilian Jiu-Jitsu</a></li>
-		       <li><a href="youthbjj.html">Youth No-Gi Brazilian Jiu-Jitsu</a></li>
-	      </ul>
-	      </p>
-            </div>
-            <div class="offering">
-              <h3>Self-Defence Classes</h3>
-              <p>Master essential self-defense skills and techniques to protect yourself.
-	      	      <ul>
-		      <li><a href="womenselfdefence.html">Women self-defence </a></li>
-	      </ul>
-	      </p>
-            </div>
-            <div class="offering">
-              <h3>Playful</h3>
-              <p>Engage your kids in fun playgroups focused on teamwork and social development.
-	      <ul>
-		      <li><a href="playful.html">Playful </a></li>
-	      </ul>
-	      </p>
-            </div>
-
-	       <div class="offering">
-              <h3>Fall prevention and safe lending for seniors</h3>
-              <p>Learn about fall prevention techniques and safe lending practices for seniors.
-	      <ul>
-		      <li><a href="fallprevention.html">Fall prevention and safe lending </a></li>
-	      </ul>
-	      </p>
-            </div>
-		  
-            <div class="offering">
-              <h3>Dojo Fit</h3>
-              <p>Stay fit and healthy with our Dojo Fit classes – full-body workouts inspired by grappling movements, designed for all fitness levels.
-	      <ul>
-		      <li><a href="dojofit.html">Dojo Fit</a></li>
-	      </ul>
-	      </p>
-            </div>
-          </div>
-        </section>
-    
-        <!--DESCRIPTION END-->
-
-
-           
+      <!-- JUDO -->
+      <div class="program-card">
+        <h3>Judo</h3>
+        <p>Tiny Tots • Kinder • Youth</p>
+        <button class="program-btn details-btn" type="button" aria-expanded="false">Details</button>
+        <div class="program-details" hidden>
+          <p>
+            Our Judo classes teach coordination, discipline, and confidence through safe throws, balance drills, and teamwork. 
+            Classes are age-based for 
+            <a href="tinytots.html" class="learn-more">Tiny Tots</a>, 
+            <a href="kinderjudo.html" class="learn-more">Kinder Judo</a>, 
+            and 
+            <a href="youthjudo.html" class="learn-more">Youth Judo</a> groups.
+          </p>
         </div>
-    </div>
+      </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <!-- BRAZILIAN JIU-JITSU -->
+      <div class="program-card">
+        <h3>Brazilian Jiu-Jitsu</h3>
+        <p>Youth No-Gi • Adult BJJ</p>
+        <button class="program-btn details-btn" type="button" aria-expanded="false">Details</button>
+        <div class="program-details" hidden>
+          <p>
+            Learn Brazilian Jiu-Jitsu fundamentals focusing on leverage, control, and problem-solving. 
+            <a href="youthbjj.html" class="learn-more">Youth No-Gi</a> builds agility and confidence; 
+            <a href="adultbjj.html" class="learn-more">Adult BJJ</a> focuses on positional mastery, skill development, and community.
+          </p>
+        </div>
+      </div>
+
+      <!-- WOMEN'S SELF-DEFENCE -->
+      <div class="program-card">
+        <h3>Women’s Self-Defence</h3>
+        <p>Empowerment & Real-world skills</p>
+        <button class="program-btn details-btn" type="button" aria-expanded="false">Details</button>
+        <div class="program-details" hidden>
+          <p>
+            This workshop-style class builds awareness, boundary-setting, and practical defence skills in a safe, encouraging environment. 
+            Learn more about upcoming sessions on our 
+            <a href="womensselfdefence.html" class="learn-more">Women’s Self-Defence page</a>.
+          </p>
+        </div>
+      </div>
+
+      <!-- DOJO FIT -->
+      <div class="program-card">
+        <h3>Dojo Fit</h3>
+        <p>Fitness conditioning based on grappling movement</p>
+        <button class="program-btn details-btn" type="button" aria-expanded="false">Details</button>
+        <div class="program-details" hidden>
+          <p>
+            Functional full-body conditioning inspired by judo and BJJ drills — improve endurance, strength, and movement quality at your own pace. 
+            Read more on the <a href="dojofit.html" class="learn-more">Dojo Fit page</a>.
+          </p>
+        </div>
+      </div>
+
+      <!-- PLAYFUL -->
+      <div class="program-card">
+        <h3>Playful</h3>
+        <p>Fun developmental movement for kids</p>
+        <button class="program-btn details-btn" type="button" aria-expanded="false">Details</button>
+        <div class="program-details" hidden>
+          <p>
+            Introduces balance, coordination, and confidence through playful games. Perfect for early childhood motor-skill development. 
+            Learn more about our <a href="playful.html" class="learn-more">Playful Movement program</a>.
+          </p>
+        </div>
+      </div>
+
+      <!-- SENIORS SAFE FALL -->
+      <div class="program-card">
+        <h3>Seniors — Safe Fall Training</h3>
+        <p>Confidence, balance & fall-prevention</p>
+        <button class="program-btn details-btn" type="button" aria-expanded="false">Details</button>
+        <div class="program-details" hidden>
+          <p>
+            Gentle, progressive exercises teaching safe falling, recovery, and balance improvement — designed to prevent injuries and boost confidence. 
+            Read more at our <a href="safefalling.html" class="learn-more">Safe Fall Training page</a>.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS SECTION -->
+<section class="section events">
+  <div class="container">
+    <h2 class="section-title">Upcoming Events</h2>
+    <p>See updates on our Facebook and Instagram pages:</p>
+    <a href="https://www.facebook.com/restigouchedojo" target="_blank" class="btn btn-secondary">
+      <i class="fa-brands fa-facebook"></i> Facebook
+    </a>
+    <a href="https://www.instagram.com/restigouchedojo" target="_blank" class="btn btn-secondary">
+      <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+  </div>
+</section>
+
+<!-- LOCATION SECTION -->
+<section class="section location">
+  <div class="container">
+    <h2 class="section-title">Location</h2>
+    <p>44 Salmon Blvd • Campbellton, NB</p>
+    <a href="https://goo.gl/maps/Awc5UfAsaySFEben8" target="_blank" class="btn btn-secondary">
+      Get Directions
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="social-links">
+    <a href="https://www.facebook.com/restigouchedojo" target="_blank" class="social-icon fa fa-facebook" aria-label="Facebook"></a>
+    <a href="https://www.instagram.com/restigouchedojo" target="_blank" class="social-icon fa fa-instagram" aria-label="Instagram"></a>
+  </div>
+  <p>© 2023–2025 Restigouche Dojo · All Rights Reserved</p>
+</footer>
+
+<!-- SCRIPT: Program details toggle -->
+<script>
+  (function () {
+    const cards = document.querySelectorAll('.program-card');
+    cards.forEach(card => {
+      const btn = card.querySelector('.details-btn');
+      const details = card.querySelector('.program-details');
+      if (!btn || !details) return;
+      btn.addEventListener('click', () => {
+        const open = card.classList.toggle('active');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        details.hidden = !open;
+        btn.textContent = open ? 'Hide Details' : 'Details';
+      });
+    });
+  })();
+</script>
+
+<!-- SCRIPT: Mobile nav accessibility + close on link/Esc -->
+<script>
+  (function () {
+    const toggle = document.getElementById('nav-toggle');
+    const label = document.querySelector('label.hamburger');
+    const menu  = document.getElementById('primary-menu');
+    const links = menu ? menu.querySelectorAll('a') : [];
+
+    if (!toggle || !label || !menu) return;
+
+    function syncAria() {
+      const expanded = toggle.checked ? 'true' : 'false';
+      label.setAttribute('aria-expanded', expanded);
+      menu.setAttribute('aria-hidden', expanded === 'true' ? 'false' : 'true');
+    }
+    toggle.addEventListener('change', syncAria);
+    syncAria();
+
+    // Close menu on link click (mobile)
+    links.forEach(a => a.addEventListener('click', () => {
+      if (toggle.checked) {
+        toggle.checked = false;
+        syncAria();
+      }
+    }));
+
+    // Close on Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && toggle.checked) {
+        toggle.checked = false;
+        syncAria();
+      }
+    }, { passive: true });
+  })();
+</script>
+
 </body>
 </html>
