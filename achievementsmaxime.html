@@ -1,140 +1,250 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Achievement-Maxime Raymond</title>
-    <!--CSS style sheet-->
-    <link href="style.css" rel="stylesheet">
-    <link href="achievements.css" rel="stylesheet">
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Achievements — Maxime Raymond • Restigouche Dojo</title>
 
+  <!-- Core styles -->
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* Responsive table design for achievements */
+    @media (max-width: 768px) {
+      .schedule-table,
+      .schedule-table thead,
+      .schedule-table tbody,
+      .schedule-table th,
+      .schedule-table td,
+      .schedule-table tr {
+        display: block;
+        width: 100%;
+      }
+
+      .schedule-table thead { display: none; }
+
+      .schedule-table tr {
+        margin-bottom: 1.5rem;
+        background: #222;
+        border: 1px solid #FFD700;
+        border-radius: 10px;
+        padding: 1rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+      }
+
+      .schedule-table td {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0.4rem 0;
+        border: none;
+        word-wrap: break-word;
+        white-space: normal;
+      }
+
+      .schedule-table td::before {
+        content: attr(data-label);
+        font-weight: 700;
+        color: #FFD700;
+        flex-basis: 45%;
+        text-align: left;
+        padding-right: 0.75rem;
+      }
+
+      .schedule-table td:last-child { border-bottom: none; }
+    }
+  </style>
 </head>
 <body>
-    <!--NAV BAR AND LOGO-->
-    <div class="wrapper">
-            <nav class="navbar">
-             <div class="navbar-container container">
-                 <input type="checkbox" name="" id="">
-                 <div class="hamburger-lines">
-                 <span class="line line1"></span>
-                  <span class="line line2"></span>
-                  <span class="line line3"></span>
-                 </div>
-                 <ul class="menu-items">
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="instructors.html">Instructors</a></li>
-                     <li><a href="schedule.html">Schedule</a></li>
-			<li><a href="registration.html">Registration</a></li>
-                     <li><a href="media.html">Media</a></li>
-                     <li><a href="contactus.html">Contact us</a></li>
-			                                           <div id="google_translate_element"></div><script type="text/javascript">
-                      function googleTranslateElementInit() {
-                        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-                      }
-                      </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                 </ul>
-                     <h1 class="logo">Restigouche Dojo</h1>
-                </div>
-            </nav>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Restigouche Dojo</h1>
+
+      <!-- Mobile nav toggle (checkbox + label) -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu" role="button" aria-controls="primary-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav id="primary-menu" aria-hidden="true">
+        <ul class="menu">
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="schedule-registration.html">Schedule & Registration</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="menu-social">
+            <a href="https://www.facebook.com/restigouchedojo" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/restigouchedojo" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
-    <!--BANNER-->
-
-    <div class="banner-area">
-        <h2></h2>
+  <!-- HERO -->
+  <section class="hero subpage">
+    <div class="hero-content">
+      <img src="Photos/logo.png" alt="Restigouche Dojo Logo" class="hero-logo" />
+      <h2 class="motto">Achievements — Maxime Raymond</h2>
+      <a href="aboutus.html" class="btn btn-primary">Back to About</a>
     </div>
-    
-    <!--CONTENT-->
-    <div class="content-area">
-        <div class="wrapper-body">
-            <h3>Maxime Raymond- Results</h3>
-	<table>
-	  <tr>
-	    <th>Year</th>
-	    <th>Achievement</th>
-	    <th>Location</th>
-	  </tr>
-	  <tr>
-	    <td>2014</td>
-	    <td>Recognition in the House of Commons of New Brunswick</td>
-	    <td>New Brunswick, Canada</td>
-	  </tr>
-	  <tr>
-	    <td>2014</td>
-	    <td>Bronze Medal</td>
-	    <td>Edmonton International</td>
-	  </tr>
-	  <tr>
-	    <td>2013</td>
-	    <td>Silver Medal</td>
-	    <td>Omnium International Quebec</td>
-	  </tr>
-	  <tr>
-	    <td>2013</td>
-	    <td>Bronze Medalist</td>
-	    <td>Ontario International</td>
-	  </tr>
-	  <tr>
-	    <td>2013</td>
-	    <td>Francophone Games</td>
-	    <td>Nice, France</td>
-	  </tr>
-	  <tr>
-	    <td>2012</td>
-	    <td>Pan-Am National Team</td>
-	    <td>Republic of El Salvador</td>
-	  </tr>
-	  <tr>
-	    <td>2012</td>
-	    <td>5th place</td>
-	    <td>World Championship-Samoa, Polynesia</td>
-	  </tr>
-	  <tr>
-	    <td>2011</td>
-	    <td>Bronze Medalist</td>
-	    <td>Starett Judo Cup International - New York, USA</td>
-	  </tr>
-	  <tr>
-	    <td>2011</td>
-	    <td>7th place</td>
-	    <td>Ocean State International - Rhode Island, USA</td>
-	  </tr>
-	  <tr>
-	    <td>2009, 2010 and 2011</td>
-	    <td>Pedro Judo Challenge</td>
-	    <td>Bronze Medal, GOLD & 5th- Boston, USA</td>
-	  </tr>
-	  <tr>
-	    <td>2009-2013</td>
-	    <td>Champion in Eastern Canada</td>
-	    <td></td>
-	  </tr>
-	  <tr>
-	    <td>2009-2013</td>
-	    <td>Atlantic Champion</td>
-	    <td></td>
-	  </tr>
-	  <tr>
-	    <td>2009</td>
-	    <td>Francophone Games</td>
-	    <td>Near East, Lebanon</td>
-	  </tr>
-	  <tr>
-	    <td>2009</td>
-	    <td>Silver Medalist</td>
-	    <td>Canadian Championship</td>
-	  </tr>
-	</table>
+  </section>
 
-            
-           
-        </div>
+  <!-- CONTENT -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Selected Results</h2>
+
+      <div class="table-wrap">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Achievement</th>
+              <th>Location / Event</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Year">2014</td>
+              <td data-label="Achievement">Recognition in the House of Commons of New Brunswick</td>
+              <td data-label="Location / Event">New Brunswick, Canada</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2014</td>
+              <td data-label="Achievement">Bronze Medal</td>
+              <td data-label="Location / Event">Edmonton International</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2013</td>
+              <td data-label="Achievement">Silver Medal</td>
+              <td data-label="Location / Event">Omnium International Québec</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2013</td>
+              <td data-label="Achievement">Bronze Medalist</td>
+              <td data-label="Location / Event">Ontario International</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2013</td>
+              <td data-label="Achievement">Francophone Games (Team Canada)</td>
+              <td data-label="Location / Event">Nice, France</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2012</td>
+              <td data-label="Achievement">Pan-Am National Team</td>
+              <td data-label="Location / Event">Republic of El Salvador</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2012</td>
+              <td data-label="Achievement">5th place</td>
+              <td data-label="Location / Event">World Championship — Samoa, Polynesia</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2011</td>
+              <td data-label="Achievement">Bronze Medalist</td>
+              <td data-label="Location / Event">Starrett Judo Cup International — New York, USA</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2011</td>
+              <td data-label="Achievement">7th place</td>
+              <td data-label="Location / Event">Ocean State International — Rhode Island, USA</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2009, 2010, 2011</td>
+              <td data-label="Achievement">Pedro Judo Challenge — Bronze, Gold, 5th</td>
+              <td data-label="Location / Event">Boston, USA</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2009–2013</td>
+              <td data-label="Achievement">Champion in Eastern Canada</td>
+              <td data-label="Location / Event">—</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2009–2013</td>
+              <td data-label="Achievement">Atlantic Champion</td>
+              <td data-label="Location / Event">—</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2009</td>
+              <td data-label="Achievement">Francophone Games (Team Canada)</td>
+              <td data-label="Location / Event">Near East, Lebanon</td>
+            </tr>
+            <tr>
+              <td data-label="Year">2009</td>
+              <td data-label="Achievement">Silver Medalist</td>
+              <td data-label="Location / Event">Canadian Championship</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="note" style="margin-top:0.75rem;">
+        Additional distinctions: President Pitney Bowes Sports NB Award; Judo Canada “Best Overall Canadian Athlete” (2007).
+      </p>
+
+      <div style="margin-top:1rem;">
+        <a href="about.html" class="btn btn-secondary">Back to About</a>
+      </div>
     </div>
+  </section>
 
-    
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.facebook.com/restigouchedojo" target="_blank" rel="noopener" class="social-icon fa fa-facebook" aria-label="Facebook"></a>
+      <a href="https://www.instagram.com/restigouchedojo" target="_blank" rel="noopener" class="social-icon fa fa-instagram" aria-label="Instagram"></a>
+    </div>
+    <p>© 2023–2025 Restigouche Dojo · All Rights Reserved</p>
+  </footer>
+
+  <!-- Navbar shadow on scroll -->
+  <script>
+    const header = document.querySelector('.navbar');
+    function onScroll() {
+      if (window.scrollY > 8) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    }
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+
+  <!-- Mobile nav accessibility + close on link/Esc -->
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const label  = document.querySelector('label.hamburger');
+      const menu   = document.getElementById('primary-menu');
+      if (!toggle || !label || !menu) return;
+
+      function syncAria() {
+        const expanded = toggle.checked ? 'true' : 'false';
+        label.setAttribute('aria-expanded', expanded);
+        menu.setAttribute('aria-hidden', expanded === 'true' ? 'false' : 'true');
+      }
+      toggle.addEventListener('change', syncAria);
+      syncAria();
+
+      // Close on link click (handy on mobile)
+      menu.querySelectorAll('a').forEach(a =>
+        a.addEventListener('click', () => {
+          if (toggle.checked) { toggle.checked = false; syncAria(); }
+        })
+      );
+
+      // Close on Escape
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && toggle.checked) {
+          toggle.checked = false;
+          syncAria();
+        }
+      }, { passive: true });
+    })();
+  </script>
 </body>
 </html>
