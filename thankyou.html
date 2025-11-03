@@ -1,63 +1,124 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank you</title>
-    <!--CSS style sheet-->
-    <link href="style.css" rel="stylesheet">
-    <!--Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You • Restigouche Dojo</title>
 
+  <!-- Core styles -->
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome (for icons if needed) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!--NAV BAR AND LOGO-->
-    <div class="wrapper">
-            <nav class="navbar">
-             <div class="navbar-container container">
-                 <input type="checkbox" name="" id="">
-                 <div class="hamburger-lines">
-                 <span class="line line1"></span>
-                  <span class="line line2"></span>
-                  <span class="line line3"></span>
-                 </div>
-                 <ul class="menu-items">
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="instructors.html">Instructors</a></li>
-                     <li><a href="schedule.html">Schedule</a></li>
-			<li><a href="registration.html">Registration</a></li>
-                     <li><a href="media.html">Media</a></li>
-                     <li><a href="contactus.html">Contact us</a></li>
-                                                               <div id="google_translate_element"></div><script type="text/javascript">
-                      function googleTranslateElementInit() {
-                        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-                      }
-                      </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                 </ul>
-                     <h1 class="logo">Restigouche Dojo</h1>
-                </div>
-            </nav>
-    </div>
 
-    <!--BANNER-->
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Restigouche Dojo</h1>
 
-    <div class="banner-area">
-        <h2></h2>
-    </div>
-    
-    <!--CONTENT-->
-    <div class="content-area">
-        <div class="wrapper-body">
-            <h3>Thank you!</h3>
-            <p>
-             
-            </p>
-           
-        </div>
-    </div>
+      <!-- Mobile nav toggle -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu" role="button" aria-controls="primary-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </label>
 
-    
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <nav id="primary-menu" aria-hidden="true">
+        <ul class="menu">
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="schedule-registration.html">Schedule & Registration</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li class="menu-social">
+            <a href="https://www.facebook.com/restigouchedojo" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/restigouchedojo" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- SUBPAGE HERO -->
+  <section class="hero subpage">
+    <div class="hero-content">
+      <img src="Photos/logo.png" alt="Restigouche Dojo Logo" class="hero-logo" />
+      <h2 class="motto">Thank you — Merci!</h2>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <section class="section">
+    <div class="container" style="max-width:900px; margin:0 auto;">
+      <h2 class="section-title">We received your message</h2>
+      <p style="color:#EEE; text-align:left; margin:0 auto 1rem;">
+        Thanks for reaching out to Restigouche Dojo. We’ll review your note and get back to you as soon as we can.
+        If your question is about schedule, registration, or program details, the links below may help in the meantime.
+      </p>
+      <p class="note" style="text-align:left; margin:0 0 1.5rem 0;">
+        Merci pour votre message! Nous vous répondrons dès que possible. Pour l’horaire, l’inscription ou les programmes,
+        consultez les liens ci-dessous.
+      </p>
+
+      <div style="display:flex; gap:0.75rem; flex-wrap:wrap; justify-content:center; margin-top:0.5rem;">
+        <a href="index.html#programs" class="btn btn-secondary"><i class="fa-solid fa-list" aria-hidden="true"></i> View Programs</a>
+        <a href="schedule-registration.html" class="btn btn-primary"><i class="fa-solid fa-calendar-days" aria-hidden="true"></i> Schedule & Registration</a>
+        <a href="aboutus.html" class="btn btn-secondary"><i class="fa-solid fa-users" aria-hidden="true"></i> About Us</a>
+        <a href="index.html" class="btn btn-secondary"><i class="fa-solid fa-house" aria-hidden="true"></i> Back to Home</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.facebook.com/restigouchedojo" target="_blank" rel="noopener" class="social-icon fa fa-facebook" aria-label="Facebook"></a>
+      <a href="https://www.instagram.com/restigouchedojo" target="_blank" rel="noopener" class="social-icon fa fa-instagram" aria-label="Instagram"></a>
+    </div>
+    <p>© 2023–2025 Restigouche Dojo · All Rights Reserved</p>
+  </footer>
+
+  <!-- Navbar shadow on scroll -->
+  <script>
+    const header = document.querySelector('.navbar');
+    function onScroll() {
+      if (window.scrollY > 8) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    }
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+
+  <!-- Mobile nav accessibility + close on link/Esc -->
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const label  = document.querySelector('label.hamburger');
+      const menu   = document.getElementById('primary-menu');
+      if (!toggle || !label || !menu) return;
+
+      function syncAria() {
+        const expanded = toggle.checked ? 'true' : 'false';
+        label.setAttribute('aria-expanded', expanded);
+        menu.setAttribute('aria-hidden', expanded === 'true' ? 'false' : 'true');
+      }
+      toggle.addEventListener('change', syncAria);
+      syncAria();
+
+      // Close on link click
+      menu.querySelectorAll('a').forEach(a =>
+        a.addEventListener('click', () => {
+          if (toggle.checked) { toggle.checked = false; syncAria(); }
+        })
+      );
+
+      // Close on Escape
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && toggle.checked) {
+          toggle.checked = false; syncAria();
+        }
+      }, { passive: true });
+    })();
+  </script>
 </body>
 </html>
