@@ -1,55 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dojo Fit – Strength, Sweat & Team Spirit</title>
-  <link rel="stylesheet" href="dojofitstyle.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dojo Fit — Strength, Sweat & Team Spirit • Restigouche Dojo</title>
+
+  <!-- Core styles (same as index) -->
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <header>
-    <h1>Dojo Fit</h1>
-    <a href="https://square.link/u/wJKFmQSm" class="cta-btn">Register Now / Inscris-toi</a>
-    <a href="index.html" class="back-btn">Back to Main Website</a> 
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Restigouche Dojo</h1>
+
+      <!-- Mobile nav toggle (checkbox + label) -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu" role="button" aria-controls="primary-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav id="primary-menu" aria-hidden="true">
+        <ul class="menu">
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="schedule-registration.html">Schedule & Registration</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="menu-social">
+            <a href="https://www.facebook.com/restigouchedojo" target="_blank" aria-label="Facebook" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/restigouchedojo" target="_blank" aria-label="Instagram" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <div class="container">
-    <select id="language-selection">
-      <option value="en">English</option>
-      <option value="fr">Français</option>
-    </select>
-    <section class="hero">
-      <img src="Photos/dojofit.png" alt="Dojo Fit" class="hero-image">
-      <!-- Add a high-energy image or highlight reel of training sessions -->
-    </section>
 
-    <section class="section">
-      <h2 class="section-title" id="section-title-1">4-Week Dojo Fit Camp <br> Open to members and non-members <br><em>Starts this May!</em></h2>
-      <p class="section-content" id="section-content-1">
-        Get ready to sweat, grow, and bond with your teammates like never before. Our 4-week Dojo Fit camp is designed to build athleticism, discipline, and real team chemistry — just in time for summer.<br><br>
+  <!-- SUBPAGE HERO -->
+  <section class="hero subpage">
+    <div class="hero-content">
+      <img src="Photos/logo.png" alt="Restigouche Dojo Logo" class="hero-logo" />
+      <h2 class="motto">Dojo Fit — 4-Week Camp</h2>
+      <a href="EMPTY" class="btn btn-primary" target="_blank" rel="noopener">Register Now / Inscris-toi</a>
+    </div>
+  </section>
 
-        This program is packed with challenging and fun training sessions focused on strength, endurance, mobility, and mindset. From grappling drills and bodyweight circuits to weight training and games that push your limits, this is where young athletes become stronger — together.<br><br>
-
-        Led by experienced coaches, every session is built around developing grit, improving fitness, and reinforcing core values like respect, effort, and teamwork. Whether you're preparing for sport or just want to level up, this camp is for you.
+  <!-- INTRO -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Strength • Endurance • Mobility • Mindset</h2>
+      <p style="max-width: 900px; margin: 0 auto; color:#EEE;">
+        Get ready to sweat, grow, and bond with your teammates. Our 4-week Dojo Fit camp builds athleticism, discipline,
+        and real team chemistry — just in time for summer. Expect a mix of grappling-inspired drills, bodyweight circuits,
+        smart strength work, and high-energy games that push your limits while keeping things safe and fun.
       </p>
-    </section>
-
-    <section class="section">
-      <h2 class="section-title" id="section-title-2">Spots Are Limited — Register Now!</h2>
-      <p class="section-content" id="section-content-2">Make this summer your strongest yet. Learn. Sweat. Bond. Repeat.</p>
-      <a href="https://square.link/u/wJKFmQSm" class="cta-btn">Register Now / Inscris-toi</a>
-    </section>
-
-    <section class="section">
-      <h2 class="section-title" id="disclaimer-title">Disclaimer</h2>
-      <div class="section-content" id="disclaimer-content">
-        <p>This is a physical conditioning camp. All participants should be prepared for moderate to high levels of activity. Please inform us of any medical conditions or injuries prior to participating. Our instructors are committed to safety and will adapt as needed to ensure a positive and secure environment.</p>
+      <div style="margin-top:1.25rem;">
+        <a href="EMPTY" class="btn btn-secondary" target="_blank" rel="noopener">Register Now / Inscris-toi</a>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 
-  <script src="dojofitscript.js"></script>
-  <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- IMAGE / BRAND STRIP -->
+  <section class="section">
+    <div class="container">
+      <img src="Photos/dojofit.png" alt="Dojo Fit training" style="max-width:100%;height:auto;border-radius:16px;box-shadow:0 8px 20px rgba(0,0,0,0.5);" />
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">What’s Inside the Camp</h2>
+      <div class="program-grid">
+        <div class="program-card">
+          <h3><i class="fa-solid fa-dumbbell" aria-hidden="true"></i> Strength & Conditioning</h3>
+          <p>Bodyweight circuits, core work, and simple strength progressions to build durable, useful fitness.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-person-running" aria-hidden="true"></i> Movement & Mobility</h3>
+          <p>Grappling-inspired movement, balance ladders, and mobility flows for better range and control.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> Skills & Games</h3>
+          <p>Team games and relay challenges that reinforce effort, cooperation, and quick decision-making.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-people-group" aria-hidden="true"></i> Team Culture</h3>
+          <p>Respect, effort, and accountability — we train hard while taking care of our partners.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DETAILS / WHAT TO BRING -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">What to Bring</h2>
+      <div style="max-width:900px;margin:0 auto;color:#EEE; text-align:left;">
+        <p><strong>Wear:</strong> athletic clothing (no zippers), clean indoor shoes optional.</p>
+        <p><strong>Bring:</strong> water bottle, small towel.</p>
+        <p><strong>All Levels:</strong> sessions are scalable — coaches adjust intensity to your level.</p>
+      </div>
+      <div style="margin-top:1.5rem;">
+        <a href="EMPTY" class="btn btn-primary" target="_blank" rel="noopener">Save Your Spot</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Disclaimer</h2>
+      <p style="max-width: 900px; margin: 0 auto; color:#EEE;">
+        This is a physical conditioning camp. Expect moderate to high activity. Please inform us of any medical conditions or injuries before participating.
+        Coaches will adapt as needed to keep training safe and positive.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.facebook.com/restigouchedojo" target="_blank" class="social-icon fa fa-facebook" aria-label="Facebook" rel="noopener"></a>
+      <a href="https://www.instagram.com/restigouchedojo" target="_blank" class="social-icon fa fa-instagram" aria-label="Instagram" rel="noopener"></a>
+    </div>
+    <p>© 2023–2025 Restigouche Dojo · All Rights Reserved</p>
+  </footer>
+
+  <!-- Navbar shadow on scroll -->
+  <script>
+    const header = document.querySelector('.navbar');
+    function onScroll() {
+      if (window.scrollY > 8) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    }
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+
+  <!-- Mobile nav accessibility + close on link/Esc -->
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const label  = document.querySelector('label.hamburger');
+      const menu   = document.getElementById('primary-menu');
+      if (!toggle || !label || !menu) return;
+
+      function syncAria() {
+        const expanded = toggle.checked ? 'true' : 'false';
+        label.setAttribute('aria-expanded', expanded);
+        menu.setAttribute('aria-hidden', expanded === 'true' ? 'false' : 'true');
+      }
+      toggle.addEventListener('change', syncAria);
+      syncAria();
+
+      // Close menu on link click (mobile)
+      menu.querySelectorAll('a').forEach(a =>
+        a.addEventListener('click', () => {
+          if (toggle.checked) { toggle.checked = false; syncAria(); }
+        })
+      );
+
+      // Close on Escape
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && toggle.checked) {
+          toggle.checked = false;
+          syncAria();
+        }
+      }, { passive: true });
+    })();
+  </script>
 </body>
 </html>
