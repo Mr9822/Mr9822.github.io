@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Schedule & Registration • Restigouche Dojo</title>
+
+  <!-- Core styles -->
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Restigouche Dojo</h1>
+
+      <!-- Mobile nav toggle (checkbox + label) -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu" role="button" aria-controls="primary-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav id="primary-menu" aria-hidden="true">
+        <ul class="menu">
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="schedule-registration.html">Schedule & Registration</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="menu-social">
+            <a href="https://www.facebook.com/restigouchedojo" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/restigouchedojo" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero subpage">
+    <div class="hero-content">
+      <img src="Photos/logo.png" alt="Restigouche Dojo Logo" class="hero-logo" />
+      <h2 class="motto">Schedule & Registration</h2>
+      <a href="#registration" class="btn btn-primary">Jump to Registration</a>
+    </div>
+  </section>
+
+  <!-- INFO STRIP -->
+  <section class="section">
+    <div class="container">
+      <p style="max-width:900px;margin:0 auto;color:#EEE;">
+        Questions? <a class="learn-more" href="contactus.html">Send us a message</a> and we’ll help you choose the best class.
+      </p>
+    </div>
+  </section>
+
+  <!-- SCHEDULE -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Schedule — 2025</h2>
+
+      <div class="table-wrap">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Time</th>
+              <th>Class</th>
+              <th>Instructor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Saturday -->
+            <tr>
+              <td data-label="Day">Saturday</td>
+              <td data-label="Time">9:00–9:35 AM</td>
+              <td data-label="Class"><a class="learn-more" href="tiny-tots.html">Tiny Tots</a></td>
+              <td data-label="Instructor">Maxime Raymond</td>
+            </tr>
+            <tr>
+              <td data-label="Day">Saturday</td>
+              <td data-label="Time">9:45–10:30 AM</td>
+              <td data-label="Class"><a class="learn-more" href="kinder-judo.html">Kinder Judo</a></td>
+              <td data-label="Instructor">Megan Raymond</td>
+            </tr>
+
+            <!-- Monday -->
+            <tr>
+              <td data-label="Day">Monday</td>
+              <td data-label="Time">5:00–6:00 PM</td>
+              <td data-label="Class"><a class="learn-more" href="youth-judo.html">Youth Judo</a></td>
+              <td data-label="Instructor">Megan Raymond</td>
+            </tr>
+            <tr>
+              <td data-label="Day">Monday</td>
+              <td data-label="Time">6:00–7:00 PM</td>
+              <td data-label="Class"><a class="learn-more" href="adult-bjj.html">Adult Gi BJJ</a></td>
+              <td data-label="Instructor">Maxime Raymond</td>
+            </tr>
+
+            <!-- Wednesday -->
+            <tr>
+              <td data-label="Day">Wednesday</td>
+              <td data-label="Time">5:00–6:00 PM</td>
+              <td data-label="Class"><a class="learn-more" href="youth-judo.html">Youth Judo</a></td>
+              <td data-label="Instructor">Megan Raymond</td>
+            </tr>
+            <tr>
+              <td data-label="Day">Wednesday</td>
+              <td data-label="Time">6:00–7:00 PM</td>
+              <td data-label="Class"><a class="learn-more" href="adult-bjj.html">Adult Gi BJJ</a></td>
+              <td data-label="Instructor">Maxime Raymond</td>
+            </tr>
+
+            <!-- Thursday -->
+            <tr>
+              <td data-label="Day">Thursday</td>
+              <td data-label="Time">5:00–6:00 PM</td>
+              <td data-label="Class"><a class="learn-more" href="youth-bjj.html">Youth No-Gi BJJ</a></td>
+              <td data-label="Instructor">Mike Miller</td>
+            </tr>
+            <tr>
+              <td data-label="Day">Thursday</td>
+              <td data-label="Time">6:00–7:00 PM</td>
+              <td data-label="Class">
+                <a class="learn-more" href="adult-bjj.html">Adult No-Gi BJJ</a>
+                <span class="note">— Alternates weekly: Almost Open Mat or No-Gi Class</span>
+              </td>
+              <td data-label="Instructor">Maxime Raymond</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="note" style="margin-top:0.75rem;">
+        * Thursday Adult BJJ alternates weekly between an <strong>Almost Open Mat</strong> (member-only space) and a
+        <strong>No-Gi Class</strong> taught by Maxime Raymond.
+      </p>
+    </div>
+  </section>
+
+  <!-- REGISTRATION -->
+  <section id="registration" class="section">
+    <div class="container">
+      <h2 class="section-title">Registration & Fees</h2>
+      <p style="max-width:900px;margin:0 auto 1rem;color:#EEE;">
+        <em>Note:</em> Prices include a 2.9% + $0.30 processing fee. Judo members (except Tiny Tots) must also register with Judo NB/Canada before starting classes.
+        Membership fees are non-refundable.
+      </p>
+
+      <div class="program-grid">
+
+        <!-- Tiny Tots -->
+        <div class="program-card">
+          <h3>Tiny Tots</h3>
+          <p class="price">Fall block: <strong>$195.81</strong></p>
+          <p><a href="https://www.paypal.com/ncp/payment/RHVFKDJT26MU4" target="_blank" rel="noopener" class="btn btn-primary">Register Now</a></p>
+          <p class="price"><span class="badge">ON SALE</span> Annual: <strong>$355.30</strong></p>
+          <p><a href="https://www.paypal.com/ncp/payment/TTLYY7MNAWHNN" target="_blank" rel="noopener" class="btn btn-secondary">Register Annual</a></p>
+          <p><a href="tiny-tots.html" class="learn-more">Program info →</a></p>
+        </div>
+
+        <!-- Kinder Judo -->
+        <div class="program-card">
+          <h3>Kinder Judo</h3>
+          <p class="price">Fall block: <strong>$216.40</strong></p>
+          <p><a href="https://www.paypal.com/ncp/payment/5498DDS7E34M4" target="_blank" rel="noopener" class="btn btn-primary">Register Now</a></p>
+          <p class="price"><span class="badge">ON SALE</span> Annual: <strong>$389.30</strong></p>
+          <p><a href="https://www.paypal.com/ncp/payment/GFGDDCGH4LSHC" target="_blank" rel="noopener" class="btn btn-secondary">Register Annual</a></p>
+          <p><a href="kinder-judo.html" class="learn-more">Program info →</a></p>
+        </div>
+
+        <!-- Youth Judo -->
+        <div class="program-card">
+          <h3>Youth Judo</h3>
+          <p class="price">Fall block: <strong>$283.30</strong></p>
+          <p><a href="https://www.paypal.com/ncp/payment/EU2PZ9LFYGWPE" target="_blank" rel="noopener" class="btn btn-primary">Register Now</a></p>
+          <p class="price"><span class="badge">ON SALE</span> Annual: <strong>$519.95</strong></p>
+          <p><a href="https://www.paypal.com/ncp/payment/2WZDMEQVBZKHL" target="_blank" rel="noopener" class="btn btn-secondary">Register Annual</a></p>
+          <p><a href="youth-judo.html" class="learn-more">Program info →</a></p>
+        </div>
+
+        <!-- Youth No-Gi BJJ -->
+        <div class="program-card">
+          <h3>Youth No-Gi BJJ</h3>
+          <p class="price">Fall block: <strong>$206.10</strong></p>
+          <p><a href="https://www.paypal.com/ncp/payment/YVVEXQ9K24C5G" target="_blank" rel="noopener" class="btn btn-primary">Register Now</a></p>
+          <p><a href="youth-bjj.html" class="learn-more">Program info →</a></p>
+        </div>
+
+        <!-- Adult BJJ -->
+        <div class="program-card">
+          <h3>Adult BJJ (13+)</h3>
+          <p class="price">Monthly plans from <strong>$67.50</strong></p>
+          <p><em>Payment options vary depending on your needs.</em></p>
+          <p><a href="contactus.html" class="btn btn-secondary">Contact Us to Arrange</a></p>
+          <p><a href="adult-bjj.html" class="learn-more">Program info →</a></p>
+        </div>
+
+        <!-- Judo NB/CAN Membership -->
+        <div class="program-card">
+          <h3>Judo NB/Canada Membership</h3>
+          <p class="price">Annual: <strong>$60</strong></p>
+          <p><a href="https://registration.judocanada.org/club/restigouche-dojo/500010/" target="_blank" rel="noopener" class="btn btn-primary">Pay Now</a></p>
+          <p class="note">Required for all Judo members (except Tiny Tots).</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.facebook.com/restigouchedojo" target="_blank" rel="noopener" class="social-icon fa fa-facebook" aria-label="Facebook"></a>
+      <a href="https://www.instagram.com/restigouchedojo" target="_blank" rel="noopener" class="social-icon fa fa-instagram" aria-label="Instagram"></a>
+    </div>
+    <p>© 2023–2025 Restigouche Dojo · All Rights Reserved</p>
+  </footer>
+
+  <!-- Navbar shadow on scroll -->
+  <script>
+    const header = document.querySelector('.navbar');
+    function onScroll() {
+      if (window.scrollY > 8) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    }
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+
+  <!-- Mobile nav accessibility + close on link/Esc -->
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const label  = document.querySelector('label.hamburger');
+      const menu   = document.getElementById('primary-menu');
+      if (!toggle || !label || !menu) return;
+
+      function syncAria() {
+        const expanded = toggle.checked ? 'true' : 'false';
+        label.setAttribute('aria-expanded', expanded);
+        menu.setAttribute('aria-hidden', expanded === 'true' ? 'false' : 'true');
+      }
+      toggle.addEventListener('change', syncAria);
+      syncAria();
+
+      // Close menu on link click (mobile)
+      menu.querySelectorAll('a').forEach(a =>
+        a.addEventListener('click', () => {
+          if (toggle.checked) { toggle.checked = false; syncAria(); }
+        })
+      );
+
+      // Close on Escape
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && toggle.checked) {
+          toggle.checked = false;
+          syncAria();
+        }
+      }, { passive: true });
+    })();
+  </script>
+</body>
+</html>
