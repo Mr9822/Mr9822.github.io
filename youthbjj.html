@@ -1,66 +1,168 @@
-<!-- Updated Brazilian Jiu-Jitsu Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youth Brazilian Jiu-Jitsu Program</title>
-    <link rel="stylesheet" href="youthbjj.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Youth No-Gi BJJ • Restigouche Dojo</title>
+
+  <!-- Core styles (same as index) -->
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome (same as index) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Youth Brazilian Jiu-Jitsu (No-Gi) at Restigouche Dojo</h1>
-        </div>
-    </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h2>Discover the Art of No-Gi Brazilian Jiu-Jitsu</h2>
-        <p>Our classes are designed to build confidence, discipline, and technical mastery in the exciting world of Brazilian Jiu-Jitsu. Perfect for youth ages 7-13!</p>
-    </section>
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Restigouche Dojo</h1>
 
-<!-- Youth BJJ Program Section -->
-<section class="features">
-    <div class="feature-item">
-        <h3>For Ages 7-13</h3>
-        <p>
-            We are thrilled to announce our Youth BJJ Program! Starting with one-hour No-Gi classes every Monday from 5-6 PM, this program introduces children aged 7-13 to the fundamentals of Brazilian Jiu-Jitsu in a safe, supportive, and fun environment.
-        </p>
-    </div>
+      <!-- Mobile nav toggle (checkbox + label) -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu" role="button" aria-controls="primary-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </label>
 
-    <div class="feature-item">
-        <h3>Instructor Spotlight: Mike Miller</h3>
-        <ul>
-            <li>Mike Miller is a dedicated Brazilian Jiu-Jitsu blue belt instructor with a wealth of experience in self-defense and martial arts.</li>
-            <li>Over 13 years specializing in self-defense for the Department of Public Safety.</li>
-            <li>Certified Police Jiu-Jitsu instructor through C4C.</li>
-            <li>Former professional Highland Games athlete with multi-sport experience, including hockey, volleyball, and baseball.</li>
-            <li>Successfully completed the Restigouche Dojo Leadership Course.</li>
+      <nav id="primary-menu" aria-hidden="true">
+        <ul class="menu">
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="schedule-registration.html">Schedule & Registration</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="menu-social">
+            <a href="https://www.facebook.com/restigouchedojo" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/restigouchedojo" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </li>
         </ul>
+      </nav>
     </div>
+  </header>
 
-    <div class="feature-item">
-        <h3>Curriculum</h3>
-        <p>
-            Classes are based on the proven curriculum of Rodrigo Resende, a 5th-degree black belt in Brazilian Jiu-Jitsu, and are also under the direct instruction of Maxime Raymond, a BJJ brown belt. The curriculum focuses on foundational techniques, positional awareness, and confidence-building exercises. Students will develop skills that enhance their focus, fitness, and self-defense capabilities.
-        </p>
+  <!-- SUBPAGE HERO -->
+  <section class="hero subpage">
+    <div class="hero-content">
+      <img src="Photos/logo.png" alt="Restigouche Dojo Logo" class="hero-logo" />
+      <h2 class="motto">Youth Brazilian Jiu-Jitsu (No-Gi)</h2>
+      <a href="schedule-registration.html" class="btn btn-primary">See Schedule</a>
     </div>
-</section>
+  </section>
 
-    <!-- Call to Action -->
-    <section class="hero">
-        <h2>Ready to Begin Your Journey?</h2>
-        <p>
-            Join our No-Gi Youth Brazilian Jiu-Jitsu program today and become part of a supportive community dedicated to growth, learning, and excellence in martial arts.
-        </p>
-        <a href="contactus.html" class="cta-button">Contact Us to Enroll</a>
-    </section>
+  <!-- INTRO -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Discover No-Gi BJJ (Ages 7–13)</h2>
+      <p style="max-width: 820px; margin: 0 auto; color:#EEE;">
+        Our Youth No-Gi BJJ program builds confidence, discipline, and technical mastery in a fun, supportive environment.
+        Classes focus on movement quality, positional awareness, and smart self-defence — no uniform required.
+      </p>
+      <div style="margin-top:1.25rem;">
+        <a href="schedule-registration.html" class="btn btn-secondary">Register Today</a>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <div class="container">
-            <p>© 2025 Restigouche Dojo | All Rights Reserved</p>
+  <!-- HIGHLIGHTS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Program Highlights</h2>
+      <div class="program-grid">
+        <div class="program-card">
+          <h3><i class="fa-solid fa-clock" aria-hidden="true"></i> Schedule</h3>
+          <p>One-hour No-Gi classes, typically Mondays 5–6 pm. Check the schedule for current times and session dates.</p>
         </div>
-    </footer>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Curriculum</h3>
+          <p>Fundamentals from the Rodrigo Resende system, led by Coach Max (BJJ brown belt): takedowns, guard, passes, pins, escapes, and youth-appropriate submissions.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-hand-fist" aria-hidden="true"></i> Skills</h3>
+          <p>Leverage and control over strength, problem-solving under pressure, and safe situational awareness.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-people-group" aria-hidden="true"></i> Community</h3>
+          <p>Encouraging culture, teamwork, and leadership — learning to train hard while taking care of partners.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTRUCTOR SPOTLIGHT -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Instructor Spotlight — Mike Miller</h2>
+      <div style="max-width:900px;margin:0 auto;color:#EEE; text-align:left;">
+        <ul>
+          <li>Dedicated BJJ blue belt with deep self-defence experience.</li>
+          <li>13+ years specializing in self-defence with the Department of Public Safety.</li>
+          <li>Certified Police Jiu-Jitsu instructor (C4C).</li>
+          <li>Former professional Highland Games athlete; multi-sport background.</li>
+          <li>Graduate of the Restigouche Dojo Leadership Course.</li>
+        </ul>
+      </div>
+      <div style="margin-top:1.5rem;">
+        <a href="schedule-registration.html" class="btn btn-primary">See Schedule & Fees</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Ready to Begin?</h2>
+      <p style="max-width: 760px; margin: 0 auto 1.2rem; color:#EEE;">
+        Join our Youth No-Gi BJJ program and become part of a supportive team dedicated to growth and smart grappling.
+      </p>
+      <a href="schedule-registration.html" class="btn btn-secondary">Save Your Spot</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.facebook.com/restigouchedojo" target="_blank" class="social-icon fa fa-facebook" aria-label="Facebook"></a>
+      <a href="https://www.instagram.com/restigouchedojo" target="_blank" class="social-icon fa fa-instagram" aria-label="Instagram"></a>
+    </div>
+    <p>© 2023–2025 Restigouche Dojo · All Rights Reserved</p>
+  </footer>
+
+  <!-- Navbar shadow on scroll -->
+  <script>
+    const header = document.querySelector('.navbar');
+    function onScroll() {
+      if (window.scrollY > 8) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    }
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+
+  <!-- Mobile nav accessibility + close on link/Esc (same as index) -->
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const label = document.querySelector('label.hamburger');
+      const menu  = document.getElementById('primary-menu');
+      if (!toggle || !label || !menu) return;
+
+      function syncAria() {
+        const expanded = toggle.checked ? 'true' : 'false';
+        label.setAttribute('aria-expanded', expanded);
+        menu.setAttribute('aria-hidden', expanded === 'true' ? 'false' : 'true');
+      }
+      toggle.addEventListener('change', syncAria);
+      syncAria();
+
+      // Close menu on link click (mobile)
+      menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+        if (toggle.checked) { toggle.checked = false; syncAria(); }
+      }));
+
+      // Close on Escape
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && toggle.checked) { toggle.checked = false; syncAria(); }
+      }, { passive: true });
+    })();
+  </script>
 </body>
 </html>
