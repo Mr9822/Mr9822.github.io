@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seniors — Safe Fall Training • Restigouche Dojo</title>
+
+  <!-- Core styles -->
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome (icons already used sitewide) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Restigouche Dojo</h1>
+
+      <!-- Mobile nav toggle (checkbox + label) -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu" role="button" aria-controls="primary-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav id="primary-menu" aria-hidden="true">
+        <ul class="menu">
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="schedule-registration.html">Schedule & Registration</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="menu-social">
+            <a href="https://www.facebook.com/restigouchedojo" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/restigouchedojo" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero subpage">
+    <div class="hero-content">
+      <img src="Photos/logo.png" alt="Restigouche Dojo Logo" class="hero-logo" />
+      <h2 class="motto">Seniors — Safe Fall Training</h2>
+      <a href="EMPTY" class="btn btn-primary" target="_blank" rel="noopener">Enroll / Inscription</a>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Reduce Risk. Build Confidence.</h2>
+      <p style="max-width: 900px; margin: 0 auto; color:#EEE;">
+        This one-time, 75-minute workshop helps older adults reduce fall risk and learn safe landing strategies.
+        We focus on balance, mobility, and simple techniques to minimize injury — taught in a calm, supportive environment.
+      </p>
+      <div style="margin-top:1.25rem;">
+        <a href="EMPTY" class="btn btn-secondary" target="_blank" rel="noopener">Reserve Your Spot</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Program Benefits</h2>
+      <div class="program-grid">
+        <div class="program-card">
+          <h3><i class="fa-solid fa-person-cane" aria-hidden="true"></i> Fall Risk Reduction</h3>
+          <p>Simple daily habits and balance drills designed to lower the chance of falls.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> Balance & Mobility</h3>
+          <p>Gentle progressions to improve stability, coordination, and confidence in movement.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-shield-heart" aria-hidden="true"></i> Safe Landing Basics</h3>
+          <p>Age-appropriate, low-impact “how to fall” concepts to help reduce injury if a fall happens.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-people-group" aria-hidden="true"></i> Supportive Coaching</h3>
+          <p>Experienced instructors who adapt to your comfort level and individual needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT TO EXPECT -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">What to Expect</h2>
+      <div style="max-width:900px;margin:0 auto;color:#EEE; text-align:left;">
+        <p><strong>Format:</strong> brief education → guided balance/mobility → safe landing concepts on soft mats.</p>
+        <p><strong>Wear:</strong> comfortable clothing (no zippers). Indoor shoes optional.</p>
+        <p><strong>Accessibility:</strong> all movements are scalable; we work at a careful, comfortable pace.</p>
+      </div>
+      <div style="margin-top:1.5rem;">
+        <a href="EMPTY" class="btn btn-primary" target="_blank" rel="noopener">Enroll / Inscription</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Disclaimer</h2>
+      <p style="max-width: 900px; margin: 0 auto; color:#EEE;">
+        This workshop cannot guarantee safety or prevent all injuries. Please consult your healthcare provider before
+        starting new activity. We emphasize awareness, sensible progressions, and safe practice.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.facebook.com/restigouchedojo" target="_blank" class="social-icon fa fa-facebook" aria-label="Facebook" rel="noopener"></a>
+      <a href="https://www.instagram.com/restigouchedojo" target="_blank" class="social-icon fa fa-instagram" aria-label="Instagram" rel="noopener"></a>
+    </div>
+    <p>© 2023–2025 Restigouche Dojo · All Rights Reserved</p>
+  </footer>
+
+  <!-- Navbar shadow on scroll -->
+  <script>
+    const header = document.querySelector('.navbar');
+    function onScroll() {
+      if (window.scrollY > 8) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    }
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+
+  <!-- Mobile nav accessibility + close on link/Esc -->
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const label  = document.querySelector('label.hamburger');
+      const menu   = document.getElementById('primary-menu');
+      if (!toggle || !label || !menu) return;
+
+      function syncAria() {
+        const expanded = toggle.checked ? 'true' : 'false';
+        label.setAttribute('aria-expanded', expanded);
+        menu.setAttribute('aria-hidden', expanded === 'true' ? 'false' : 'true');
+      }
+      toggle.addEventListener('change', syncAria);
+      syncAria();
+
+      // Close menu on link click (mobile)
+      menu.querySelectorAll('a').forEach(a =>
+        a.addEventListener('click', () => {
+          if (toggle.checked) { toggle.checked = false; syncAria(); }
+        })
+      );
+
+      // Close on Escape
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && toggle.checked) {
+          toggle.checked = false;
+          syncAria();
+        }
+      }, { passive: true });
+    })();
+  </script>
+</body>
+</html>
