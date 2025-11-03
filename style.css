@@ -84,10 +84,12 @@ a {
 }
 
 .hero-logo {
-    max-width: 200px;
-    width: 100%;
-    margin-bottom: 1rem;
-    animation: fadeIn 1.5s ease-in-out;
+  display: block;                /* Ensures proper centering in flex or block context */
+  margin: 0 auto 1rem auto;      /* Centers horizontally and keeps bottom space */
+  max-width: 200px;              /* Your original scaling */
+  width: 100%;
+  height: auto;                  /* Keeps proportions correct */
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 /* Center logo and text on hero sections */
