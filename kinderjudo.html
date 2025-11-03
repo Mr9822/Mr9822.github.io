@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kinder Judo • Restigouche Dojo</title>
+
+  <!-- Core styles (same as index) -->
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome (same as index) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- NAVIGATION (same structure as index) -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Restigouche Dojo</h1>
+
+      <!-- Mobile nav toggle (checkbox + label) -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu" role="button" aria-controls="primary-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav id="primary-menu" aria-hidden="true">
+        <ul class="menu">
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="schedule-registration.html">Schedule & Registration</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="menu-social">
+            <a href="https://www.facebook.com/restigouchedojo" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/restigouchedojo" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- SUBPAGE HERO -->
+  <section class="hero subpage">
+    <div class="hero-content">
+      <img src="Photos/logo.png" alt="Restigouche Dojo Logo" class="hero-logo" />
+      <h2 class="motto">Kinder Judo (Ages 5–6)</h2>
+      <a href="schedule-registration.html" class="btn btn-primary">See Schedule</a>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Foundations Through Play</h2>
+      <p style="max-width: 820px; margin: 0 auto; color:#EEE;">
+        Our Kinder Judo classes give 5–6 year olds a fun, structured foundation in grappling arts.
+        Kids learn safe falling, basic throws, and simple holds, with age-appropriate elements from Judo,
+        BJJ, and Wrestling to build balance, coordination, confidence, and respect.
+      </p>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">What Kids Learn</h2>
+      <div class="program-grid">
+        <div class="program-card">
+          <h3><i class="fa-solid fa-person-walking" aria-hidden="true"></i> Movement Skills</h3>
+          <p>Balance, agility, and strong movement patterns through games and drills.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Safe Falling</h3>
+          <p>Gentle ukemi (breakfalls) to keep practice safe and build body awareness.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-people-group" aria-hidden="true"></i> Teamwork</h3>
+          <p>Partner activities that teach sharing the mats, taking turns, and cheering others on.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-medal" aria-hidden="true"></i> Character</h3>
+          <p>Discipline, respect, listening skills, and confidence — on and off the mats.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLASS FLOW -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Class Flow</h2>
+      <div style="max-width:900px;margin:0 auto;color:#EEE; text-align:left;">
+        <p><strong>Warm-up:</strong> playful movement (animal walks, ladders), balance drills, mat awareness.</p>
+        <p><strong>Skill of the Day:</strong> age-appropriate grappling fundamentals — falls, “big step” entries, simple holds.</p>
+        <p><strong>Games:</strong> short partner games and obstacle courses to reinforce the lesson and keep energy high.</p>
+        <p><strong>Cool-down:</strong> gratitude, quick recap, and high-fives for effort and teamwork.</p>
+      </div>
+      <div style="margin-top:1.5rem;">
+        <a href="schedule-registration.html" class="btn btn-secondary">Register for Kinder Judo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.facebook.com/restigouchedojo" target="_blank" class="social-icon fa fa-facebook" aria-label="Facebook"></a>
+      <a href="https://www.instagram.com/restigouchedojo" target="_blank" class="social-icon fa fa-instagram" aria-label="Instagram"></a>
+    </div>
+    <p>© 2023–2025 Restigouche Dojo · All Rights Reserved</p>
+  </footer>
+
+  <!-- Navbar shadow on scroll -->
+  <script>
+    const header = document.querySelector('.navbar');
+    function onScroll() {
+      if (window.scrollY > 8) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    }
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+
+  <!-- Mobile nav accessibility + close on link/Esc (same as index) -->
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const label = document.querySelector('label.hamburger');
+      const menu  = document.getElementById('primary-menu');
+      if (!toggle || !label || !menu) return;
+
+      function syncAria() {
+        const expanded = toggle.checked ? 'true' : 'false';
+        label.setAttribute('aria-expanded', expanded);
+        menu.setAttribute('aria-hidden', expanded === 'true' ? 'false' : 'true');
+      }
+      toggle.addEventListener('change', syncAria);
+      syncAria();
+
+      // Close menu on link click (mobile)
+      menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+        if (toggle.checked) { toggle.checked = false; syncAria(); }
+      }));
+
+      // Close on Escape
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && toggle.checked) { toggle.checked = false; syncAria(); }
+      }, { passive: true });
+    })();
+  </script>
+</body>
+</html>
