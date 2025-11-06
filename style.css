@@ -644,3 +644,20 @@ a:focus-visible, button:focus-visible, .details-btn:focus-visible,
   .menu li a { -webkit-tap-highlight-color: transparent; }
 }
 
+/* Banner photo*/
+.hero {
+  background: url("Photos/dojo-wide.webp") center/cover no-repeat;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45); /* soft dark overlay for text contrast */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1; /* ensures your logo/motto sit above the image */
+}
