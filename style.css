@@ -661,3 +661,46 @@ a:focus-visible, button:focus-visible, .details-btn:focus-visible,
   position: relative;
   z-index: 1; /* ensures your logo/motto sit above the image */
 }
+
+/* ==== Merch page responsive polish ==== */
+
+/* Slightly tighter grid on small screens so cards never overflow */
+.merch-grid {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1.25rem;
+}
+
+/* Ensure merch thumbs never overflow and scale nicely */
+.program-card .merch-thumb {
+  width: 100%;
+  height: auto;             /* let the browser keep natural aspect ratio */
+  aspect-ratio: 4 / 3;      /* adds stability for layout shifts (nice on mobile) */
+  object-fit: cover;        /* keeps a clean crop if the source aspect varies */
+  display: block;
+  border-radius: 12px;
+}
+
+/* Extra-tight phones */
+@media (max-width: 420px) {
+  .merch-grid {
+    grid-template-columns: 1fr 1fr;   /* two-up on very small screens */
+    gap: 0.9rem;
+  }
+  .program-card { 
+    max-width: 100%;
+    padding: 1rem 0.8rem;
+  }
+}
+
+/* Prevent any image from causing overflow in odd cases */
+.program-card img { 
+  max-width: 100%;
+  height: auto;
+}
+
+/* Optional: a little stronger hover on desktop only */
+@media (hover: hover) and (pointer: fine) {
+  .program-card:hover {
+    transform: translateY(-6px);
+  }
+}
