@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Merch — Pre-Order • Restigouche Dojo</title>
+
+  <!-- Core styles (same as the rest of the site) -->
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* Optional tiny tweaks specific to merch cards */
+    .merch-thumb {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.45);
+      margin-bottom: 0.75rem;
+      background: #111;
+    }
+    .merch-title {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      justify-content: center;
+    }
+    .badge-preorder {
+      display: inline-block;
+      background: #FFD700;
+      color: #1A1A1A;
+      font-weight: 800;
+      font-size: .7rem;
+      padding: .1rem .5rem;
+      border-radius: 999px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Restigouche Dojo</h1>
+
+      <!-- Mobile nav toggle (checkbox + label) -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu" role="button" aria-controls="primary-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav id="primary-menu">
+        <ul class="menu">
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="schedule-registration.html">Schedule & Registration</a></li>
+          <li><a href="merch.html">Merch</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li class="menu-social">
+            <a href="https://www.facebook.com/restigouchedojo" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/restigouchedojo" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero subpage">
+    <div class="hero-content">
+      <img src="Photos/logo.png" alt="Restigouche Dojo Logo" class="hero-logo" />
+      <h2 class="motto">Merch — Pre-Order Only</h2>
+      <a href="about.html#contact" class="btn btn-primary">Send us a message</a>
+    </div>
+  </section>
+
+  <!-- INTRO / NOTE -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">How It Works</h2>
+      <p style="max-width: 900px; margin: 0 auto; color:#EEE;">
+        We offer limited runs and special drops throughout the year. Most items are <strong>pre-ordered</strong> so we can get the
+        right sizes and styles for everyone. A small number may be in stock from time to time, but availability changes quickly.
+        To place an order or ask a question, click <a class="learn-more" href="about.html#contact">Send us a message</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- MERCH GRID -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Available Designs</h2>
+
+      <div class="program-grid">
+        <!-- ===== COPY/PASTE this .program-card block to add more items ===== -->
+        <div class="program-card">
+          <img class="merch-thumb" src="Photos/merch/hoodie-black.jpg" alt="Restigouche Dojo Black Hoodie" />
+          <h3 class="merch-title">
+            Black Hoodie <span class="badge-preorder">PRE-ORDER</span>
+          </h3>
+          <p class="note" style="margin: .35rem 0 1rem;">
+            Cozy mid-weight hoodie with front logo; seasonal drop.
+          </p>
+          <a href="about.html#contact" class="btn btn-secondary" aria-label="Send us a message to pre-order the Black Hoodie">
+            Send us a message
+          </a>
+        </div>
+
+        <div class="program-card">
+          <img class="merch-thumb" src="Photos/merch/tee-classic.jpg" alt="Restigouche Dojo Classic T-Shirt" />
+          <h3 class="merch-title">
+            Classic Tee <span class="badge-preorder">PRE-ORDER</span>
+          </h3>
+          <p class="note" style="margin: .35rem 0 1rem;">
+            Everyday tee with classic crest; multiple colorways over the year.
+          </p>
+          <a href="about.html#contact" class="btn btn-secondary" aria-label="Send us a message to pre-order the Classic Tee">
+            Send us a message
+          </a>
+        </div>
+
+        <div class="program-card">
+          <img class="merch-thumb" src="Photos/merch/hoodie-camo.jpg" alt="Restigouche Dojo Limited Camo Hoodie" />
+          <h3 class="merch-title">
+            Limited “Hunting Season” Hoodie <span class="badge-preorder">PRE-ORDER</span>
+          </h3>
+          <p class="note" style="margin: .35rem 0 1rem;">
+            Limited-edition camo vibe with bison/maple-leaf identity. Drops are time-boxed.
+          </p>
+          <a href="about.html#contact" class="btn btn-secondary" aria-label="Send us a message to pre-order the Limited Hoodie">
+            Send us a message
+          </a>
+        </div>
+
+        <div class="program-card">
+          <img class="merch-thumb" src="Photos/merch/beanie.jpg" alt="Restigouche Dojo Beanie" />
+          <h3 class="merch-title">
+            Beanie <span class="badge-preorder">PRE-ORDER</span>
+          </h3>
+          <p class="note" style="margin: .35rem 0 1rem;">
+            Cold-weather essential with subtle crest. Seasonal restocks.
+          </p>
+          <a href="about.html#contact" class="btn btn-secondary" aria-label="Send us a message to pre-order the Beanie">
+            Send us a message
+          </a>
+        </div>
+
+        <!-- Example “in stock sometimes” note (still pre-order wording) -->
+        <div class="program-card">
+          <img class="merch-thumb" src="Photos/merch/hat-snapback.jpg" alt="Restigouche Dojo Snapback Hat" />
+          <h3 class="merch-title">
+            Snapback Hat <span class="badge-preorder">PRE-ORDER</span>
+          </h3>
+          <p class="note" style="margin: .35rem 0 1rem;">
+            Clean, structured fit. Occasionally in stock, but most orders are pre-order.
+          </p>
+          <a href="about.html#contact" class="btn btn-secondary" aria-label="Send us a message to pre-order the Snapback Hat">
+            Send us a message
+          </a>
+        </div>
+        <!-- ===== END COPY BLOCK ===== -->
+      </div>
+
+      <p class="note" style="margin-top:1rem;">
+        Want a size or color you don’t see here? <a class="learn-more" href="about.html#contact">Send us a message</a> — we’ll let you know if it can be included in the next pre-order.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.facebook.com/restigouchedojo" target="_blank" class="social-icon fa fa-facebook" aria-label="Facebook"></a>
+      <a href="https://www.instagram.com/restigouchedojo" target="_blank" class="social-icon fa fa-instagram" aria-label="Instagram"></a>
+    </div>
+    <p>© 2023–2025 Restigouche Dojo · All Rights Reserved</p>
+  </footer>
+
+  <!-- Small navbar shadow script (same as other pages) -->
+  <script>
+    const header = document.querySelector('.navbar');
+    const onScroll = () => {
+      if (window.scrollY > 8) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    };
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    // Keep the mobile menu accessible
+    (function() {
+      const toggle = document.getElementById('nav-toggle');
+      const label = document.querySelector('label.hamburger');
+      const menu  = document.getElementById('primary-menu');
+
+      function syncAria() {
+        const expanded = toggle.checked ? 'true' : 'false';
+        label.setAttribute('aria-expanded', expanded);
+        menu.setAttribute('aria-hidden', expanded === 'true' ? 'false' : 'true');
+      }
+      if (toggle && label && menu) {
+        toggle.addEventListener('change', syncAria);
+        syncAria();
+      }
+    })();
+  </script>
+</body>
+</html>
