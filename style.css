@@ -704,3 +704,20 @@ a:focus-visible, button:focus-visible, .details-btn:focus-visible,
     transform: translateY(-6px);
   }
 }
+
+/*TRY FIX BUTTON IN CARDS*/
+/* ===== Merch page button alignment fix ===== */
+.program-card .btn {
+  display: inline-block;
+  margin-top: auto;
+  width: auto;
+  min-width: 160px;
+  text-align: center;
+}
+
+.program-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
