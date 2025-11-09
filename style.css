@@ -646,7 +646,7 @@ a:focus-visible, button:focus-visible, .details-btn:focus-visible,
 
 /* Banner photo*/
 .hero {
-  background: url("Photos/dojobanner.jpg") center/cover no-repeat;
+  background: url("Photos/dojobanner1.jpg") center/cover no-repeat;
   position: relative;
 }
 
