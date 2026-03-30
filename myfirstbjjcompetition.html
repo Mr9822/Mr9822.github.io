@@ -1,169 +1,227 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your First BJJ Competition: A Guide</title>
-    <!--CSS style sheet-->
-    <link href="style.css" rel="stylesheet">
-    <link href="alternativestyle2.css" rel="stylesheet">
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your First BJJ Competition Guide • Restigouche Dojo</title>
+
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!--NAV BAR AND LOGO-->
-    <div class="wrapper">
-        <nav class="navbar">
-            <div class="navbar-container container">
-                <input type="checkbox" name="" id="">
-                <div class="hamburger-lines">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
-                </div>
-                <ul class="menu-items">
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="instructors.html">Instructors</a></li>
-                     <li><a href="schedule.html">Schedule</a></li>
-	                 <li><a href="registration.html">Registration</a></li>
-                     <li><a href="media.html">Media</a></li>
-                     <li><a href="contactus.html">Contact us</a></li>
-                    <div id="google_translate_element"></div>
-                    <script type="text/javascript">
-                        function googleTranslateElementInit() {
-                            new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-                        }
-                    </script>
-                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                </ul>
-                <h1 class="logo">Restigouche Dojo</h1>
-            </div>
-        </nav>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo"><a href="index.html">Restigouche Dojo</a></h1>
+
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu" role="button" aria-controls="primary-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav id="primary-menu" aria-hidden="true">
+        <ul class="menu">
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="schedule-registration.html">Schedule & Registration</a></li>
+          <li><a href="merch.html">Merch</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li class="menu-social">
+            <a href="https://www.facebook.com/restigouchedojo" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/restigouchedojo" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
-    <!--BANNER-->
-    <div class="banner-area">
-        <img src="" alt="" class="">
+  <!-- SUBPAGE HERO -->
+  <section class="hero subpage">
+    <div class="hero-content">
+      <img src="Photos/logo.png" alt="Restigouche Dojo Logo" class="hero-logo" />
+      <h2 class="motto">Your First BJJ Competition</h2>
+      <a href="schedule-registration.html" class="btn btn-primary">See Schedule</a>
     </div>
-    
-    <!--CONTENT-->
-    <div class="content-area">
-        <div class="wrapper-body">
-            <select id="language-selection">
-                <option value="en">English</option>
-                <option value="fr">Français</option>
-            </select>
-            <section class="hero">
-                <div class="container">
-                    <h2 id="title">Your First BJJ Competition: A Guide for Restigouche Dojo Athletes</h2>
-                    <p id="program-description">
-                        Congratulations on taking the step to compete in your first Brazilian Jiu-Jitsu (BJJ) tournament. Competing is a fantastic way to test your skills, gain experience, and grow as a martial artist. This guide will help you prepare both physically and mentally for the challenge ahead.
-                    </p>
-                </div>
-            </section>
-            <section class="guide">
-                <div class="container">
-                    <h2 id="guide-title">Competition Preparation Guide</h2>
-                    <h3 id="set-goals">1. Set Clear Goals</h3>
-                    <p id="set-goals-text">Understand why you’re competing. Is it to test your skills, gain experience, or simply push your boundaries? Having a clear purpose will help you stay focused and motivated.</p>
+  </section>
 
-                    <h3 id="develop-game-plan">2. Develop a Game Plan</h3>
-                    <p id="develop-game-plan-text">
-                        A game plan is essential for success. This isn’t just a vague idea but a detailed strategy for every possible scenario.
-                        <ul>
-                            <li id="starting-position"><strong>Starting Position:</strong> Decide whether you’ll aim for a takedown or pull guard.</li>
-                            <li id="top-positions"><strong>Top Positions:</strong> Know your go-to moves for passing guard and maintaining control.</li>
-                            <li id="bottom-positions"><strong>Bottom Positions:</strong> Have specific sweeps and escapes drilled into muscle memory.</li>
-                            <li id="submissions"><strong>Submissions:</strong> Focus on a few high-percentage submissions that you can execute well.</li>
-                            <li id="defense"><strong>Defense:</strong> Be prepared to defend against common attacks and recover from bad positions.</li>
-                        </ul>
-                    </p>
+  <!-- INTRO -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">A Guide for Restigouche Dojo Athletes</h2>
+      <p style="max-width: 820px; margin: 0 auto; color:#EEE;">
+        Congratulations on taking the step to compete in your first Brazilian Jiu-Jitsu tournament.
+        Competition is a great way to test your skills, gain experience, and grow as a martial artist.
+        This guide will help you prepare physically and mentally so you can compete with confidence.
+      </p>
+    </div>
+  </section>
 
-                    <h3 id="train-smart">3. Train Smart</h3>
-                    <p id="train-smart-text">
-                        Consistency is key. Regular training sessions will improve your techniques, stamina, and overall fitness.
-                        <ul>
-                            <li id="spar-with-partners"><strong>Spar with Different Partners:</strong> This will expose you to various styles and body types.</li>
-                            <li id="drill-drill-drill"><strong>Drill, Drill, Drill:</strong> Repetition builds proficiency. Focus on the techniques in your game plan.</li>
-                            <li id="conditioning"><strong>Conditioning:</strong> Incorporate cardio, strength training, and flexibility exercises. Jump rope, running, and bodyweight exercises are excellent choices.</li>
-                        </ul>
-                    </p>
-
-                    <h3 id="mental-preparation">4. Mental Preparation</h3>
-                    <p id="mental-preparation-text">
-                        Your mindset is just as important as your physical preparation.
-                        <ul>
-                            <li id="relax-and-breathe"><strong>Relax and Breathe:</strong> Learn to control your breathing. Practice deep diaphragm breathing: inhale through your nose for four seconds, fill your lungs, and exhale through your mouth for eight seconds.</li>
-                            <li id="visualization"><strong>Visualization:</strong> Picture your matches in your mind. See yourself executing your game plan, staying calm, and handling any challenges. Always visualize positive outcomes.</li>
-                            <li id="stay-positive"><strong>Stay Positive:</strong> Replace negative thoughts with positive affirmations. Believe in your training and your ability to perform well.</li>
-                        </ul>
-                    </p>
-
-                    <h3 id="understand-rules">5. Understand the Rules</h3>
-                    <p id="understand-rules-text">
-                        Familiarize yourself with the tournament’s rules and point system. Know what submissions are allowed at your belt level and how points are awarded:
-                        <ul>
-                            <li id="takedown-or-throw"><strong>Takedown or Throw:</strong> 2 points</li>
-                            <li id="sweep"><strong>Sweep:</strong> 2 points</li>
-                            <li id="knee-on-belly"><strong>Knee on Belly:</strong> 2 points</li>
-                            <li id="passing-guard"><strong>Passing the Guard:</strong> 3 points</li>
-                            <li id="mount-position"><strong>Mount Position:</strong> 4 points</li>
-			   <li id="rear-mount-position"><strong>Rear Mount Position:</strong> 4 points</li>
-                        </ul>
-                    </p>
-
-                    <h3 id="gear-up">6. Gear Up</h3>
-                    <p id="gear-up-text">
-                        Ensure you have the correct gear:
-                        <ul>
-                            <li id="gi"><strong>Gi:</strong> Make sure your gi is IBJJF-legal or meets the specific tournament’s requirements. It should be clean and in good condition.</li>
-                            <li id="belt"><strong>Belt:</strong> Wear a belt that corresponds to your rank.</li>
-                            <li id="mouthguard"><strong>Mouthguard:</strong> Protect your teeth.</li>
-                            <li id="extras"><strong>Extras:</strong> Bring a spare gi, water, snacks, and any other personal items you may need.</li>
-                        </ul>
-                    </p>
-
-                    <h3 id="warm-up">7. Warm-Up Properly</h3>
-                    <p id="warm-up-text">
-                        A good warm-up helps calm your mind and prepare your body.
-                        <ul>
-                            <li id="routine"><strong>Routine:</strong> Perform a familiar warm-up routine that you do before training sessions.</li>
-                            <li id="focus"><strong>Focus:</strong> Concentrate on your movements and breathing, not the upcoming matches.</li>
-                        </ul>
-                    </p>
-
-                    <h3 id="nutrition-hydration">8. Nutrition and Hydration</h3>
-                    <p id="nutrition-hydration-text">
-                        Your performance depends on how well you fuel your body.
-                        <ul>
-                            <li id="hydrate"><strong>Hydrate:</strong> Drink plenty of water leading up to the competition.</li>
-                            <li id="eat-smart"><strong>Eat Smart:</strong> Consume a balanced diet rich in proteins, carbohydrates, and healthy fats. On the day of the competition, eat light, easily digestible foods.</li>
-                        </ul>
-                    </p>
-
-                    <h3 id="competition-day">9. On Competition Day</h3>
-                    <p id="competition-day-text">
-                        Arrive early and stay calm on the day of the competition:
-                        <ul>
-                            <li id="arrival"><strong>Arrival:</strong> Check the schedule and familiarize yourself with the venue.</li>
-                            <li id="warm-up-again"><strong>Warm-Up Again:</strong> Do a light warm-up to get your body ready for competition.</li>
-                        </ul>
-                    </p>
-
-                    <h3 id="post-competition">10. Post-Competition Reflection</h3>
-                    <p id="post-competition-text">
-                        No matter the outcome, every competition is a learning experience:
-                        <ul>
-                            <li id="review-performance"><strong>Review Performance:</strong> Analyze what went well and what could be improved.</li>
-                            <li id="set-new-goals"><strong>Set New Goals:</strong> Use the experience to set new goals for future competitions.</li>
-                        </ul>
-                    </p>
-                </div>
-            </section>
+  <!-- HIGHLIGHTS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Key Areas to Focus On</h2>
+      <div class="program-grid">
+        <div class="program-card">
+          <h3><i class="fa-solid fa-bullseye" aria-hidden="true"></i> Clear Goals</h3>
+          <p>Know why you are competing and what success looks like for you.</p>
         </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-chess" aria-hidden="true"></i> Game Plan</h3>
+          <p>Build a simple strategy for standing, top, bottom, defence, and submissions.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-dumbbell" aria-hidden="true"></i> Smart Training</h3>
+          <p>Drill with purpose, spar with different partners, and stay consistent.</p>
+        </div>
+        <div class="program-card">
+          <h3><i class="fa-solid fa-brain" aria-hidden="true"></i> Mindset</h3>
+          <p>Stay calm, breathe well, and trust the work you have already put in.</p>
+        </div>
+      </div>
     </div>
-    <!--SCRIPT-->
-    <script src="JS/script4.js"></script>
+  </section>
+
+  <!-- GUIDE -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Competition Preparation Guide</h2>
+
+      <div style="max-width:900px; margin:0 auto; color:#EEE; text-align:left;">
+
+        <h3 style="margin-top:0;">1. Set Clear Goals</h3>
+        <p>
+          Understand why you are competing. Maybe you want to test your skills, gain experience,
+          or simply challenge yourself. A clear purpose helps you stay focused and motivated.
+        </p>
+
+        <h3>2. Develop a Game Plan</h3>
+        <p>
+          A game plan gives you direction before the match starts. Keep it simple and based on what you do well.
+        </p>
+        <p><strong>Starting Position:</strong> Decide if you want to look for a takedown or pull guard.</p>
+        <p><strong>Top Positions:</strong> Know your go-to guard pass and your best controls.</p>
+        <p><strong>Bottom Positions:</strong> Have reliable sweeps, recoveries, and escapes ready.</p>
+        <p><strong>Submissions:</strong> Focus on a few high-percentage attacks you already understand well.</p>
+        <p><strong>Defence:</strong> Be ready to protect yourself, stay composed, and work back to safety.</p>
+
+        <h3>3. Train Smart</h3>
+        <p>
+          Consistency matters more than trying to do everything at once. Use training time with purpose.
+        </p>
+        <p><strong>Spar with Different Partners:</strong> This helps you adapt to different styles, sizes, and reactions.</p>
+        <p><strong>Drill Repeatedly:</strong> Repetition builds confidence and sharper timing.</p>
+        <p><strong>Conditioning:</strong> Add cardio, bodyweight work, and mobility so you can keep a strong pace.</p>
+
+        <h3>4. Mental Preparation</h3>
+        <p>
+          Your mindset can make a big difference on competition day.
+        </p>
+        <p><strong>Relax and Breathe:</strong> Control your breathing to stay calm and avoid burning energy too early.</p>
+        <p><strong>Visualization:</strong> Picture yourself following your plan, staying composed, and responding well under pressure.</p>
+        <p><strong>Stay Positive:</strong> Trust your preparation and avoid feeding doubts before the match.</p>
+
+        <h3>5. Understand the Rules</h3>
+        <p>
+          Learn the event rules and point system before the tournament. Know what is legal at your level and how points are scored.
+        </p>
+        <p><strong>Takedown or Throw:</strong> 2 points</p>
+        <p><strong>Sweep:</strong> 2 points</p>
+        <p><strong>Knee on Belly:</strong> 2 points</p>
+        <p><strong>Passing the Guard:</strong> 3 points</p>
+        <p><strong>Mount Position:</strong> 4 points</p>
+        <p><strong>Rear Mount Position:</strong> 4 points</p>
+
+        <h3>6. Gear Up</h3>
+        <p>
+          Make sure you have everything ready before the day arrives.
+        </p>
+        <p><strong>Gi:</strong> Check that your gi meets the tournament requirements and is clean and in good condition.</p>
+        <p><strong>Belt:</strong> Wear the belt that matches your rank.</p>
+        <p><strong>Mouthguard:</strong> Bring one if required or if you prefer the extra protection.</p>
+        <p><strong>Extras:</strong> Pack water, snacks, a spare uniform if needed, and any personal items you rely on.</p>
+
+        <h3>7. Warm Up Properly</h3>
+        <p>
+          A familiar warm-up helps your body feel ready and helps your mind settle.
+        </p>
+        <p><strong>Routine:</strong> Use movements you already know from training.</p>
+        <p><strong>Focus:</strong> Stay present and pay attention to your breathing and movement quality.</p>
+
+        <h3>8. Nutrition and Hydration</h3>
+        <p>
+          Good fuel supports good performance.
+        </p>
+        <p><strong>Hydrate:</strong> Drink enough water in the days leading up to the competition.</p>
+        <p><strong>Eat Smart:</strong> Choose foods that give you energy without making you feel heavy on match day.</p>
+
+        <h3>9. On Competition Day</h3>
+        <p>
+          Try to arrive early and keep things simple.
+        </p>
+        <p><strong>Arrival:</strong> Check the venue, find your mat area, and understand the event flow.</p>
+        <p><strong>Warm Up Again:</strong> Do a light warm-up before you compete so your body is ready to move.</p>
+
+        <h3>10. Reflect Afterward</h3>
+        <p>
+          Every match is useful experience, no matter the result.
+        </p>
+        <p><strong>Review Your Performance:</strong> Think about what worked well and what needs more attention in training.</p>
+        <p><strong>Set New Goals:</strong> Use the experience to keep improving and preparing for the next challenge.</p>
+
+      </div>
+
+      <div style="margin-top:1.5rem;">
+        <a href="schedule-registration.html" class="btn btn-secondary">Back to Schedule & Registration</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.facebook.com/restigouchedojo" target="_blank" class="social-icon fa fa-facebook" aria-label="Facebook"></a>
+      <a href="https://www.instagram.com/restigouchedojo" target="_blank" class="social-icon fa fa-instagram" aria-label="Instagram"></a>
+    </div>
+    <p>© 2023–2025 Restigouche Dojo · All Rights Reserved</p>
+  </footer>
+
+  <!-- Navbar shadow on scroll -->
+  <script>
+    const header = document.querySelector('.navbar');
+    function onScroll() {
+      if (window.scrollY > 8) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    }
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+
+  <!-- Mobile nav accessibility + close on link/Esc -->
+  <script>
+    (function () {
+      const toggle = document.getElementById('nav-toggle');
+      const label = document.querySelector('label.hamburger');
+      const menu  = document.getElementById('primary-menu');
+      if (!toggle || !label || !menu) return;
+
+      function syncAria() {
+        const expanded = toggle.checked ? 'true' : 'false';
+        label.setAttribute('aria-expanded', expanded);
+        menu.setAttribute('aria-hidden', expanded === 'true' ? 'false' : 'true');
+      }
+      toggle.addEventListener('change', syncAria);
+      syncAria();
+
+      menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+        if (toggle.checked) { toggle.checked = false; syncAria(); }
+      }));
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && toggle.checked) { toggle.checked = false; syncAria(); }
+      }, { passive: true });
+    })();
+  </script>
 </body>
 </html>
-
